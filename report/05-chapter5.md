@@ -85,12 +85,15 @@ La integración de cambios se realiza mediante **Pull Requests** hacia la rama `
 
 ### Source Code Style Guide & Conventions
 
-Para garantizar la claridad y cohesión del código fuente, se han adoptado rigurosas convenciones de codificación y una nomenclatura estrictamente en **idioma inglés**. 
+### Source Code Style Guide & Conventions
 
-En el **frontend**, los estilos se rigen por la *Google HTML/CSS Style Guide*, priorizando el uso de minúsculas y **kebab-case** (ej. `machine-status-badge`). La lógica sigue la *Google TypeScript Style Guide* y la *Angular Coding Style Guide*, aplicando **lowerCamelCase** para variables y funciones.
+Para garantizar la claridad y cohesión del código fuente en el desarrollo de la plataforma, el equipo ha adoptado rigurosas convenciones de codificación y una nomenclatura estrictamente en idioma inglés, aplicándose esto a todas las tecnologías de la solución. 
 
-En el **backend**, el código se alinea con la *Google Java Style Guide*, estableciendo el uso de **UpperCamelCase (PascalCase)** para entidades y controladores (ej. `MaintenanceTicketController`). Finalmente, se utilizan las *Gherkin Conventions* para el modelado de historias de usuario bajo la sintaxis **Given/When/Then**.
+En relación al **frontend**, la estructura semántica y los estilos se rigen por la *Google HTML/CSS Style Guide*, priorizando el uso exclusivo de minúsculas y la separación de palabras mediante guiones (**kebab-case**) para identificadores y clases, tal como se evidencia en selectores estructurales tipo `machine-status-badge` o `asset-detail-card` (Google, s.f.). Asimismo, la lógica de la interfaz y la arquitectura siguen los lineamientos de la *Google TypeScript Style Guide* (Google, s.f.) y la *Angular Coding Style Guide* (Angular, s.f.), aplicando **lowerCamelCase** para la declaración de variables y funciones (por ejemplo, `reportMachineIssue()`) y estandarizando la denominación de archivos por responsabilidades separadas por puntos (ej., `equipment-list.component.ts`). 
 
+Por otro lado, en la **arquitectura del lado del servidor**, el código se alinea con la *Google Java Style Guide* y las directrices de *Spring Boot Features* (Google, s.f.), estableciendo el uso innegociable de **UpperCamelCase (PascalCase)** para la definición de entidades y controladores (ej., `MaintenanceTicketController`), además de seguir patrones arquitectónicos definidos por el framework para la inyección de dependencias. 
+
+Finalmente, para asegurar una trazabilidad transparente entre los requerimientos del gimnasio y las pruebas automatizadas, el equipo utiliza las *Gherkin Conventions for Readable Specifications*, modelando historias de usuario bajo la sintaxis declarativa de comportamiento (**Given, When, Then**), lo que unifica el entendimiento funcional entre desarrolladores y stakeholders (Cucumber, s.f.).
 ### Software Deployment Configuration
 
 [Descripción de la configuración de despliegue: entornos, pipelines CI/CD y servicios en la nube utilizados.]
