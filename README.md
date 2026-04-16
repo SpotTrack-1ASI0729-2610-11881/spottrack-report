@@ -22,9 +22,9 @@
 
 # Informe de Trabajo Final
 
-**Nombre de la Startup:** LocalSync  
+**Nombre de la Startup:** SpotTrack  
 
-**Nombre del producto:** LocalSync
+**Nombre del producto:** SpotTrack
 
 ---
 
