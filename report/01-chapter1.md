@@ -50,4 +50,35 @@ Además del impacto económico directo, la experiencia del cliente se ve profund
 
 ## Segmentos objetivo
 
-[Definición de los segmentos de mercado a los que se dirige la solución, con características demográficas, psicográficas y conductuales.]
+El modelo de negocio es B2B2C (Business to Business to Consumer), por lo que identificamos dos segmentos objetivo principales:
+Administradores y Gerentes de Operaciones
+Aspectos demográficos:
+Sexo: Masculino o femenino.
+Edad: 30 – 55 años.
+Nivel socioeconómico: A, B y C (alta, media-alta).
+Ocupación: Gerentes de operaciones, jefes de mantenimiento o administradores de sede.
+Aspectos geográficos:
+Nacionalidad: Peruana o extranjera.
+Zona geográfica: Urbana.
+Departamento: Lima Metropolitana y ciudades a nivel nacional con presencia de gimnasios comerciales.
+
+
+
+Aspectos psicográficos:
+Son los responsables directos de rendir cuentas sobre los presupuestos operativos (OPEX) y salvaguardar el valor de los equipos (CAPEX).
+Sienten frustración al operar a ciegas y depender de la intuición o reportes en papel.
+Buscan herramientas y plataformas que les permitan tomar decisiones basadas en datos duros, ahorrar dinero y evitar los mantenimientos de emergencia.
+Clientes frecuentes de gimnasio 
+Aspectos demográficos:
+Sexo: Masculino o femenino.
+Edad: 18 – 40 años.
+Nivel socioeconómico: A, B, C y D (transversal, dependiendo si asisten a sedes premium o cadenas low-cost).
+Ocupación: Estudiantes universitarios, oficinistas y profesionales jóvenes.
+Aspectos geográficos:
+Nacionalidad: Peruana o extranjera.
+Zona geográfica: Urbana.
+Departamento: Lima Metropolitana y ciudades a nivel nacional con presencia de gimnasios comerciales.
+Aspectos psicográficos:
+Tienen una agenda apretada y disponen de poco tiempo libre, obligándolos a entrenar en horarios de alta afluencia (picos de mañana y noche).
+Su principal dolor es el tiempo perdido; se frustran rápidamente al encontrar máquinas ocupadas, hacinamiento o equipos con carteles de "fuera de servicio".
+Valoran la eficiencia de su rutina y priorizan la operatividad del local por encima de otros factores al decidir si renuevan su membresía.
