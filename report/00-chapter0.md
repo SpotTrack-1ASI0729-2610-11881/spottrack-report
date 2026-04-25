@@ -33,7 +33,9 @@
 
 u20241d317 - Atoche Gonzales, Nicolas Fernando  
 u202411310 - Azama Fukuda, Juan Pablo  
-
+u202413214 - Jesús Miguel Cataño Zárate 
+u202414928 - Alvaro Sebastian Fernanadez Linares
+ u202410344 - Valentino Andre Espinoza Orrego
 ---
 
 *Abril, 2026*
@@ -46,15 +48,15 @@ u202411310 - Azama Fukuda, Juan Pablo
 
 | Versión | Fecha | Autor | Descripción de modificación |
 |--------|------|------|-----------------------------|
-| | | | |
+|1.0.0 | 25/04/26 | | Se realizaron todos los incisos realizados a Lean UX, Needfidining, UI/UX Design y DDD| 
 
 ---
 ## Student Outcome
-
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | | |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | | |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Azama Fukuda, Juan Pablo**<br><br>**AV1:** Dirigí las sesiones de sincronización del equipo, explicando la visión del proyecto y asignando responsabilidades para la estructuración inicial de Lean UX y la arquitectura de la Landing Page. Articulé las metas del sprint planning de manera clara para alinear el trabajo del equipo de desarrollo.<br><br> | Se ha logrado establecer una comunicación oral altamente efectiva que permite articular con claridad la visión técnica y comercial de SpotTrack. Mediante el liderazgo en las sesiones de planificación (Sprint Planning) y las reuniones de sincronización, se demostró la capacidad de adaptar el lenguaje a las necesidades del equipo, traduciendo requerimientos complejos en directrices operativas claras. Esto garantizó el alineamiento constante de los objetivos del proyecto frente a diversas audiencias internas y evaluadores académicos, consolidando un flujo de trabajo ágil y sin ambigüedades. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Azama Fukuda, Juan Pablo**<br><br>**AV1:** Redacté y estructuré el documento *Sprint Planning 1*, documentando las asignaciones de tareas y la configuración del entorno de desarrollo. Desarrollé la arquitectura de información del proyecto utilizando markdown y aplicando jerarquías visuales para facilitar su lectura técnica.<br><br>| El desarrollo de los artefactos ha consolidado una capacidad sobresaliente para redactar documentación técnica y estratégica con rigor profesional. A través de la elaboración y estandarización del informe (aplicando jerarquías visuales en Markdown) y la correcta ejecución de convenciones de control de versiones (GitFlow, Conventional Commits), se ha estructurado un ecosistema documental sólido. Esto asegura la total trazabilidad del ciclo de vida del software, logrando transmitir la arquitectura y el progreso del producto de manera impecable tanto para perfiles técnicos como para stakeholders de negocio. |
+
 
 ## Project Report Collaboration Insights
 
