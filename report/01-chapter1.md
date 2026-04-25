@@ -146,49 +146,40 @@ Debe tener un aspecto moderno, deportivo y ágil. Para los usuarios, debe ser ex
 
 #### Lean UX Hypothesis Statements
 
-Hipótesis 1: Creemos que si les ofrecemos una app móvil web (Angular) a los clientes disminuirá que la frustración de los clientes disminuirá si les ofrecemos una app móvil web (Angular) con un mapa de calor en tiempo real.
-Hipótesis 1: Creemos que implementar un mapa de calor en tiempo real en una web app (Angular) para los clientes del gimnasio logrará reducir su nivel de frustración por aglomeraciones.
-Métrica: Sabremos que funcionó si observamos que el flujo de usuarios se distribuye mejor, reduciendo la saturación en horas pico en un 15%.
-Hipótesis 2: Creemos que automatizar el conteo de horas de uso mediante sensores IoT para los dueños de gimnasios logrará una reducción en los costos operativos.
-Métrica: Sabremos que esto se cumplió cuando los administradores puedan migrar de mantenimientos correctivos (caros) a mantenimientos preventivos (económicos).
-Hipótesis 3: Creemos que ofrecer un panel de control que contraste "horas en uso" vs. "horas ociosas" para el administrador del gimnasio logrará decisiones de compra y reubicación de máquinas más eficientes.
-Métrica: Sabremos que nuestra solución funcionará cuando el administrador logre identificar y trasladar máquinas de locales con baja demanda a locales con alta demanda.
-Hipótesis 4: Creemos que procesar el reconocimiento de imágenes directamente en el dispositivo (Edge Computing) para el administrador del gimnasio logrará evitar la saturación de la red local.
-Métrica: Sabremos que funcionó cuando nuestro backend en Spring Boot reciba payloads ligeros (JSON de estados) en lugar de streaming de video, manteniendo la latencia del API por debajo de 2 segundos.
+Hipótesis 1: 
+**Creemos que** implementar un mapa de calor en tiempo real en una web app (Angular) para los clientes del gimnasio logrará reducir su nivel de frustración por aglomeraciones.
+
+**Sabremos que** tendremos exito
+
+**Cuando veamos** que el flujo de usuarios se distribuye mejor, reduciendo la saturación en horas pico en un 15%.
+
+Hipótesis 2: 
+
+**Creemos que** automatizar el conteo de horas de uso mediante sensores IoT para los dueños de gimnasios logrará una reducción en los costos operativos.
+
+**Sabremos que** esto se cumplió 
+
+**Cuando veamos** que los administradores puedan migrar de mantenimientos correctivos (caros) a mantenimientos preventivos (económicos).
+
+Hipótesis 3: 
+
+**Creemos que** ofrecer un panel de control que contraste "horas en uso" vs. "horas ociosas" para el administrador del gimnasio logrará decisiones de compra y reubicación de máquinas más eficientes.
+
+**Sabremos que** nuestra solución funcionará 
+
+**Cuando veamos** que el administrador logre identificar y trasladar máquinas de locales con baja demanda a locales con alta demanda.
+
+Hipótesis 4: 
+
+**Creemos que** procesar el reconocimiento de imágenes directamente en el dispositivo (Edge Computing) para el administrador del gimnasio logrará evitar la saturación de la red local.
+
+**Sabremos que** funcionó 
+
+**Cuando veamos** nuestro backend en Spring Boot reciba payloads ligeros (JSON de estados) en lugar de streaming de video, manteniendo la latencia del API por debajo de 2 segundos.
 
 #### Lean UX Canvas
 
-Business Outcomes:
-Sabremos que nuestra solución funcionó cuando:
-Los administradores logren reducir sus gastos en mantenimiento correctivo en un 20%.
-La cantidad de máquinas reportadas como "Fuera de Servicio" disminuya significativamente.
-Los administradores utilicen el panel estadístico para trasladar máquinas poco usadas a locales con mayor demanda.
-Users:
-Nuestro servicio será utilizado de forma B2B por administradores de sedes, gerentes de operaciones y técnicos de mantenimiento de gimnasios. De forma B2C, será consumido por jóvenes y adultos que pagan membresías y desean optimizar su tiempo de entrenamiento. Se espera que los gimnasios asuman el costo de la suscripción para brindar la aplicación móvil como un valor agregado gratuito a sus clientes.
-User Outcomes & Benefits:
-Los administradores adquirirán el beneficio de una plataforma predictiva que les evitará gastos sorpresa y mejorará el ROI de sus máquinas. Sabremos que han logrado su objetivo cuando logren anticipar el desgaste de una máquina y programar su engrase antes de que falle. Los usuarios finales obtendrán el beneficio de la previsibilidad y la gestión del tiempo, logrando terminar sus rutinas más rápido al evitar los "cuellos de botella" en el gimnasio.
-Features:
-Integración IoT Edge: Cámaras o sensores que detectan ocupación y envían estados JSON a la API RESTful.
-Mapa de Calor en Vivo: Interfaz en Angular que muestra por colores la disponibilidad de máquinas por sede.
 
-Tracker de Horas de Uso: Acumulación automática de minutos de uso por máquina en la base de datos (PostgreSQL).
-Mantenimiento Predictivo: Alertas automatizadas cuando una máquina supera su umbral seguro de uso.
-Estadísticas de Reubicación: Gráficos comparativos que identifican máquinas subutilizadas frente a máquinas sobreexplotadas.
-Gestión Multisede: Filtros para que el usuario o administrador cambie de local y vea el inventario respectivo.
-
-
-
-Despacho automatizado de tickets técnicos: Asignación y notificación inmediata de órdenes de trabajo al equipo de mantenimiento ante una falla.
-Trazabilidad del ciclo de vida (ROI del activo): Registro histórico de costos de reparación vs. depreciación para justificar el reemplazo o compra de máquinas.
-Motor de sugerencia de rutinas alternativas: Algoritmo que recomienda ejercicios con pesas libres cuando la máquina requerida está inoperativa.
-Notificaciones push de resolución: Avisos automáticos a los usuarios cuando un equipo que reportaron vuelve a estar operativo.
-Analítica predictiva de compras: Reportes basados en la tasa de uso para sugerir qué equipos exactos se deben adquirir o descartar.
-Sistema de recompensas (Crowdsourcing): Asignación de puntos canjeables a los usuarios que actualicen el estado de disponibilidad de los equipos.
-Calculadora de impacto financiero por inactividad: Dashboard que cuantifica la pérdida de dinero estimada por cada hora que una máquina crítica está rota.
-Gestión automatizada de stock de repuestos: Control de inventario de piezas clave (cables, poleas) con alertas automáticas de reabastecimiento.
-Calendario inteligente de bloqueos: Programador que agenda los mantenimientos preventivos exclusivamente en los horarios de menor afluencia histórica.
-Directorio de garantías y proveedores: Base de datos centralizada con fechas de caducidad de garantías y SLA de tiempos de respuesta de fabricantes externos.
-Sistema de reserva exprés: Función para separar slots de 15 minutos en equipos de altísima demanda (ej. racks de sentadillas) durante horas pico.
 
 ## Segmentos objetivo
 
