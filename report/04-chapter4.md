@@ -130,13 +130,36 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 
 
 ### Web Applications Wireflow Diagrams
-[Diagramas que combinan wireframes con flujos de navegación entre pantallas.]
+![TASKFLOW-07](../assets/TASKFLOWS/TASKFLOW-07.jpg)
+![WFM-07](../assets/WIREFLOWS%20MOBILE/US07%20Inicio%20de%20sesión%20con%20validación%20JWT%20(Epic_%20EP02).png)
+![WF-07](../assets/WIREFLOWS/US07%20Inicio%20de%20sesión%20con%20validación%20JWT%20(Epic_%20EP02).png)
+![TASKFLOW-08](../assets/TASKFLOWS/TASKFLOW-08.jpg)
+![WFM-08](../assets/WIREFLOWS%20MOBILE/US08%20Gestión%20de%20preferencias%20y%20perfil%20(Epic_%20EP02).png)
+![WF-08](../assets/WIREFLOWS/US08%20Gestión%20de%20preferencias%20y%20perfil%20(Epic_%20EP02).png)
+![TASKFLOW-09](../assets/TASKFLOWS/TASKFLOW-09.jpg)
+![WFM-09](../assets/WIREFLOWS%20MOBILE/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
+![WF-09](../assets/USERFLOWS/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
+![TASKFLOW-10](../assets/TASKFLOWS/TASKFLOW-10.jpg)
+![WFM-10](../assets/WIREFLOWS%20MOBILE/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
+![WF-10](../assets/WIREFLOWS/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
+![TASKFLOW-11](../assets/TASKFLOWS/TASKFLOW-11.jpg)
+![WFM-11](../assets/WIREFLOWS%20MOBILE/US11%20Cambio%20de%20sucursal%20para%20revisión%20de%20aforo%20(Epic_%20EP03).png)
+![WF-11](../assets/WIREFLOWS/US11%20Cambio%20de%20sucursal%20para%20revisión%20de%20aforo%20(Epic_%20EP03).png)
+![TASKFLOW-12](../assets/TASKFLOWS/TASKFLOW-12.jpg)
+![WFM-12](../assets/WIREFLOWS%20MOBILE/US12%20Notificaciones%20push%20de%20resolución%20de%20disponibilidad%20(Epic_%20EP03).png)
+![WF-12](../assets/WIREFLOWS/US12%20Notificaciones%20push%20de%20resolución%20de%20disponibilidad%20(Epic_%20EP03).pngQ)
+![TASKFLOW-13](../assets/TASKFLOWS/TASKFLOW-13.jpg)
+![WFM-13](../assets/WIREFLOWS%20MOBILE/US13_%20Reporte%20de%20máquina.png)
+![WF-13](../assets/WIREFLOWS/US13_%20Reporte%20de%20máquina.png)
+![TASKFLOW-14](../assets/TASKFLOWS/TASKFLOW-14.jpg)
+![WFM-14](../assets/WIREFLOWS%20MOBILE/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png)
+![WF-14](../assets/WIREFLOWS/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png)
 
 ### Web Applications Mock-ups
 [Mock-ups de alta fidelidad de las pantallas de la aplicación web.]
 
 ### Web Applications User Flow Diagrams
-[Diagramas de flujo de usuario que representan los caminos posibles dentro de la aplicación.]
+    [Diagramas de flujo de usuario que representan los caminos posibles dentro de la aplicación.]
 
 ## Web Applications Prototyping
 [Descripción y enlace al prototipo interactivo de la aplicación web, con escenarios de prueba definidos.]
