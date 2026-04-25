@@ -177,11 +177,45 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 ![WF-18](../assets/WIREFLOWS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
 ![task.png](assets/TASKFLOWS/TASKFLOW-19.png)
 
+
 ![task.png](assets/TASKFLOWS/TASKFLOW-20.png)
 ![WF-20](../assets/WIREFLOWS/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
 ![task.png](assets/TASKFLOWS/TASKFLOW-21.png)
 ![WF-20](../assets/WIREFLOWS/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
 
+![TASKFLOW-21](../assets/TASKFLOWS/TASKFLOW-21.png)
+![WF-21](../assets/WIREFLOWS/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
+![WFM-21](../assets/WIREFLOWS%20MOBILE/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
+
+![TASKFLOW-22](../assets/TASKFLOWS/TASKFLOW-22.png)
+![WF-22-UMBRAL](../assets/WIREFLOWS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
+![WF-22](../assets/WIREFLOWS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06).png)
+![WFM-22-UMBRAL](../assets/WIREFLOWS%20MOBILE/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
+![WFM-22](../assets/WIREFLOWS%20MOBILE/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06).png)
+
+![TASKFLOW-23](../assets/TASKFLOWS/TASKFLOW-23.png)
+![WF-23](../assets/WIREFLOWS/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png)
+![WFM-23](../assets/WIREFLOWS%20MOBILE/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png)
+
+![TASKFLOW-24](../assets/TASKFLOWS/TASKFLOW-24.png)
+![WF-24](../assets/WIREFLOWS/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png)
+![WFM-24](../assets/WIREFLOWS%20MOBILE/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png)
+
+![TASKFLOW-25](../assets/TASKFLOWS/TASKFLOW-25.png)
+![WF-25](../assets/WIREFLOWS/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png)
+![WFM-25](../assets/WIREFLOWS%20MOBILE/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png)
+
+![TASKFLOW-26](../assets/TASKFLOWS/TASKFLOW-26.png)
+![WF-26](../assets/WIREFLOWS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
+![WFM-26](../assets/WIREFLOWS%20MOBILE/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
+
+![TASKFLOW-29](../assets/TASKFLOWS/TASKFLOW-29.png)
+![WF-29](../assets/WIREFLOWS/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
+![WFM-29](../assets/WIREFLOWS%20MOBILE/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
+
+![TASKFLOW-30](../assets/TASKFLOWS/TASKFLOW-30.png)
+![WF-30](../assets/WIREFLOWS/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
+![WFM-30](../assets/WIREFLOWS%20MOBILE/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
 
 ### Web Applications Mock-ups
 
