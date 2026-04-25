@@ -106,7 +106,28 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 ## Web Applications UX/UI Design
 
 ### Web Applications Wireframes
-[Wireframes de las pantallas principales de la aplicación web.]
+
+
+<img src="../assets/WIREFRAMES/US07%20Inicio%20de%20sesión%20con%20validación%20JWT%20(Epic_%20EP02).png" width="600">
+<img src="../assets/WIREFRAMES/US08%20Gestión%20de%20preferencias%20y%20perfil%20(Epic_%20EP02).png" width="600">
+<img src="../assets/WIREFRAMES/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png" width="600">
+<img src="../assets/WIREFRAMES/US11%20Cambio%20de%20sucursal%20para%20revisión%20de%20aforo%20(Epic_%20EP03).png" width="600">
+<img src="../assets/WIREFRAMES/US12%20Notificaciones%20push%20de%20resolución%20de%20disponibilidad%20(Epic_%20EP03).png" width="600">
+<img src="../assets/WIREFRAMES/US13_%20Reporte%20de%20máquina.png" width="600">
+<img src="../assets/WIREFRAMES/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png" width="600">
+<img src="../assets/WIREFRAMES/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png" width="600">
+<img src="../assets/WIREFRAMES/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png" width="600">
+<img src="../assets/WIREFRAMES/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png" width="600">
+<img src="../assets/WIREFRAMES/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png" width="600">
+<img src="../assets/WIREFRAMES/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png" width="600">
+<img src="../assets/WIREFRAMES/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png" width="600">
+<img src="../assets/WIREFRAMES/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png" width="600">
+<img src="../assets/WIREFRAMES/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png" width="600">
+<img src="../assets/WIREFRAMES/US27%20Estadísticas%20de%20reubicación%20multisede%20(Epic_%20EP07).png" width="600">
+<img src="../assets/WIREFRAMES/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png" width="600">
+<img src="../assets/WIREFRAMES/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png" width="600">
+
+
 
 ### Web Applications Wireflow Diagrams
 [Diagramas que combinan wireframes con flujos de navegación entre pantallas.]
