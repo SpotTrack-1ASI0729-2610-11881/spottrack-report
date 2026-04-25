@@ -156,6 +156,8 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 ![WFM-14](../assets/WIREFLOWS%20MOBILE/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png)
 ![WF-14](../assets/WIREFLOWS/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png)
 
+
+
 ### Web Applications Mock-ups
 [Mock-ups de alta fidelidad de las pantallas de la aplicación web.]
 
@@ -163,7 +165,10 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
     [Diagramas de flujo de usuario que representan los caminos posibles dentro de la aplicación.]
 
 ## Web Applications Prototyping
-[Descripción y enlace al prototipo interactivo de la aplicación web, con escenarios de prueba definidos.]
+
+Video del prototipo:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d317_upc_edu_pe/IQDCANk2iXBXRJw2mH1ZdZXPASTGyLkvsZa1prA9mkQ0dyw?e=ItBRSW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ## Domain-Driven Software Architecture
 
