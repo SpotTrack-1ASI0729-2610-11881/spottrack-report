@@ -79,7 +79,32 @@ Gimnasio al que asistes regularmente:
 
 ### Registro de entrevistas
 
-[Transcripciones o resúmenes de cada entrevista realizada, con datos del entrevistado y fecha.]
+**Segmento 1: Administrador de Gimnasio y Gerente de Operaciones**
+
+### Entrevista 1: Alexander Gutierrez
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Entrevistado** | Alexander Gutierrez |
+| **Imagen** | *[Espacio para la imagen]* |
+| **Edad** | 31 |
+| **Ocupación** | Administrador de Gimnasio |
+| **Link** | [https://youtu.be/TloRNCtUen8](https://youtu.be/TloRNCtUen8) |
+| **Resumen** | La entrevista presenta a Alexander Gutiérrez, Administrador de gimnasio en Sport Life La Molina, quien comenta que el mantenimiento actual es rápido, salvo cuando requieren repuestos importados. Reconoce que gestionan la congestión en horas pico ofreciendo ejercicios alternativos o pesos libres a los clientes. Señala que un mapa de calor le ayudaría a prever la demanda específica de ciertos días, y que las alertas automáticas de mantenimiento predictivo serían magníficas para anticipar el desgaste de piezas clave (como las fajas de las trotadoras) antes de que se rompan. En cuanto al panel de control, Alexander valora métricas sobre asignación de rutinas, ingreso de invitados y comentarios de post-venta. Considera que la tecnología de cámaras podría generar reservas en adultos mayores, aunque sería bien aceptada por los jóvenes. Finalmente, destaca que un piloto gratuito lo convencería de pagar la suscripción si en 30 días arroja datos precisos sobre los horarios pico y el uso de máquinas de alta demanda, justificando así futuras compras y optimizando la gestión del local. | 
+
+
+### Entrevista 2: Luis Romero
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Entrevistado** | Luis Romero |
+| **Imagen** | *[Espacio para la imagen]* |
+| **Edad** | 51 |
+| **Ocupación** | Administrador de Gimnasio |
+| **Link** | [https://youtu.be/HjYWVshhpdE?si=Jyhb6aqMUrhtSwiW](https://youtu.be/HjYWVshhpdE?si=Jyhb6aqMUrhtSwiW) |
+| **Resumen** | Luis Romero, Administrador de gimnasio en la UPC y YMCAID, destaca que la gestión en universidades es mucho más lenta que en gimnasios comerciales, donde una reparación puede tardar solo un día frente a varias semanas por burocracia. Señala que las fallas en equipos generan quejas inmediatas y afectan la renovación de membresías. Para manejar la congestión en horas pico, promueve compartir máquinas, pero considera clave el uso de mapas de calor en gimnasios grandes. Valora especialmente las alertas de mantenimiento predictivo, ya que ayudan a no olvidar revisiones. Prefiere equipos de musculación nacionales por repuestos rápidos y cardio importado. Resalta la importancia de sensores (sobre todo en trotadoras) para medir uso y anticipar fallas. En su panel ideal prioriza asistencia, quejas y renovaciones. También ve útil el uso de cámaras con procesamiento Edge para supervisión sin afectar la privacidad. Finalmente, un piloto gratuito lo convencería si ofrece datos precisos sobre afluencia y uso para tomar decisiones de mantenimiento o reemplazo. |
+
+
 
 ### Análisis de entrevistas
 
