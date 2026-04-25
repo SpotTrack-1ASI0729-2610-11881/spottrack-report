@@ -122,7 +122,7 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 ## Domain-Driven Software Architecture
 
 ### Design-Level Event Storming
-[Event Storming a nivel de diseño: agregados, bounded contexts, comandos y eventos del dominio.]
+<img src="../assets/event%20storming.png" width="500">
 
 ### Software Architecture Context Diagram
 <img src="../assets/c41.png" width="500">
