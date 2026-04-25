@@ -70,9 +70,18 @@ Los venceremos debido a que proponemos una solución utilizando diversos disposi
 Nuestros mayores riesgos son la complejidad en la instalación física del hardware y la dependencia de la red Wi-Fi del local. 
 Esto lo resolveremos utilizando protocolos ligeros (como MQTT o peticiones HTTP optimizadas hacia Spring Boot) y dispositivos Edge que puedan guardar temporalmente la data si se cae la red.
 Otras suposiciones que tenemos es que ciertos gimnasios ya tengan este tipo de sistemas o que cierta maquinaria venga con telemetría ya incluída. En consecuencia, nuestra idea carecería de valor. Por ende, es importante tener en mente que si un gimnasio ya posee este sistema debemos proponer una mejora.
+
 #### Lean UX Hypothesis Statements
 
-[Hipótesis formuladas a partir de los supuestos, con métricas de éxito definidas.]
+Hipótesis 1: Creemos que si les ofrecemos una app móvil web (Angular) a los clientes disminuirá que la frustración de los clientes disminuirá si les ofrecemos una app móvil web (Angular) con un mapa de calor en tiempo real.
+Hipótesis 1: Creemos que implementar un mapa de calor en tiempo real en una web app (Angular) para los clientes del gimnasio logrará reducir su nivel de frustración por aglomeraciones.
+Métrica: Sabremos que funcionó si observamos que el flujo de usuarios se distribuye mejor, reduciendo la saturación en horas pico en un 15%.
+Hipótesis 2: Creemos que automatizar el conteo de horas de uso mediante sensores IoT para los dueños de gimnasios logrará una reducción en los costos operativos.
+Métrica: Sabremos que esto se cumplió cuando los administradores puedan migrar de mantenimientos correctivos (caros) a mantenimientos preventivos (económicos).
+Hipótesis 3: Creemos que ofrecer un panel de control que contraste "horas en uso" vs. "horas ociosas" para el administrador del gimnasio logrará decisiones de compra y reubicación de máquinas más eficientes.
+Métrica: Sabremos que nuestra solución funcionará cuando el administrador logre identificar y trasladar máquinas de locales con baja demanda a locales con alta demanda.
+Hipótesis 4: Creemos que procesar el reconocimiento de imágenes directamente en el dispositivo (Edge Computing) para el administrador del gimnasio logrará evitar la saturación de la red local.
+Métrica: Sabremos que funcionó cuando nuestro backend en Spring Boot reciba payloads ligeros (JSON de estados) en lugar de streaming de video, manteniendo la latencia del API por debajo de 2 segundos.
 
 #### Lean UX Canvas
 
