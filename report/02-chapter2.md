@@ -31,7 +31,31 @@
 
 ### Diseño de entrevistas
 
-[Guía de preguntas, objetivos de la entrevista y perfil de los entrevistados seleccionados.]
+A continuación se presentan las preguntas para las entrevistas a los segmentos objetivos
+
+Segmento 1: Administradores y Gerentes de Operaciones
+
+Antes de las preguntas: Por favor, indícanos la siguiente información para registrar tu participación:
+Nombre:
+Cargo / Ocupación (confirmar si es administrador de sede o gerente de operaciones)
+Edad
+Gimnasio / Institución a la que pertenece:
+
+Segmento 1: Administradores y Gerentes de Operaciones
+1. Cuéntame sobre tu experiencia actual gestionando el mantenimiento y la disponibilidad de las máquinas en tu sede.
+¿Cómo es el proceso exacto desde que una máquina falla hasta que el técnico la repara?
+2. ¿Qué impacto financiero y operativo notas cuando una máquina de alta demanda (como una trotadora o rack de sentadillas) se avería repentinamente?
+¿Tienen un presupuesto asignado para mantenimiento correctivo de emergencia o afecta directamente la rentabilidad del mes?
+3. Durante las "horas pico" (mañanas o después de las 6:00 PM), ¿cómo manejan la congestión del local y las quejas de los usuarios por los tiempos de espera?
+4. Si pudieras contar con un "mapa de calor" en tiempo real que te muestre qué máquinas están libres, ocupadas o en mantenimiento, ¿de qué manera utilizarías esa información en tu gestión diaria?
+5. ¿Qué tan valioso sería para ti recibir alertas automáticas de "mantenimiento predictivo" (por ejemplo, saber que una cinta de correr superó las 500 horas de uso y necesita revisión) antes de que se rompa?
+6. A la hora de tomar decisiones de inversión, como comprar máquinas nuevas o trasladar equipos de una sede a otra, ¿en qué información o reportes te basas actualmente?
+¿Te daría más seguridad basar esas compras en estadísticas exactas de uso generadas por sensores?
+7.  Si abres tu computadora el lunes por la mañana para revisar cómo le fue a tu local el fin de semana, ¿cuáles son los 3 datos principales que necesitas ver en un dashboard para sentir que tienes el control total?
+8. Para implementar este sistema, planeamos usar pequeñas cámaras con procesamiento Edge (que solo detectan si la máquina está ocupada o libre, sin grabar ni guardar video de las personas). ¿Tendrías o crees que tus clientes tendrían alguna preocupación sobre la privacidad con este enfoque?
+9. Pensando en tu staff de piso (entrenadores, personal de limpieza), ¿cómo crees que un sistema de alertas automatizado cambiaría la rutina de su día a día?
+10. Si te ofrecemos hacer un plan piloto gratuito de FitNode Analytics durante un mes, instalando los sensores en una zona específica (como la zona de cardio), ¿cuál es el principal resultado o métrica que necesitarías ver para convencerte de pagar una suscripción mensual por el servicio?
+
 
 ### Registro de entrevistas
 
