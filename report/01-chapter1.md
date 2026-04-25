@@ -37,9 +37,11 @@ Además del impacto económico directo, la experiencia del cliente se ve profund
 
 ### Lean UX Process
 
+
 #### Lean UX Problem Statements
 
-[Declaración estructurada del problema, definiendo el estado actual, el impacto negativo y la hipótesis de mejora.]
+Nuestro servicio ofrece una plataforma de telemetría y visualización en tiempo real para monitorear el uso, desgaste y disponibilidad de las máquinas de ejercicio. Hemos observado que los gimnasios enfrentan sobrecostos por mantenimientos reactivos y tiempos prolongados de equipos inoperativos, a la par que los usuarios experimentan largos tiempos de espera para entrenar durante las horas pico, reduciendo la tasa de retención. ¿De qué manera podemos visibilizar la ocupación y el estado de los activos para optimizar la planificación preventiva de la gerencia y permitir a los usuarios ejecutar sus rutinas sin tiempos muertos?
+
 
 #### Lean UX Assumptions
 
