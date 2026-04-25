@@ -96,6 +96,7 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 √≠conos de acceso r√
 
 ## Landing Page UI Design
 
+
 ### Landing Page Wireframe
 <img src="../assets/WIREFRAMES/landing_wireframe.png" width="600">
 
