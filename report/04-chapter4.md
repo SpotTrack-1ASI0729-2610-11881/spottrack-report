@@ -11,7 +11,22 @@
 ## Information Architecture
 
 ### Organization Systems
-[Estructura de organización del contenido: jerárquica, secuencial o matricial, según el contexto de uso.]
+### 4.2.1. Organization Systems
+
+Para estructurar el ecosistema de SpotTrack de forma práctica, utilizamos una categorización principal basada en la audiencia. Al final del día, toda la arquitectura de la información se rige por un modelo de **jerarquía visual (visual hierarchy)**, priorizando el contenido de mayor a menor importancia según lo que cada tipo de usuario necesita ver primero al entrar.
+
+![INFO-ADMIN](../assets/INFO/INFO-ADMIN.jpg)
+**Plataforma Administrativa (Dashboard B2B)**
+Su estructura jerárquica se divide de frente por módulos operativos (Inventario, Tickets, Estadísticas). Dentro de estos, los datos se categorizan por tópicos (para agrupar las máquinas según la sucursal) y de forma cronológica (para ordenar las alertas predictivas y el historial de horas de uso de más reciente a más antiguo).
+
+![INFO-CLIENT](../assets/INFO/INFO-CLIENT.jpg)
+**Aplicación Móvil (Web App B2C)**
+Diseñada para la inmediatez. La jerarquía visual coloca el mapa de calor en tiempo real como el componente absoluto y principal de la pantalla, subordinando opciones secundarias (como el perfil o recompensas) a menús de navegación. El catálogo de máquinas aplica una categorización directa por tópicos (ej. "Fuerza", "Cardio") para que el cliente filtre y encuentre lo que busca sin dar tantas vueltas.
+
+![INFO-LANDING-PAGE](../assets/INFO/INFO-LANDING-PAGE.jpg)
+**Landing Page Comercial**
+Sigue una jerarquía visual descendente (top-down) para guiar la lectura. El flujo arranca con lo más importante arriba (Hero Section con la propuesta de valor) y decanta hacia los detalles específicos más abajo (features, tabla de precios y formulario de contacto). El texto y las tarjetas están categorizados explícitamente según la audiencia, separando qué gana el dueño del gimnasio y qué gana el usuario final.
+https://miro.com/app/board/uXjVHcq90QA=/?share_link_id=360970048482
 
 ### Labeling Systems
 Para garantizar la simplicidad y reducir la carga cognitiva de los usuarios, se utilizará un vocabulario directo, estandarizado y libre de jerga técnica compleja. Las etiquetas representan acciones claras o agrupaciones lógicas de información.
