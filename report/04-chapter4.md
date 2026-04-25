@@ -169,7 +169,18 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 ![TASKFLOW-14](../assets/TASKFLOWS/TASKFLOW-14.jpg)
 ![WFM-14](../assets/WIREFLOWS%20MOBILE/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png)
 ![WF-14](../assets/WIREFLOWS/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png)
+![task.png](assets/TASKFLOWS/TASKFLOW-16.png)
+![WF-16](../assets/WIREFLOWS/Frame%2017.png)
+![task.png](assets/TASKFLOWS/TASKFLOW-17.png)
+![WF-17](../assets/WIREFLOWS/S16%20-%20reserva%20express.png)
+![task.png](assets/TASKFLOWS/TASKFLOW-18.png)
+![WF-18](../assets/WIREFLOWS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
+![task.png](assets/TASKFLOWS/TASKFLOW-19.png)
 
+![task.png](assets/TASKFLOWS/TASKFLOW-20.png)
+![WF-20](../assets/WIREFLOWS/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
+![task.png](assets/TASKFLOWS/TASKFLOW-21.png)
+![WF-20](../assets/WIREFLOWS/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
 
 
 ### Web Applications Mock-ups
