@@ -155,7 +155,7 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 ## Software Object-Oriented Design
 
 ### Class Diagrams
-[Diagramas de clases UML con atributos, métodos y relaciones entre entidades del dominio.]
+
 
 ## Database Design
 
