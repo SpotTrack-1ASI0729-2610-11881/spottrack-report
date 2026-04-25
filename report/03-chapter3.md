@@ -128,35 +128,39 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Product Backlog
 
-[Backlog priorizado del producto con estimaciones de esfuerzo y criterios de priorización.]
+
+
+| Orden | User Story ID | Título | Descripción | Story Points |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | US14 | Motor de sugerencia de rutinas alternativas | Como cliente frecuente, quiero recibir recomendaciones de ejercicios alternativos cuando mi máquina esté ocupada, para no perder mi ritmo de entrenamiento. | 8 |
+| 2 | US30 | Analítica predictiva de compras e inversión | Como dueño del negocio, quiero reportes basados en la tasa de uso para proyectar inversiones y simular el ROI, para tomar decisiones sobre qué equipos adquirir o descartar. | 8 |
+| 3 | US27 | Estadísticas de reubicación multisede | Como administrador de una cadena, quiero estadísticas cruzadas entre sedes, para identificar y trasladar máquinas de locales con baja demanda a los más saturados. | 8 |
+| 4 | US09 | Visualización del mapa de calor en vivo | Como cliente frecuente, quiero ver la disponibilidad de las máquinas en tiempo real (verde/rojo), para esquivar aglomeraciones y no perder tiempo en filas. | 8 |
+| 5 | US29 | Calculadora de impacto financiero por inactividad | Como dueño del negocio, quiero cuantificar la pérdida monetaria estimada por cada hora de inactividad de una máquina, para entender el impacto real de las averías. | 8 |
+| 6 | US17 | Acumulación automática de horas de uso | Como administrador, quiero ver gráficos con la sumatoria de minutos reales de uso de cada máquina, para comprender la demanda real sin tener que vigilar el local. | 8 |
+| 7 | US22 | Alerta predictiva de mantenimiento | Como gerente de operaciones, quiero recibir alertas automáticas cuando un equipo supere sus horas seguras de uso, para realizar mantenimientos preventivos antes de que fallen. | 8 |
+| 8 | US25 | Calendario inteligente de bloqueos de reserva | Como cliente frecuente, quiero que el sistema me sugiera horarios alternativos de baja afluencia cuando intente reservar en una hora pico, para garantizar la disponibilidad de los equipos y evitar las aglomeraciones durante mi entrenamiento. | 8 |
+| 9 | US16 | Sistema de reserva exprés en horas pico | Como cliente frecuente, quiero separar virtualmente una máquina libre por 10 minutos durante horas pico, para asegurar su uso mientras me dirijo a ella. | 8 |
+| 10 | US13 | Sistema de recompensas de Crowdsourcing | Como cliente frecuente, quiero ganar puntos canjeables en mi perfil, para motivarme a actualizar manualmente el estado de disponibilidad de los equipos si hay discrepancias. | 8 |
+| 11 | US07 | Inicio de sesión con validación JWT | Como usuario (administrador o cliente), quiero iniciar sesión de forma segura generando un token, para acceder a mi panel de control o aplicación móvil correspondiente. | 5 |
+| 12 | US10 | Filtrado del inventario por tipo de máquina | Como cliente frecuente, quiero seleccionar etiquetas (ej. Fuerza o Cardio) en el mapa, para visualizar únicamente las máquinas relevantes para mi rutina. | 5 |
+| 13 | US11 | Cambio de sucursal para revisión de aforo | Como cliente frecuente, quiero seleccionar otras sedes en la app, para revisar el croquis y aforo de sucursales alternas antes de salir de casa. | 5 |
+| 14 | US15 | Filtrado de alternativas por grupo muscular | Como cliente frecuente, quiero que las rutinas sugeridas respeten mi grupo muscular objetivo y omitan máquinas averiadas, para tener opciones realmente útiles. | 5 |
+| 15 | US18 | Identificación de equipos subutilizados | Como administrador, quiero que el sistema resalte en una tabla qué máquinas tienen una tasa de uso excepcionalmente baja, para evaluar su reubicación o descarte. | 5 |
+| 16 | US19 | Visualización de picos de estrés del local | Como dueño del negocio, quiero ver gráficos que destaquen las horas donde el aforo de máquinas supera el 90%, para identificar cuellos de botella diarios. | 5 |
+| 17 | US21 | Monitoreo de estado de hardware Edge IoT | Como administrador, quiero revisar la salud de la red y el estado de los nodos IoT, para detectar si un sensor se ha desconectado. | 5 |
+| 18 | US23 | Despacho automatizado de tickets técnicos | Como gerente de operaciones, quiero que el sistema convierta una alerta en un ticket técnico y notifique al soporte, para agilizar la reparación. | 5 |
+| 19 | US26 | Gestión de activos físicos y altas | Como administrador, quiero registrar o dar de baja equipos vinculándolos a un sensor IoT, para actualizar el inventario digital y el mapa de calor. | 5 |
+| 20 | US28 | Gestión automatizada de stock de repuestos | Como administrador, quiero controlar el inventario de piezas clave y recibir alertas de reabastecimiento, para que los técnicos siempre tengan insumos disponibles. | 5 |
+| 21 | US20 | Exportación de analíticas de uso | Como gerente de operaciones, quiero generar documentos formateados en PDF de los gráficos de uso, para presentar reportes formales de rendimiento. | 5 |
+| 22 | US12 | Notificaciones push de resolución de disponibilidad | Como cliente frecuente, quiero activar una campana de aviso, para recibir una alerta en mi celular cuando la máquina que esperaba se libere. | 5 |
+| 23 | US24 | Notificación de restablecimiento a los usuarios | Como administrador, quiero que el sistema notifique a los clientes cuando un equipo reportado es reparado, para mejorar su percepción del servicio. | 5 |
+| 24 | US08 | Gestión de preferencias y perfil | Como usuario, quiero actualizar mi información personal y cambiar el idioma del sistema, para mantener mis datos al día y usar la plataforma cómodamente. | 3 |
+| 25 | US04 | Selección de planes de suscripción SaaS | Como visitante o administrador, quiero visualizar la comparativa de precios (Basic, Mid, Platinum), para saber qué plan se ajusta a mi negocio. | 3 |
+| 26 | US05 | Envío de formulario de contacto | Como visitante, quiero poder llenar un formulario con mis datos y mensaje, para solicitar información al equipo de ventas de Spot Track. | 3 |
+| 27 | US01 | Descripción principal en el Hero Section | Como visitante, quiero ver un mensaje claro en la parte superior junto con botones de acción (CTAs), para entender rápidamente cómo SpotTrack optimiza la gestión de gimnasios. | 2 |
+| 28 | US02 | Presentación de pilares del producto | Como visitante, quiero explorar la sección "About Us", para conocer la misión y visión que respalda a FitNode Analytics. | 2 |
+| 29 | US03 | Visualización de Soluciones y Características | Como visitante, quiero visualizar seis tarjetas principales con las funcionalidades, para comprender el uso de sensores IoT y almacenamiento en la nube. | 2 |
+| 30 | US06 | Acceso al portal desde la navegación | Como visitante o cliente potencial, quiero tener botones de Login y Demo a la vista, para ingresar a la plataforma de forma rápida desde la landing page. | 2 |
