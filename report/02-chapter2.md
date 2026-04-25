@@ -123,7 +123,12 @@ Gimnasio al que asistes regularmente:
 
 ### User Personas
 
-[Fichas de User Personas representativas de cada segmento objetivo, incluyendo motivaciones, frustraciones y comportamientos.]
+**ADMINISTRADOR DE GIMNASIO**
+![User Persona Alexis Villanueva](../assets/NEEDFINDING%20ARTEFACTS/User%20Persona%20Alexis%20Villanueva.png)
+
+
+**CLIENTE FRECUENTE DE GIMNASIO**
+![User Persona Andrea Mendoza](../assets/NEEDFINDING%20ARTEFACTS/User%20Persona%20Andrea%20Mendoza.png)
 
 ### User Task Matrix
 
@@ -147,11 +152,22 @@ Gimnasio al que asistes regularmente:
 | Mejorar experiencia del usuario final | Media | Alta | Alta | Alta |
 ### User Journey Mapping
 
-[Mapas de viaje del usuario que ilustran las etapas, acciones, emociones y puntos de dolor en la experiencia actual.]
+
+**JOURNEY MAP ADMINISTRADOR DE GIMNASIO**
+![Journey Map Alexis Villanueva](../assets/NEEDFINDING%20ARTEFACTS/Journey%20Map%20Alexis%20Villanueva.png)
+
+
+**JOURNEY MAP CLIENTE FRECUENTE DE GIMNASIO**
+![Journey Map Andrea Mendoza](../assets/NEEDFINDING%20ARTEFACTS/Journey%20Map%20Andrea%20Mendoza.png)
+
+
 
 ### Empathy Mapping
 
-[Mapas de empatía por segmento: qué piensan, sienten, dicen y hacen los usuarios.]
+![Impact Mappign Alexis Villanueva](../assets/NEEDFINDING%20ARTEFACTS/Impact%20Mapping%20Alexis%20Villanueva.png)
+
+
+![Impact Mapping Andre Mendoza](../assets/NEEDFINDING%20ARTEFACTS/Impact%20Mapping%20Andre%20Mendoza.png)
 
 ## Big Picture Event Storming
 
