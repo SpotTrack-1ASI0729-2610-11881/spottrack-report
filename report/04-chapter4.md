@@ -454,4 +454,4 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d317_upc_edu_pe/IQDCANk2
 ## Database Design
 
 ### Database Diagrams
-[Diagramas entidad-relación o de esquema de base de datos, incluyendo tablas, claves y relaciones.]
+![DATABASE](../docs/database/ERD.png)
