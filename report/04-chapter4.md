@@ -416,6 +416,40 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d317_upc_edu_pe/IQDCANk2
 ## Software Object-Oriented Design
 
 ### Class Diagrams
+![class-diagram-auth](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/feature/PrototypeVideo/docs/class-diagrams-frontend/class-diagram-auth.puml)
+
+![class-diagram-asset](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/feature/PrototypeVideo/docs/class-diagrams-frontend/class-diagram-asset-management.puml)
+
+
+![class-diagram-availability](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/feature/PrototypeVideo/docs/class-diagrams-frontend/class-diagram-availability.puml)
+
+
+
+![class-diagram-asset](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/feature/PrototypeVideo/docs/class-diagrams-frontend/class-diagram-finantial-impact.puml)
+
+![class-diagram-asset](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/feature/PrototypeVideo/docs/class-diagrams-frontend/class-diagram-matainance.puml)
+
+![class-diagram-asset](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/feature/PrototypeVideo/docs/class-diagrams-frontend/class-diagram-monitoring.puml)
+
+
+![class-diagram-asset](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/feature/PrototypeVideo/docs/class-diagrams-frontend/class-diagram-notifications.puml)
+
+
+![class-diagram-asset](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/feature/PrototypeVideo/docs/class-diagrams-frontend/class-diagram-profiles.puml)
+
+
+
+![class-diagram-asset](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/feature/PrototypeVideo/docs/class-diagrams-frontend/class-diagram-reports.puml)
+
+
+
+![class-diagram-asset](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/feature/PrototypeVideo/docs/class-diagrams-frontend/class-diagram-routines.puml)
+
+
+
+![class-diagram-asset](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/feature/PrototypeVideo/docs/class-diagrams-frontend/class-diagram-reports.puml)
+
+
 
 ## Database Design
 
