@@ -122,21 +122,40 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 ## Domain-Driven Software Architecture
 
 ### Design-Level Event Storming
-[Event Storming a nivel de diseño: agregados, bounded contexts, comandos y eventos del dominio.]
+<img src="../assets/event%20storming.png" width="500">
 
 ### Software Architecture Context Diagram
-[Diagrama de contexto C4 que muestra el sistema y sus interacciones con usuarios y sistemas externos.]
+<img src="../assets/c41.png" width="500">
 
 ### Software Architecture Container Diagrams
-[Diagrama de contenedores C4 que detalla los componentes de alto nivel y sus responsabilidades.]
+<img src="../assets/c42.png" width="500">
 
 ### Software Architecture Components Diagrams
-[Diagramas de componentes C4 por contenedor, mostrando módulos internos y sus relaciones.]
+
+#### Monitoring
+
+<img src="../assets/c431.png" width="500">
+
+#### User And Subcription
+
+<img src="../assets/c432.png" width="500">
+
+#### Equipment
+
+<img src="../assets/c433.png" width="500">
+
+#### Maintenance
+
+<img src="../assets/c434.png" width="500">
+
+#### Analytics
+
+<img src="../assets/c435.png" width="500">
 
 ## Software Object-Oriented Design
 
 ### Class Diagrams
-[Diagramas de clases UML con atributos, métodos y relaciones entre entidades del dominio.]
+
 
 ## Database Design
 
