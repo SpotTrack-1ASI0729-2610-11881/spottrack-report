@@ -2,7 +2,7 @@
 
 ## Impact Mapping
 
-[Mapa de impacto que conecta los objetivos de negocio con los actores, sus impactos y los entregables necesarios.]
+![IMPACT MAPPING](../assets/NEEDFINDING%20ARTEFACTS/IMPACT%20MAPPING.png)
 
 ## User Stories
 
