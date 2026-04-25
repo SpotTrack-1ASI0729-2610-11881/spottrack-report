@@ -97,10 +97,10 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 ## Landing Page UI Design
 
 ### Landing Page Wireframe
-[Wireframes de baja fidelidad de la landing page, mostrando la disposición de secciones y elementos.]
+<img src="../assets/WIREFRAMES/landing_wireframe.png" width="600">
 
 ### Landing Page Mock-up
-[Mock-ups de alta fidelidad de la landing page con diseño visual aplicado.]
+<img src="../assets/MOCKUPS/landing_mockup.png" width="600">
 
 ## Web Applications UX/UI Design
 
