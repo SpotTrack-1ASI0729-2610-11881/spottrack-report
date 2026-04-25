@@ -5,13 +5,13 @@
 ### Descripción de la Startup
 
 **Descripción general:**
-LocalSync nace para cerrar la brecha entre la gestión tradicional de recintos deportivos y la innovación tecnológica impulsada por el Internet de las Cosas (IoT). Somos una startup comprometida con la optimización de los activos físicos y la mejora de la experiencia del usuario en gimnasios, asegurando que la toma de decisiones basada en datos reemplace a la intuición, maximizando la rentabilidad y la satisfacción del cliente.
+SpotTrack nace para cerrar la brecha entre la gestión tradicional de recintos deportivos y la innovación tecnológica impulsada por el Internet de las Cosas (IoT). Somos una startup comprometida con la optimización de los activos físicos y la mejora de la experiencia del usuario en gimnasios, asegurando que la toma de decisiones basada en datos reemplace a la intuición, maximizando la rentabilidad y la satisfacción del cliente.
 
 **Misión:**
-La misión de LocalSync es ofrecer un servicio inteligente de monitoreo y analítica de uso de equipos deportivos, orientado a gimnasios y centros de fitness universitarios. Buscamos optimizar sus procesos operativos y de mantenimiento mediante el uso de IoT (cámaras con visión computacional y sensores en el Edge) para transformar el uso físico de las máquinas en datos accionables gestionados eficientemente en la nube.
+La misión de SpotTrack es ofrecer un servicio inteligente de monitoreo y analítica de uso de equipos deportivos, orientado a gimnasios y centros de fitness universitarios. Buscamos optimizar sus procesos operativos y de mantenimiento mediante el uso de IoT (cámaras con visión computacional y sensores en el Edge) para transformar el uso físico de las máquinas en datos accionables gestionados eficientemente en la nube.
 
 **Visión:**
-La visión de LocalSync es ser la plataforma líder en telemetría y gestión de activos deportivos en Perú, promoviendo una administración moderna y predictiva que impulse a los gimnasios hacia una transformación digital eficiente y a la vanguardia de la tecnología.
+La visión de SpotTrack es ser la plataforma líder en telemetría y gestión de activos deportivos en Perú, promoviendo una administración moderna y predictiva que impulse a los gimnasios hacia una transformación digital eficiente y a la vanguardia de la tecnología.
 
 ### Perfiles de integrantes del equipo
 
@@ -26,6 +26,10 @@ Soy **Valentino Andre Espinoza Orrego** (código: u202410344), "Estudiante de In
 
 Soy **Nicolas Fernando Atoche Gonzales**, actualmente estoy en el tercer ciclo de la carrera de ingeniería de software. Poseo un conocimiento básico/intermedio en programación con C++, java y Lua. Además, cuento con conocimientos en el desarrollo de videojuegos. Dentro del equipo, estoy encargado en el desarrollo del backend  del proyecto utilizando el entorno Angular. A su vez suelo orientarme por el conocimiento y el pensamiento lógico, con lo cual suelo buscar la solución más óptima y ágil dentro de un problema a través de pasos sencillos y definidos que construyan una base sólida donde pueda desarrollar respuestas claras y efectivas.
 
+![foto-jesus](../assets/foto-jesus-c.png)
+
+Soy **Jesús Miguel Cataño Zárate**, (Codigo: u202413214). Actualmente estudio el 5to ciclo de Ingeniería de Software. Cuento con un nivel intermedio en C++,C# y experiencia usando Java, para desarrollos moviles y HTML,JS,Node.Js en cuanto a paginas web. 
+Mi aporte al equipo, a nivel técnico, contribuyo en el desarrollo creación de arquitecturas escalables y eficientes. Por otro lado, desempeño el rol de Team Leader dentro de mi grupo, asumiendo la responsabilidad de guiar y coordinar al equipo para trabajar de manera efectiva.
 
 ## Solution Profile
 
