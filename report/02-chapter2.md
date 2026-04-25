@@ -79,7 +79,21 @@ Gimnasio al que asistes regularmente:
 
 ### Registro de entrevistas
 
-[Transcripciones o resúmenes de cada entrevista realizada, con datos del entrevistado y fecha.]
+**Segmento 1: Administrador de Gimnasio y Gerente de Operaciones**
+
+### Entrevista 1: Alexander Gutierrez
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Entrevistado** | Alexander Gutierrez |
+| **Imagen** | *[Espacio para la imagen]* |
+| **Edad** | 31 |
+| **Ocupación** | Administrador de Gimnasio |
+| **Link** | [https://youtu.be/TloRNCtUen8](https://youtu.be/TloRNCtUen8) |
+| **Resumen** | La entrevista presenta a Alexander Gutiérrez, Administrador de gimnasio en Sport Life La Molina, quien comenta que el mantenimiento actual es rápido, salvo cuando requieren repuestos importados. Reconoce que gestionan la congestión en horas pico ofreciendo ejercicios alternativos o pesos libres a los clientes. Señala que un mapa de calor le ayudaría a prever la demanda específica de ciertos días, y que las alertas automáticas de mantenimiento predictivo serían magníficas para anticipar el desgaste de piezas clave (como las fajas de las trotadoras) antes de que se rompan. En cuanto al panel de control, Alexander valora métricas sobre asignación de rutinas, ingreso de invitados y comentarios de post-venta. Considera que la tecnología de cámaras podría generar reservas en adultos mayores, aunque sería bien aceptada por los jóvenes. Finalmente, destaca que un piloto gratuito lo convencería de pagar la suscripción si en 30 días arroja datos precisos sobre los horarios pico y el uso de máquinas de alta demanda, justificando así futuras compras y optimizando la gestión del local. | 
+
+
+
 
 ### Análisis de entrevistas
 
