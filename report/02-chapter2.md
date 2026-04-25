@@ -127,8 +127,24 @@ Gimnasio al que asistes regularmente:
 
 ### User Task Matrix
 
-[Matriz de tareas por usuario, indicando frecuencia e importancia de cada actividad.]
 
+| Tarea | Frecuencia (Alexis) | Importancia (Alexis) | Frecuencia (Andrea) | Importancia (Andrea) |
+| :--- | :--- | :--- | :--- | :--- |
+| Revisar disponibilidad de máquinas en tiempo real | Alta | Alta | Alta | Alta |
+| Identificar máquinas con alto uso/desgaste | Alta | Alta | Baja | Media |
+| Recibir alertas de mantenimiento predictivo | Media | Alta | Baja | Media |
+| Planificar mantenimiento de equipos | Media | Alta | Muy Baja | Media |
+| Analizar estadísticas de uso (dashboard) | Media | Alta | Baja | Media |
+| Reubicar máquinas según demanda | Baja | Alta | Muy Baja | Baja |
+| Consultar mapa de calor antes de ir al gym | Muy Baja | Media | Alta | Alta |
+| Evitar tiempos de espera en máquinas | Baja | Media | Alta | Alta |
+| Buscar máquinas libres dentro del gimnasio | Muy Baja | Baja | Alta | Alta |
+| Recibir notificaciones de disponibilidad | Baja | Media | Media | Alta |
+| Reportar máquinas averiadas | Baja | Media | Media | Media |
+| Tomar decisiones de compra de equipos | Baja | Alta | Muy Baja | Baja |
+| Optimizar distribución del espacio del gimnasio | Baja | Alta | Baja | Media |
+| Reducir quejas por saturación | Media | Alta | Alta | Alta |
+| Mejorar experiencia del usuario final | Media | Alta | Alta | Alta |
 ### User Journey Mapping
 
 [Mapas de viaje del usuario que ilustran las etapas, acciones, emociones y puntos de dolor en la experiencia actual.]
