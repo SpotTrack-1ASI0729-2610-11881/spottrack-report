@@ -115,9 +115,56 @@ Gimnasio al que asistes regularmente:
 | **Link** | [https://youtu.be/VcaT481wHk8?si=4nAQ01GHBRMfj07z](https://youtu.be/VcaT481wHk8?si=4nAQ01GHBRMfj07z) |
 | **Resumen** | Percy, administrador de Smartfit Miraflores con 5 años de experiencia, destaca que en gimnasios de alto volumen el mantenimiento correctivo es mucho más costoso y crítico para la percepción del cliente que el preventivo. Señala que las fallas en máquinas de alta demanda generan cuellos de botella y riesgos de no renovación. Para gestionar la congestión en horas pico, aplica la "gestión de piso", pero reconoce que falta una herramienta visual para que el socio entienda la capacidad del local. Valora enormemente un mapa de calor para redistribuir al staff y optimizar el mix de máquinas basado en datos reales de uso, no en percepciones subjetivas. Considera que las alertas de mantenimiento predictivo cambiarían las reglas del juego al evitar que los equipos queden fuera de servicio. En su panel de control ideal, prioriza el tiempo de inactividad (downtime), la saturación por zona y el ranking de desgaste de equipos. Finalmente, apoya el uso de cámaras con procesamiento Edge si se garantiza la transparencia sobre la privacidad, viendo un gran beneficio en que los socios consulten la disponibilidad desde una app. Un piloto de Fitnote Analytics lo convencería si logra una reducción mínima del 20% en las quejas por disponibilidad y demuestra una alta precisión en la data para mantener la credibilidad ante el usuario. |
 
+#### Entrevistado 4
+<img src="../assets/foto-entrevista-1.png" alt="foto-entrevista-1" width="400" height="150">
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre** | Joan Steffano Quispe Gamez |
+| **Ocupación** | Estudiante universitario (UPC) |
+| **Frecuencia** | 3 a 4 veces por semana |
+| **Horario** | Nocturno (Post-clases) |
+| **Contexto** | Entrena de noche debido a su alta carga académica. |
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQDwUfqEP6J8Sr_AMTcZaW80AVugegqiYVjdOyG2RY3agzs?e=dymEnS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+
+#### Entrevistado 5
+<img src="../assets/foto-entrevista-2.png" alt="foto-entrevista-2" width="400" height="149">
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre** | Fabián Suárez |
+| **Ocupación** | Estudiante y trabajador |
+| **Frecuencia** | 3 a 4 días a la semana (interdiario) |
+| **Duración** | Entre 1 a 2 horas |
+| **Contexto** | Adapta sus entrenamientos según su carga laboral y académica. |
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQA_G4YvOVSuSrJJqjakOjOpAQnSD43pUj6g0topSDxpyg8?e=8sTjzL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+
 ### Análisis de entrevistas
 
-[Síntesis de los hallazgos obtenidos, patrones identificados y conclusiones por segmento.]
+#### Entrevista 4:
+#### Hábitos y Entorno:
+Joan suele asistir en **"hora punta"**, lo que implica una saturación casi total del local. Aunque su intención es seguir una planificación rigurosa, la falta de disponibilidad de equipos lo obliga a **improvisar constantemente**, alterando el orden de su rutina según las máquinas que se van liberando.
+
+#### Frustraciones Principales (Pain Points):
+* **Pérdida de tiempo efectiva:** Esperas prolongadas para usar máquinas o necesidad de buscar pesas desordenadas entre series.
+* **Interrupción del ritmo:** El enfriamiento muscular por las esperas rompe la intensidad del entrenamiento y extiende su permanencia en el gimnasio más de lo previsto.
+* **Infraestructura deficiente:** La presencia de equipos "fuera de servicio" le genera frustración al tener que buscar sustitutos de última hora (ej. cambiar poleas por prensa).
+
+#### Fidelización y Retención:
+Joan manifiesta que la saturación constante y el mantenimiento deficiente de los equipos son factores determinantes para su permanencia; afirma que **preferiría migrar a otro gimnasio** si estas condiciones persisten.
+
+#### Entrevista 5:
+#### Hábitos y Entorno:
+Fabián organiza sus sesiones con una **división muscular estricta** (ej. martes de brazos, jueves de pecho/piernas). Generalmente entrena en horarios de baja afluencia, lo que le permite cumplir su rutina sin interrupciones. Sin embargo, en temporadas de alta demanda (como el verano), opta por **flexibilizar su entrenamiento**, priorizando el área cardiovascular sobre las pesas para evitar aglomeraciones.
+
+#### Frustraciones Principales (Pain Points):
+* **Corte de flujo muscular:** Debido a que entrena zonas específicas por día, la indisponibilidad de una máquina crítica rompe el ritmo de su sesión, afectando la efectividad que busca.
+* **Ineficiencia al compartir equipos:** Considera que alternar máquinas con otros usuarios es una fuente de pérdida de tiempo, principalmente por la necesidad de ajustar pesos y esperar tiempos de descanso ajenos.
+
+#### Fidelización y Retención:
+A diferencia de otros usuarios, Fabián muestra una **fidelidad estable** hacia su centro actual; indica que ni la saturación ocasional ni el estado técnico de los equipos son factores que lo llevarían a cancelar su membresía.
+
+
 
 ## Needfinding
 
