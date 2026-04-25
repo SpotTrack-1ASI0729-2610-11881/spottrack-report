@@ -130,13 +130,20 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 
 
 ### Web Applications Wireflow Diagrams
-[Diagramas que combinan wireframes con flujos de navegación entre pantallas.]
+![TASKFLOW-07](../assets/TASKFLOWS/TASKFLOW-07.jpg)
+![TASKFLOW-08](../assets/TASKFLOWS/TASKFLOW-08.jpg)
+![TASKFLOW-09](../assets/TASKFLOWS/TASKFLOW-09.jpg)
+![TASKFLOW-10](../assets/TASKFLOWS/TASKFLOW-10.jpg)
+![TASKFLOW-11](../assets/TASKFLOWS/TASKFLOW-11.jpg)
+![TASKFLOW-12](../assets/TASKFLOWS/TASKFLOW-12.jpg)
+![TASKFLOW-13](../assets/TASKFLOWS/TASKFLOW-13.jpg)
+![TASKFLOW-14](../assets/TASKFLOWS/TASKFLOW-14.jpg)
 
 ### Web Applications Mock-ups
 [Mock-ups de alta fidelidad de las pantallas de la aplicación web.]
 
 ### Web Applications User Flow Diagrams
-[Diagramas de flujo de usuario que representan los caminos posibles dentro de la aplicación.]
+    [Diagramas de flujo de usuario que representan los caminos posibles dentro de la aplicación.]
 
 ## Web Applications Prototyping
 [Descripción y enlace al prototipo interactivo de la aplicación web, con escenarios de prueba definidos.]
