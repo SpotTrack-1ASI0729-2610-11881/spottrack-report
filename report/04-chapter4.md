@@ -139,7 +139,7 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 ![WF-08](../assets/WIREFLOWS/US08%20Gestión%20de%20preferencias%20y%20perfil%20(Epic_%20EP02).png)
 ![TASKFLOW-09](../assets/TASKFLOWS/TASKFLOW-09.jpg)
 ![WFM-09](../assets/WIREFLOWS%20MOBILE/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
-![WF-09](../assets/USERFLOWS/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
+![WF-O9](../assets/WIREFLOWS/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
 ![TASKFLOW-10](../assets/TASKFLOWS/TASKFLOW-10.jpg)
 ![WFM-10](../assets/WIREFLOWS%20MOBILE/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
 ![WF-10](../assets/WIREFLOWS/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
@@ -164,6 +164,9 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 
 ## Web Applications Prototyping
 [Descripción y enlace al prototipo interactivo de la aplicación web, con escenarios de prueba definidos.]
+
+    
+
 
 ## Domain-Driven Software Architecture
 
