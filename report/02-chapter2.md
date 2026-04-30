@@ -94,7 +94,7 @@ Gimnasio al que asistes regularmente:
 | Campo | Detalle |
 | :--- | :--- |
 | **Entrevistado** | Alexander Gutierrez |
-| **Imagen** | *[Espacio para la imagen]* |
+| **Imagen** | <img src="../assets/EntrevistaAlexander.jpeg" alt="EntrevistaAlexander" width="400" height="150"> |
 | **Edad** | 31 |
 | **Ocupación** | Administrador de Gimnasio |
 | **Link** | [https://youtu.be/TloRNCtUen8](https://youtu.be/TloRNCtUen8) |
@@ -106,7 +106,7 @@ Gimnasio al que asistes regularmente:
 | Campo | Detalle |
 | :--- | :--- |
 | **Entrevistado** | Luis Romero |
-| **Imagen** | *[Espacio para la imagen]* |
+| **Imagen** | <img src="../assets/EntrevistaLuis.jpeg" alt="EntrevistaLuis" width="400" height="150">|
 | **Edad** | 51 |
 | **Ocupación** | Administrador de Gimnasio |
 | **Link** | [https://youtu.be/HjYWVshhpdE?si=Jyhb6aqMUrhtSwiW](https://youtu.be/HjYWVshhpdE?si=Jyhb6aqMUrhtSwiW) |
@@ -117,7 +117,7 @@ Gimnasio al que asistes regularmente:
 | Campo | Detalle |
 | :--- | :--- |
 | **Entrevistado** | Percy Baraybar |
-| **Imagen** | *[Espacio para la imagen]* |
+| **Imagen** | <img src="../assets/EntrevistaPercy.jpeg" alt="EntrevistaPercy" width="400" height="150">|
 | **Edad** | 30 |
 | **Ocupación** | Administrador de Gimnasio |
 | **Link** | [https://youtu.be/VcaT481wHk8?si=4nAQ01GHBRMfj07z](https://youtu.be/VcaT481wHk8?si=4nAQ01GHBRMfj07z) |
