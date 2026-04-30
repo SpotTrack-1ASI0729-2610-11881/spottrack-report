@@ -168,3 +168,130 @@ A lo largo de esta primera iteración del proyecto SpotTrack, logramos consolida
 
 #### Team Collaboration Insights during Sprint
 
+### Sprint 2
+
+#### Sprint Planning 2
+
+El presente apartado detalla los acuerdos y objetivos definidos durante el Sprint Planning Meeting de nuestra segunda iteración. Para este Sprint, el equipo se enfocó en dos frentes de trabajo simultáneos: (1) la corrección y completitud de todos los artefactos pendientes del Sprint 1, incluyendo el despliegue completo de la Landing Page; y (2) el inicio del desarrollo frontend de la Web Application principal (Angular), empleando una Fake API (JSON Server) como capa de datos simulada para desacoplar el desarrollo frontend del backend real, cuya implementación se reserva para el Sprint 3.
+
+| Aspect | Details |
+| :--- | :--- |
+| **Sprint #** | Sprint 2 |
+| **Date** | 2026-05-08 |
+| **Time** | 10:00 AM |
+| **Location** | Reunión Virtual (Discord / Microsoft Teams) |
+| **Prepared By** | Azama Fukuda, Juan Pablo |
+| **Attendees (to planning meeting)** | Atoche Gonzales, Nicolas Fernando / Azama Fukuda, Juan Pablo / Cataño Zarate, Jesus Miguel / Espinoza Orrego, Valentino Andre / Fernández Linares, Alvaro Sebastian |
+| **Sprint n – 1 Review Summary** | Sprint 1 entregó los artefactos fundacionales de Lean UX, DDD, diseño UX/UI en Figma y el inicio de la Landing Page (Hero Section y Header). Sin embargo, quedaron pendientes el despliegue, las secciones de módulos, precios y contacto de la Landing Page, así como diversas secciones de documentación del informe. |
+| **Sprint n – 1 Retrospective Summary** | El equipo identificó que la carga de trabajo de documentación y diseño subestimó el tiempo necesario. Para este Sprint 2 se priorizará paralelizar la corrección de Sprint 1 con el inicio del desarrollo de la Web App, asignando responsables claros por cada frente. |
+| **Sprint Goal** | Nuestro enfoque es completar todos los artefactos pendientes del Sprint 1 (correcciones de documentación y Landing Page completa) e iniciar el desarrollo frontend de la Web Application de SpotTrack consumiendo una Fake API, implementando las vistas de autenticación, mapa de calor, gestión de activos, alertas de mantenimiento y sugerencias de rutinas. Esto se confirmará cuando la Landing Page esté desplegada y funcional con todas sus secciones, y las vistas frontend de las User Stories priorizadas estén implementadas y navegables en el entorno de desarrollo local. |
+| **Sprint n Velocity** | 58 Story Points |
+| **Sum of Story Points** | 58 |
+
+#### Aspect Leaders and Collaborators
+
+Para este Sprint 2, el equipo adoptó una estructura dual de trabajo: un subequipo dedicado a las correcciones del Sprint 1 (documentación + Landing Page) y otro enfocado en el desarrollo frontend de la Web Application. Esta división permite avanzar en paralelo sin bloqueos entre tareas de distinta naturaleza.
+
+| Team Member (Last Name, First Name) | GitHub Username | Aspect 1: Sprint 1 Corrections Leader (L) / Collaborator (C) | Aspect 2: Angular App Setup & Auth Leader (L) / Collaborator (C) | Aspect 3: Client App Frontend (Heatmap & Routines) Leader (L) / Collaborator (C) | Aspect 4: Admin Dashboard Frontend Leader (L) / Collaborator (C) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Azama Fukuda, Juan Pablo | llummo | Corrections (C) | Angular App Setup (L) | Client App (C) | Admin Dashboard (C) |
+| Atoche Gonzales, Nicolas Fernando | THECOMAX | Corrections (C) | Fake API Config (L) | Client App (C) | Admin Dashboard (C) |
+| Cataño Zarate, Jesus Miguel | jcuz1510 | Landing Page Completion (L) | Angular App Setup (C) | Client App (C) | Admin Dashboard (C) |
+| Espinoza Orrego, Valentino Andre | valentinoespinoza13 | Corrections (C) | Angular App Setup (C) | Client App (C) | Admin Dashboard (L) |
+| Fernández Linares, Alvaro Sebastian | ORION-tech-c | Corrections (L) | Angular App Setup (C) | Client App (L) | Admin Dashboard (C) |
+
+#### Sprint Backlog
+
+> **Nota:** Las tareas de corrección (prefijo `CORR-`) y las de infraestructura (prefijo `SETUP-`) son **storyless** — no corresponden a ninguna User Story y no tienen Story Points asignados, pero son obligatorias para subsanar deficiencias del Sprint anterior y preparar el entorno de desarrollo.
+
+---
+
+**Tareas de Corrección Sprint 1 (Storyless)**
+
+| Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| - | Corrección Sprint 1 | CORR-01 | Completar sección "The Solution" en Landing Page | Maquetar las seis tarjetas de soluciones del sistema (US-03 pendiente) con HTML/CSS responsivo. | 3 hrs | Cataño | To-Do |
+| - | Corrección Sprint 1 | CORR-02 | Completar Pricing Table en Landing Page | Implementar la tabla comparativa de planes SaaS Basic/Mid/Platinum con CTAs (US-04 pendiente). | 3 hrs | Cataño | To-Do |
+| - | Corrección Sprint 1 | CORR-03 | Completar formulario de Contacto en Landing Page | Codificar el formulario de contacto con validaciones JavaScript (US-05 pendiente). | 3 hrs | Espinoza | To-Do |
+| - | Corrección Sprint 1 | CORR-04 | Completar Navbar y Footer de Landing Page | Implementar la barra de navegación sticky con anchor links y el footer con enlaces institucionales (US-06 pendiente). | 3 hrs | Fernández | To-Do |
+| - | Corrección Sprint 1 | CORR-05 | Despliegue de Landing Page en producción | Configurar y publicar la Landing Page en Vercel o GitHub Pages (T08 pendiente). Documentar el enlace de producción. | 2 hrs | Azama | To-Do |
+| - | Corrección Sprint 1 | CORR-06 | Completar Diagrama de Base de Datos ERD y Diagrama de Clases | Finalizar y subir el ERD y el Diagrama de Clases UML al repositorio (T04 pendiente). Actualizar referencias en el informe. | 4 hrs | Atoche / Cataño | To-Do |
+| - | Corrección Sprint 1 | CORR-07 | Completar evidencias del Sprint 1 en el informe | Añadir capturas de pantalla de la Landing Page, commits reales y métricas de GitHub Insights en las secciones Development Evidence, Execution Evidence y Team Collaboration Insights. | 2 hrs | Espinoza / Fernández | To-Do |
+| - | Corrección Sprint 1 | CORR-08 | Completar Big Picture Event Storming (Capítulo II) | Elaborar y añadir el Big Picture Event Storming al Capítulo II (sección actualmente vacía). | 3 hrs | Atoche | To-Do |
+| - | Corrección Sprint 1 | CORR-09 | Completar sección Software Deployment Configuration (Capítulo V) | Redactar la descripción del entorno de despliegue, pipelines CI/CD y hosting utilizados. | 1 hr | Azama | To-Do |
+| - | Corrección Sprint 1 | CORR-10 | Completar Project Report Collaboration Insights (Capítulo 0) | Añadir la descripción de la colaboración del equipo en el desarrollo del informe con evidencia de GitHub. | 1 hr | Espinoza | To-Do |
+| - | Corrección Sprint 1 | CORR-11 | Agregar Student Outcome de Cataño Zárate (Capítulo 0) | Añadir las entradas de "Comunica oralmente" y "Comunica por escrito" para Jesús Miguel Cataño Zárate, actualmente ausentes de la tabla. | 1 hr | Cataño | To-Do |
+| - | Corrección Sprint 1 | CORR-12 | Estandarizar análisis de entrevistas 4 y 5 | Añadir el campo "Resumen" completo a las entrevistas de Joan Steffano Quispe (Entrevistado 4) y Fabián Suárez (Entrevistado 5), siguiendo el mismo formato de las entrevistas 1–3. | 2 hrs | Fernández | To-Do |
+| - | Corrección Sprint 1 | CORR-13 | Subir fotos faltantes de integrantes del equipo | Agregar al repositorio las imágenes `foto-valentino.jpeg`, `foto-nicolas.png` y `foto-jesus-c.png`, referenciadas en el Capítulo I pero ausentes en la carpeta assets. | 1 hr | Azama / Cataño | To-Do |
+| - | Corrección Sprint 1 | CORR-14 | Corregir inconsistencia de tech stack (ASP.NET vs Spring Boot) | En el Sprint 1 Backlog, la tarea T05 menciona "ASP.NET Core" como backend, pero el tech stack oficial declara Spring Boot. Corregir la descripción de T05 en el informe. | 0.5 hrs | Azama | To-Do |
+| - | Corrección Sprint 1 | CORR-15 | Corregir nombre de marca en análisis competitivo | La tabla de análisis competitivo usa "FitNode Analytics" (nombre antiguo) en lugar de "SpotTrack". Actualizar todas las instancias en el Capítulo II. | 0.5 hrs | Espinoza | To-Do |
+
+---
+
+**Tareas de Infraestructura y Setup (Storyless)**
+
+| Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| - | Setup Web App | SETUP-01 | Crear proyecto Angular con estructura por Bounded Contexts | Inicializar el proyecto Angular (ng new spottrack-app), configurar la estructura de carpetas por bounded context: `auth/`, `heatmap/`, `admin/`, `maintenance/`, `assets-management/`, `routines/`, `shared/`. | 3 hrs | Azama | To-Do |
+| - | Setup Web App | SETUP-02 | Configurar JSON Server como Fake API | Instalar y configurar `json-server` con un `db.json` que contenga datos seed para: `users`, `machines`, `branches`, `alerts`, `tickets`, `reservations`, `routines/alternatives`, `telemetry`. Exponer en `localhost:3000`. | 3 hrs | Atoche | To-Do |
+| - | Setup Web App | SETUP-03 | Configurar routing, guards e interceptores HTTP en Angular | Configurar `AppRoutingModule` con rutas protegidas para los módulos admin y client, implementar `AuthGuard`, `RoleGuard` y el `JwtInterceptor` que añade el token al header. Configurar `HttpClientModule` con `baseUrl` apuntando a JSON Server. | 4 hrs | Azama / Atoche | To-Do |
+| - | Setup Web App | SETUP-04 | Documentar Sprint 2 Planning, Backlog y evidencias en el informe | Redactar las secciones de Sprint Planning 2, Aspect Leaders y Sprint Backlog en el Capítulo V. Al finalizar el sprint, completar Development Evidence, Execution Evidence y Team Collaboration Insights. | 3 hrs | Espinoza | To-Do |
+
+---
+
+**User Stories — Desarrollo Frontend con Fake API**
+
+| Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| US-07 | Inicio de sesión con validación JWT | T-S2-01 | Componente LoginComponent | Implementar el formulario de login con campos email y password, validaciones reactivas (Validators.required, Validators.email) y estados de error visual. Maquetar según el mockup US07. | 4 hrs | Azama | To-Do |
+| US-07 | Inicio de sesión con validación JWT | T-S2-02 | AuthService + Fake API /users | Implementar `AuthService` con método `login(email, password)` que consulta `GET /users` en JSON Server, simula validación de credenciales, genera un mock JWT y guarda el token en `localStorage`. | 3 hrs | Atoche | To-Do |
+| US-07 | Inicio de sesión con validación JWT | T-S2-03 | AuthGuard y redirección por rol | Implementar `AuthGuard` que lee el token del `localStorage` y `RoleGuard` que redirige al admin al dashboard (`/admin`) y al cliente al mapa de calor (`/app/heatmap`). | 2 hrs | Azama | To-Do |
+| US-08 | Gestión de preferencias y perfil | T-S2-04 | Componente ProfileComponent | Implementar la vista de perfil con formulario de edición de datos personales (nombre, teléfono, idioma) y sección de plan activo. Maquetar según el mockup US08. | 3 hrs | Fernández | To-Do |
+| US-08 | Gestión de preferencias y perfil | T-S2-05 | ProfileService + Fake API /users/{id} | Implementar `ProfileService` con métodos `getProfile(id)` (`GET /users/:id`) y `updateProfile(id, data)` (`PUT /users/:id`) contra JSON Server. | 2 hrs | Atoche | To-Do |
+| US-09 | Visualización del mapa de calor en vivo | T-S2-06 | Componente HeatMapComponent | Implementar el grid visual de máquinas con indicadores de color semaforizado: verde (libre), rojo (ocupado), amarillo (reservado), gris (mantenimiento). Maquetar según mockup US09. Diseño responsivo con grid CSS. | 6 hrs | Fernández | To-Do |
+| US-09 | Visualización del mapa de calor en vivo | T-S2-07 | MachineService + Fake API /machines?branchId | Implementar `MachineService` con `getMachines(branchId)` (`GET /machines?branchId=1`) y `getMachineById(id)` (`GET /machines/:id`). | 2 hrs | Atoche | To-Do |
+| US-09 | Visualización del mapa de calor en vivo | T-S2-08 | Polling para simulación de tiempo real | Implementar un intervalo de polling con `rxjs/interval` + `switchMap` cada 5 segundos al endpoint de máquinas para simular actualizaciones en tiempo real del estado del mapa. | 2 hrs | Fernández | To-Do |
+| US-10 | Filtrado del inventario por tipo de máquina | T-S2-09 | Componente FilterChipsComponent | Implementar el componente de chips de filtro con opciones: "Todos", "Fuerza", "Cardio", "Funcional". Al seleccionar, emite un evento con la categoría activa. | 2 hrs | Espinoza | To-Do |
+| US-10 | Filtrado del inventario por tipo de máquina | T-S2-10 | Integración de filtros reactivos en HeatMapComponent | Conectar `FilterChipsComponent` con `HeatMapComponent` usando un `BehaviorSubject` para filtrar el array de máquinas reactivamente sin nueva petición al servidor. | 2 hrs | Espinoza | To-Do |
+| US-14 | Motor de sugerencia de rutinas alternativas | T-S2-11 | Componente RoutineSuggestionsComponent | Implementar el modal/panel de sugerencias de rutinas alternativas que recibe el grupo muscular objetivo y lista los ejercicios sugeridos con máquinas disponibles. Maquetar según mockup US14. | 4 hrs | Fernández | To-Do |
+| US-14 | Motor de sugerencia de rutinas alternativas | T-S2-12 | RoutineService + Fake API /routines/alternatives | Implementar `RoutineService` con `getAlternatives(muscleGroup, branchId)` que consulta `GET /routines/alternatives?muscleGroup=chest` en JSON Server con datos seed de ejercicios por grupo muscular. | 3 hrs | Atoche | To-Do |
+| US-16 | Sistema de reserva exprés en horas pico | T-S2-13 | Botón "Separar" y estado visual amarillo | Implementar el botón "Separar" en la tarjeta de máquina del HeatMapComponent que cambia el estado de la máquina a amarillo (reservado) en la UI al ser pulsado. | 2 hrs | Fernández | To-Do |
+| US-16 | Sistema de reserva exprés en horas pico | T-S2-14 | Countdown timer de 10 minutos con liberación automática | Implementar un countdown timer visible (MM:SS) usando `rxjs/timer` que, al expirar, llama al servicio para cancelar la reserva y revierte el estado de la máquina a verde (libre). | 3 hrs | Espinoza | To-Do |
+| US-16 | Sistema de reserva exprés en horas pico | T-S2-15 | ReservationService + Fake API /reservations | Implementar `ReservationService` con `createReservation(machineId)` (`POST /reservations`) y `cancelReservation(id)` (`DELETE /reservations/:id`) contra JSON Server. | 2 hrs | Atoche | To-Do |
+| US-17 | Acumulación automática de horas de uso | T-S2-16 | Componente UsageStatsComponent | Implementar el componente de estadísticas con un gráfico de barras por máquina (ng2-charts / chart.js) que muestra horas de uso acumuladas. Incluye filtro de rango de fechas. Maquetar según mockup US17. | 5 hrs | Espinoza | To-Do |
+| US-17 | Acumulación automática de horas de uso | T-S2-17 | TelemetryService + Fake API /telemetry | Implementar `TelemetryService` con `getUsageHistory(branchId, startDate, endDate)` (`GET /telemetry?branchId=1&_gte=...&_lte=...`) contra JSON Server. | 2 hrs | Atoche | To-Do |
+| US-22 | Alerta predictiva de mantenimiento | T-S2-18 | Componente AlertsPanelComponent | Implementar el panel de alertas de mantenimiento predictivo con lista de alertas (prioridad alta/media/baja), nombre de máquina, horas acumuladas y acción "Asignar a soporte". Maquetar según mockup US22. | 4 hrs | Espinoza | To-Do |
+| US-22 | Alerta predictiva de mantenimiento | T-S2-19 | AlertService + Fake API /alerts | Implementar `AlertService` con `getAlerts(branchId)` (`GET /alerts?branchId=1`) y `acknowledgeAlert(id)` (`PATCH /alerts/:id`) contra JSON Server. Incluir seed de alertas de prueba con distintos niveles de urgencia. | 3 hrs | Atoche | To-Do |
+| US-26 | Gestión de activos físicos y altas | T-S2-20 | Componente AssetManagementComponent | Implementar la tabla de inventario de máquinas con acciones de alta (modal de formulario), edición y baja lógica. Incluir columnas: ID, nombre, tipo, sede, estado IoT, horas totales. Maquetar según mockup US26. | 5 hrs | Cataño | To-Do |
+| US-26 | Gestión de activos físicos y altas | T-S2-21 | AssetService + Fake API /machines CRUD | Implementar `AssetService` con `createMachine(data)` (`POST /machines`), `updateMachine(id, data)` (`PUT /machines/:id`) y `deleteMachine(id)` (`DELETE /machines/:id`) contra JSON Server. | 3 hrs | Atoche | To-Do |
+
+#### Development Evidence for Sprint Review
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| SpotTrack-1ASI0729-2610-11881/SpotTrack-Landing-Page | feature/solution-section | - | feat(solution): add solution modules section | - | - |
+| SpotTrack-1ASI0729-2610-11881/SpotTrack-Landing-Page | feature/pricing-section | - | feat(pricing): add pricing table SaaS plans | - | - |
+| SpotTrack-1ASI0729-2610-11881/SpotTrack-Landing-Page | feature/contact-form | - | feat(contact): add contact form with validations | - | - |
+| SpotTrack-1ASI0729-2610-11881/SpotTrack-Landing-Page | feature/navbar-footer | - | feat(nav): add sticky navbar and footer | - | - |
+| SpotTrack-1ASI0729-2610-11881/SpotTrack-Web-App | feature/app-setup | - | chore: initialize angular project structure | - | - |
+| SpotTrack-1ASI0729-2610-11881/SpotTrack-Web-App | feature/fake-api | - | chore(api): add json-server fake api with seed data | - | - |
+| SpotTrack-1ASI0729-2610-11881/SpotTrack-Web-App | feature/auth | - | feat(auth): implement login component and auth service | - | - |
+| SpotTrack-1ASI0729-2610-11881/SpotTrack-Web-App | feature/heatmap | - | feat(heatmap): implement heat map component with machine status | - | - |
+| SpotTrack-1ASI0729-2610-11881/SpotTrack-Web-App | feature/admin-dashboard | - | feat(admin): implement alerts panel and asset management | - | - |
+
+#### Execution Evidence for Sprint Review
+
+[Añadir capturas de pantalla de la Landing Page desplegada con todas sus secciones, y del Web App Angular mostrando: vista de Login, Mapa de Calor con indicadores semaforizados, panel de Alertas de Mantenimiento y tabla de Gestión de Activos.]
+
+#### Services Documentation Evidence for Sprint Review
+
+[Documentar los endpoints de la Fake API (JSON Server) con sus rutas, métodos HTTP, ejemplos de request y response, y el `db.json` con estructura de datos seed utilizada para el desarrollo frontend.]
+
+#### Software Deployment Evidence for Sprint Review
+
+[Documentar el enlace de producción de la Landing Page desplegada (Vercel/GitHub Pages) y el repositorio del Web App Angular con instrucciones para levantar el entorno local (`json-server` + `ng serve`).]
+
+#### Team Collaboration Insights during Sprint
+
+[Añadir capturas del gráfico de contribuciones de GitHub (Insights > Contributors) para los repositorios SpotTrack-Landing-Page y SpotTrack-Web-App durante el periodo del Sprint 2.]
+
