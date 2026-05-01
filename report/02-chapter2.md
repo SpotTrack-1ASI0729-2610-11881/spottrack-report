@@ -94,7 +94,7 @@ Gimnasio al que asistes regularmente:
 | Campo | Detalle |
 | :--- | :--- |
 | **Entrevistado** | Alexander Gutierrez |
-| **Imagen** | <img src="../assets/EntrevistaAlexander.jpeg" alt="EntrevistaAlexander" width="400" height="150"> |
+| **Imagen** | ![EntrevistaAlexander](../assets/EntrevistaAlexander.jpeg){width=80%} |
 | **Edad** | 31 |
 | **Ocupación** | Administrador de Gimnasio |
 | **Link** | [https://youtu.be/TloRNCtUen8](https://youtu.be/TloRNCtUen8) |
@@ -106,7 +106,7 @@ Gimnasio al que asistes regularmente:
 | Campo | Detalle |
 | :--- | :--- |
 | **Entrevistado** | Luis Romero |
-| **Imagen** | <img src="../assets/EntrevistaLuis.jpeg" alt="EntrevistaLuis" width="400" height="150">|
+| **Imagen** | ![EntrevistaLuis](../assets/EntrevistaLuis.jpeg){width=80%} |
 | **Edad** | 51 |
 | **Ocupación** | Administrador de Gimnasio |
 | **Link** | [https://youtu.be/HjYWVshhpdE?si=Jyhb6aqMUrhtSwiW](https://youtu.be/HjYWVshhpdE?si=Jyhb6aqMUrhtSwiW) |
@@ -117,14 +117,14 @@ Gimnasio al que asistes regularmente:
 | Campo | Detalle |
 | :--- | :--- |
 | **Entrevistado** | Percy Baraybar |
-| **Imagen** | <img src="../assets/EntrevistaPercy.jpeg" alt="EntrevistaPercy" width="400" height="150">|
+| **Imagen** | ![EntrevistaPercy](../assets/EntrevistaPercy.jpeg){width=80%} |
 | **Edad** | 30 |
 | **Ocupación** | Administrador de Gimnasio |
 | **Link** | [https://youtu.be/VcaT481wHk8?si=4nAQ01GHBRMfj07z](https://youtu.be/VcaT481wHk8?si=4nAQ01GHBRMfj07z) |
 | **Resumen** | Percy, administrador de Smartfit Miraflores con 5 años de experiencia, destaca que en gimnasios de alto volumen el mantenimiento correctivo es mucho más costoso y crítico para la percepción del cliente que el preventivo. Señala que las fallas en máquinas de alta demanda generan cuellos de botella y riesgos de no renovación. Para gestionar la congestión en horas pico, aplica la "gestión de piso", pero reconoce que falta una herramienta visual para que el socio entienda la capacidad del local. Valora enormemente un mapa de calor para redistribuir al staff y optimizar el mix de máquinas basado en datos reales de uso, no en percepciones subjetivas. Considera que las alertas de mantenimiento predictivo cambiarían las reglas del juego al evitar que los equipos queden fuera de servicio. En su panel de control ideal, prioriza el tiempo de inactividad (downtime), la saturación por zona y el ranking de desgaste de equipos. Finalmente, apoya el uso de cámaras con procesamiento Edge si se garantiza la transparencia sobre la privacidad, viendo un gran beneficio en que los socios consulten la disponibilidad desde una app. Un piloto de Fitnote Analytics lo convencería si logra una reducción mínima del 20% en las quejas por disponibilidad y demuestra una alta precisión en la data para mantener la credibilidad ante el usuario. |
 
 #### Entrevistado 4
-<img src="../assets/foto-entrevista-1.png" alt="foto-entrevista-1" width="400" height="150">
+![foto-entrevista-1](../assets/foto-entrevista-1.png){width=80%}
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -136,7 +136,7 @@ Gimnasio al que asistes regularmente:
 | **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQDwUfqEP6J8Sr_AMTcZaW80AVugegqiYVjdOyG2RY3agzs?e=dymEnS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
 #### Entrevistado 5
-<img src="../assets/foto-entrevista-2.png" alt="foto-entrevista-2" width="400" height="149">
+![foto-entrevista-2](../assets/foto-entrevista-2.png){width=80%}
 
 | Campo | Detalle |
 | :--- | :--- |

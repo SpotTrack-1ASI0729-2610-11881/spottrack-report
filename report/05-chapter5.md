@@ -6,9 +6,7 @@
 
 **Figma**
 
-<p align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjih1p5gfTNIjPJ8wUgngz7_k8tUFdhHG42g&s" alt="Figma-logo" width="150">
-</p>
+![Figma-logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjih1p5gfTNIjPJ8wUgngz7_k8tUFdhHG42g&s){width=150px}
 
 Producto SaaS utilizado para la elaboración de la propuesta de diseño de interfaces (UX/UI), incluyendo la creación de Wireframes, Mock-ups y Prototipos interactivos para el Landing Page y las aplicaciones web. Permite la colaboración en tiempo real del equipo de diseño.
 
@@ -16,9 +14,7 @@ Producto SaaS utilizado para la elaboración de la propuesta de diseño de inter
 
 **HTML5 & CSS3**
 
-<p align="center">
-  <img src="https://i.pinimg.com/736x/fe/57/10/fe571020f2e476bca20e1ae6441569ec.jpg" alt="html_css-logo" width="150">
-</p>
+![html_css-logo](https://i.pinimg.com/736x/fe/57/10/fe571020f2e476bca20e1ae6441569ec.jpg){width=150px}
 
 Lenguajes estándar de marcado y hojas de estilo utilizados para definir la estructura semántica y el diseño visual estático de los templates en el Landing Page y los componentes de las Frontend Web Applications.
 
@@ -26,9 +22,7 @@ Lenguajes estándar de marcado y hojas de estilo utilizados para definir la estr
 
 **Angular Framework**
 
-<p align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVUcQofbdW28AoTCjLFzojT7sSZQVsEurWQA&s" alt="angular-logo" width="150">
-</p>
+![angular-logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVUcQofbdW28AoTCjLFzojT7sSZQVsEurWQA&s){width=150px}
 
 Framework de desarrollo principal para la construcción de las Frontend Web Applications en formato SPA (Single Page Application). Se encarga de la lógica de presentación en el lado del cliente, el enrutamiento y el consumo de la API RESTful utilizando TypeScript como lenguaje de programación.
 
@@ -36,9 +30,7 @@ Framework de desarrollo principal para la construcción de las Frontend Web Appl
 
 **Miro**
 
-<p align="center">
-  <img src="https://asset.brandfetch.io/idAnDTFapY/idDdbxxs3M.png" alt="miro-logo" width="150">
-</p>
+![miro-logo](https://asset.brandfetch.io/idAnDTFapY/idDdbxxs3M.png){width=150px}
 
 Plataforma de pizarra virtual (SaaS) empleada para las sesiones colaborativas de análisis de dominio y la elaboración de los diagramas de Big Picture EventStorming y Design-Level EventStorming.
 
@@ -46,9 +38,7 @@ Plataforma de pizarra virtual (SaaS) empleada para las sesiones colaborativas de
 
 **Structurizr**
 
-<p align="center">
-  <img src="https://www.nuget.org/profiles/structurizr/avatar?imageSize=512" alt="structurizr-logo" width="150">
-</p>
+![structurizr-logo](https://www.nuget.org/profiles/structurizr/avatar?imageSize=512){width=150px}
 
 Herramienta de modelado utilizada para el diseño y la documentación de la arquitectura de software de la solución, aplicando estrictamente el C4 Model (Context, Container y Component diagrams).
 
@@ -56,9 +46,7 @@ Herramienta de modelado utilizada para el diseño y la documentación de la arqu
 
 **Microsoft SQL Server**
 
-<p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968364.png" alt="sql-logo" width="150">
-</p>
+![sql-logo](https://cdn-icons-png.flaticon.com/512/5968/5968364.png){width=150px}
 
 Sistema de Gestión de Bases de Datos Relacionales (RDBMS) utilizado para el diseño y almacenamiento persistente de los datos transaccionales de los Bounded Contexts del sistema. Soporta la integridad referencial y las consultas estructuradas necesarias para la lógica del backend.
 
@@ -66,9 +54,7 @@ Sistema de Gestión de Bases de Datos Relacionales (RDBMS) utilizado para el dis
 
 **Spring Boot (Java)**
 
-<p align="center">
-  <img src="https://e4developer.com/posts/microservices-toolbox-spring-boot/images/spring-boot.png" alt="springboot-logo" width="150">
-</p>
+![springboot-logo](https://e4developer.com/posts/microservices-toolbox-spring-boot/images/spring-boot.png){width=150px}
 
 Framework backend basado en Java utilizado para la construcción, configuración y despliegue de los RESTful Web Services. Gestiona la lógica de negocio, la seguridad, las transacciones y la exposición de los endpoints que serán consumidos por las aplicaciones web.
 

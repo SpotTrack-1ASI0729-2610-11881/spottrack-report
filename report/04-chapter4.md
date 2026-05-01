@@ -160,10 +160,10 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 √≠conos de acceso r√
 
 
 ### Landing Page Wireframe
-<img src="../assets/WIREFRAMES/landing_wireframe.png" width="600">
+![Landing Wireframe](../assets/WIREFRAMES/landing_wireframe.png){width=100%}
 
 ### Landing Page Mock-up
-<img src="../assets/MOCKUPS/landing_mockup.png" width="600">
+![Landing Mockup](../assets/MOCKUPS/landing_mockup.png){width=100%}
 
 ## Web Applications UX/UI Design
 
