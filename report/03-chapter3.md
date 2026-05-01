@@ -1,9 +1,5 @@
 # Capítulo III: Requirements Specification
 
-## Impact Mapping
-
-![IMPACT MAPPING](../assets/NEEDFINDING%20ARTEFACTS/IMPACT%20MAPPING.png)
-
 ## User Stories
 
 ### 3.1. Épicas del Proyecto
@@ -126,6 +122,10 @@
 | **TS26** | Calcular impacto financiero por inactividad API | Como Developer, quiero implementar el endpoint GET /api/v1/analytics/financial-impact, para procesar métricas que conviertan horas muertas en estimaciones monetarias. | **Escenario 1: Cálculo matemático de pérdida exitoso**<br>**Given** que un equipo registra un periodo contabilizado de inactividad técnica (Downtime).<br>**When** el cliente envía un request GET al módulo de finanzas de dicho equipo.<br>**Then** el sistema retorna un JSON con la estimación monetaria de pérdida calculada y un status 200 OK. | EP08 |
 | **TS27** | Simular Retorno de Inversión / ROI API | Como Developer, quiero implementar el endpoint POST /api/v1/analytics/roi-projection, para correr simulaciones de rentabilidad de compra basadas en telemetría de estrés. | **Escenario 1: Simulación de ROI y recuperación**<br>**Given** que existe una demanda insatisfecha proyectada e identificada para un modelo de equipo.<br>**When** el cliente envía un request POST adjuntando el costo de adquisición de la nueva máquina.<br>**Then** el sistema devuelve un objeto JSON con la proyección de recuperación de inversión en meses y un status 200 OK. | EP08 |
 
+
+## Impact Mapping
+
+![IMPACT MAPPING](../assets/NEEDFINDING%20ARTEFACTS/IMPACT%20MAPPING.png)
 
 
 ## Product Backlog
