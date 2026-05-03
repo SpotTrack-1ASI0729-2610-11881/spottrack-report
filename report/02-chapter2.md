@@ -124,11 +124,13 @@ Gimnasio al que asistes regularmente:
 | **Resumen** | Percy, administrador de Smartfit Miraflores con 5 años de experiencia, destaca que en gimnasios de alto volumen el mantenimiento correctivo es mucho más costoso y crítico para la percepción del cliente que el preventivo. Señala que las fallas en máquinas de alta demanda generan cuellos de botella y riesgos de no renovación. Para gestionar la congestión en horas pico, aplica la "gestión de piso", pero reconoce que falta una herramienta visual para que el socio entienda la capacidad del local. Valora enormemente un mapa de calor para redistribuir al staff y optimizar el mix de máquinas basado en datos reales de uso, no en percepciones subjetivas. Considera que las alertas de mantenimiento predictivo cambiarían las reglas del juego al evitar que los equipos queden fuera de servicio. En su panel de control ideal, prioriza el tiempo de inactividad (downtime), la saturación por zona y el ranking de desgaste de equipos. Finalmente, apoya el uso de cámaras con procesamiento Edge si se garantiza la transparencia sobre la privacidad, viendo un gran beneficio en que los socios consulten la disponibilidad desde una app. Un piloto de Fitnote Analytics lo convencería si logra una reducción mínima del 20% en las quejas por disponibilidad y demuestra una alta precisión en la data para mantener la credibilidad ante el usuario. |
 
 #### Entrevistado 4
-![foto-entrevista-1](../assets/foto-entrevista-1.png){width=80%}
+![foto-entrevista-4](../assets/foto-entrevista-1.png){width=80%}
 
 | Campo | Detalle |
 | :--- | :--- |
 | **Nombre** | Joan Steffano Quispe Gamez |
+| **Edad** | 19 |
+| **Distrito** | Los Olivos |
 | **Ocupación** | Estudiante universitario (UPC) |
 | **Frecuencia** | 3 a 4 veces por semana |
 | **Horario** | Nocturno (Post-clases) |
@@ -136,43 +138,59 @@ Gimnasio al que asistes regularmente:
 | **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQDwUfqEP6J8Sr_AMTcZaW80AVugegqiYVjdOyG2RY3agzs?e=dymEnS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
 #### Entrevistado 5
-![foto-entrevista-2](../assets/foto-entrevista-2.png){width=80%}
+![foto-entrevista-5](../assets/foto-entrevista-2.png){width=80%}
 
 | Campo | Detalle |
 | :--- | :--- |
 | **Nombre** | Fabián Suárez |
+| **Edad** | 19 |
+| **Distrito** | Pueblo Libre |
 | **Ocupación** | Estudiante y trabajador |
 | **Frecuencia** | 3 a 4 días a la semana (interdiario) |
 | **Duración** | Entre 1 a 2 horas |
 | **Contexto** | Adapta sus entrenamientos según su carga laboral y académica. |
-| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQA_G4YvOVSuSrJJqjakOjOpAQnSD43pUj6g0topSDxpyg8?e=8sTjzL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQA_G4YvOVSuSrJJqjakOjOpAQnSD43pUj6g0topSDxpyg8?e=8sTjzL&
+nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+
+#### Entrevistado 6
+![foto-entrevista-6](../assets/foto-entrevista-6.png){width=80%}
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre** | Diego Quispe |
+| **Edad** | 19 |
+| **Distrito** | Los Olivos |
+| **Ocupación** | Estudiante universitario (U. de Lima) y trabajador a medio tiempo |
+| **Frecuencia** | 4 días a la semana (rutina de dos días seguidos y un día de descanso) |
+| **Duración** | Variable (afectada por la alta afluencia) |
+| **Contexto** | Entrena por las noches por falta de tiempo diurno; el cansancio le ayuda a conciliar el sueño. |
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQCchhWgyjUFSp2Bce_l8sHtAXzQMAQ7-EESo5RieiDuUnw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CDbXkN |
 
 ### Análisis de entrevistas
 
-#### Entrevista 4:
-#### Hábitos y Entorno:
-Joan suele asistir en **"hora punta"**, lo que implica una saturación casi total del local. Aunque su intención es seguir una planificación rigurosa, la falta de disponibilidad de equipos lo obliga a **improvisar constantemente**, alterando el orden de su rutina según las máquinas que se van liberando.
+#### 2nd Segmento (Clientes que frecuentan Gimnasios)
 
-#### Frustraciones Principales (Pain Points):
-* **Pérdida de tiempo efectiva:** Esperas prolongadas para usar máquinas o necesidad de buscar pesas desordenadas entre series.
-* **Interrupción del ritmo:** El enfriamiento muscular por las esperas rompe la intensidad del entrenamiento y extiende su permanencia en el gimnasio más de lo previsto.
-* **Infraestructura deficiente:** La presencia de equipos "fuera de servicio" le genera frustración al tener que buscar sustitutos de última hora (ej. cambiar poleas por prensa).
+Análisis de Entrevistas: Segmento "Clientes que frecuentan el gimnasio"
 
-#### Fidelización y Retención:
-Joan manifiesta que la saturación constante y el mantenimiento deficiente de los equipos son factores determinantes para su permanencia; afirma que **preferiría migrar a otro gimnasio** si estas condiciones persisten.
+1. **Características Objetivas (Demografía y Comportamiento)**
 
-#### Entrevista 5:
-#### Hábitos y Entorno:
-Fabián organiza sus sesiones con una **división muscular estricta** (ej. martes de brazos, jueves de pecho/piernas). Generalmente entrena en horarios de baja afluencia, lo que le permite cumplir su rutina sin interrupciones. Sin embargo, en temporadas de alta demanda (como el verano), opta por **flexibilizar su entrenamiento**, priorizando el área cardiovascular sobre las pesas para evitar aglomeraciones.
+* Rango Etario y Etapa de Vida (100%): El 100% de los entrevistados (Joan, Fabián y Diego) tienen exactamente 19 años y son estudiantes universitarios. Esto evidencia que el segmento principal está compuesto por adultos jóvenes en etapa académica.
+* Carga de responsabilidades (66.7%): El 66.7% (Fabián y Diego) combina sus estudios universitarios con una jornada laboral. Esto justifica la limitación de tiempo que tienen para entrenar.
+* Frecuencia y Disciplina de Asistencia (100%): A pesar de sus responsabilidades, el 100% del segmento es constante, asistiendo al gimnasio entre 3 a 4 veces por semana.
+* Preferencia y Condicionamiento de Horarios (66.7%): El 66.7% de los usuarios (Joan y Diego) se ve obligado a asistir en horario nocturno (post-clases/trabajo), coincidiendo directamente con la "hora punta" y mayor saturación del local. Solo un 33.3% (Fabián) logra adaptar su horario a momentos de baja afluencia.
+* Metodología de Entrenamiento (100%): El 100% de la muestra organiza sus rutinas mediante una división estricta por grupos musculares (ej. pecho, espalda, piernas).
 
-#### Frustraciones Principales (Pain Points):
-* **Corte de flujo muscular:** Debido a que entrena zonas específicas por día, la indisponibilidad de una máquina crítica rompe el ritmo de su sesión, afectando la efectividad que busca.
-* **Ineficiencia al compartir equipos:** Considera que alternar máquinas con otros usuarios es una fuente de pérdida de tiempo, principalmente por la necesidad de ajustar pesos y esperar tiempos de descanso ajenos.
+2. **Características Subjetivas (Pain Points, Emociones y Percepciones)**
 
-#### Fidelización y Retención:
-A diferencia de otros usuarios, Fabián muestra una **fidelidad estable** hacia su centro actual; indica que ni la saturación ocasional ni el estado técnico de los equipos son factores que lo llevarían a cancelar su membresía.
+* Frustración por Pérdida de Intensidad y Enfriamiento Muscular (66.7%): El 66.7% de los entrevistados (Joan y Diego) coincide explícitamente en que su mayor dolor es el "enfriamiento muscular". Sienten que las esperas prolongadas rompen la intensidad y la adrenalina del entrenamiento, reduciendo la efectividad de su esfuerzo físico.
+* Percepción Negativa al Compartir Equipos (66.7%): Para el 66.7% (Fabián y Diego), turnarse en las máquinas con otras personas genera una sensación de "ineficiencia" e "interrupción del ritmo". Mencionan que ajustar pesos constantemente y depender de los tiempos de descanso de terceros (grupos de hasta 3 o 4 personas) es una fuente directa de pérdida de tiempo.
+* Sensación de Descontrol e Improvisación Forzada (66.7%): A pesar de tener rutinas estrictas, el 66.7% (Joan y Fabián) experimenta frustración al tener que "improvisar constantemente" o "flexibilizar" sus rutinas (cambiando máquinas por mancuernas o cardio) debido a la infraestructura deficiente o máquinas ocupadas.
+* Nivel de Resiliencia y Fidelización (66.7% Retención vs 33.3% Riesgo de Fuga): * Alta Resiliencia (66.7%): Fabián y Diego demuestran una "fidelidad estable". Su percepción subjetiva es que la sobrepoblación es un mal menor; prefieren buscar estrategias de mitigación (cambiar de horario o adaptar días a fines de semana) antes que cancelar su membresía.
+* Intolerancia y Riesgo (33.3%): Joan representa el lado crítico del arquetipo, indicando que el mantenimiento deficiente (máquinas malogradas) y la saturación colman su paciencia, declarando explícitamente que "preferiría migrar a otro gimnasio".
 
+**Resumen para la construcción del Arquetipo**
 
+Basado en esta evidencia estadística, el arquetipo de este segmento debe ser modelado como un "Joven Estudiante/Trabajador Disciplinado (19 años)". Este arquetipo valora profundamente su tiempo limitado (100% asiste 3-4 veces por semana con rutina estructurada), pero su experiencia se ve altamente mermada por factores externos del local: la sobrepoblación y colas que causan la pérdida de la intensidad muscular (66.7%). Aunque es un cliente mayoritariamente fiel (66.7%), requiere herramientas (como una app de gestión del gimnasio, seguimiento de aforo o reserva de máquinas) para recuperar el control de su tiempo y evitar improvisar sus rutinas.
 
 ## Needfinding
 
