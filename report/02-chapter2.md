@@ -124,11 +124,13 @@ Gimnasio al que asistes regularmente:
 | **Resumen** | Percy, administrador de Smartfit Miraflores con 5 años de experiencia, destaca que en gimnasios de alto volumen el mantenimiento correctivo es mucho más costoso y crítico para la percepción del cliente que el preventivo. Señala que las fallas en máquinas de alta demanda generan cuellos de botella y riesgos de no renovación. Para gestionar la congestión en horas pico, aplica la "gestión de piso", pero reconoce que falta una herramienta visual para que el socio entienda la capacidad del local. Valora enormemente un mapa de calor para redistribuir al staff y optimizar el mix de máquinas basado en datos reales de uso, no en percepciones subjetivas. Considera que las alertas de mantenimiento predictivo cambiarían las reglas del juego al evitar que los equipos queden fuera de servicio. En su panel de control ideal, prioriza el tiempo de inactividad (downtime), la saturación por zona y el ranking de desgaste de equipos. Finalmente, apoya el uso de cámaras con procesamiento Edge si se garantiza la transparencia sobre la privacidad, viendo un gran beneficio en que los socios consulten la disponibilidad desde una app. Un piloto de Fitnote Analytics lo convencería si logra una reducción mínima del 20% en las quejas por disponibilidad y demuestra una alta precisión en la data para mantener la credibilidad ante el usuario. |
 
 #### Entrevistado 4
-![foto-entrevista-1](../assets/foto-entrevista-1.png){width=80%}
+![foto-entrevista-4](../assets/foto-entrevista-1.png){width=80%}
 
 | Campo | Detalle |
 | :--- | :--- |
 | **Nombre** | Joan Steffano Quispe Gamez |
+| **Edad** | 19 |
+| **Distrito** | Los Olivos |
 | **Ocupación** | Estudiante universitario (UPC) |
 | **Frecuencia** | 3 a 4 veces por semana |
 | **Horario** | Nocturno (Post-clases) |
@@ -136,16 +138,33 @@ Gimnasio al que asistes regularmente:
 | **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQDwUfqEP6J8Sr_AMTcZaW80AVugegqiYVjdOyG2RY3agzs?e=dymEnS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
 #### Entrevistado 5
-![foto-entrevista-2](../assets/foto-entrevista-2.png){width=80%}
+![foto-entrevista-5](../assets/foto-entrevista-2.png){width=80%}
 
 | Campo | Detalle |
 | :--- | :--- |
 | **Nombre** | Fabián Suárez |
+| **Edad** | 19 |
+| **Distrito** | Pueblo Libre |
 | **Ocupación** | Estudiante y trabajador |
 | **Frecuencia** | 3 a 4 días a la semana (interdiario) |
 | **Duración** | Entre 1 a 2 horas |
 | **Contexto** | Adapta sus entrenamientos según su carga laboral y académica. |
-| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQA_G4YvOVSuSrJJqjakOjOpAQnSD43pUj6g0topSDxpyg8?e=8sTjzL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQA_G4YvOVSuSrJJqjakOjOpAQnSD43pUj6g0topSDxpyg8?e=8sTjzL&
+nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+
+#### Entrevistado 6
+![foto-entrevista-6](../assets/foto-entrevista-6.png){width=80%}
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre** | Diego Quispe |
+| **Edad** | 19 |
+| **Distrito** | Los Olivos |
+| **Ocupación** | Estudiante universitario (U. de Lima) y trabajador a medio tiempo |
+| **Frecuencia** | 4 días a la semana (rutina de dos días seguidos y un día de descanso) |
+| **Duración** | Variable (afectada por la alta afluencia) |
+| **Contexto** | Entrena por las noches por falta de tiempo diurno; el cansancio le ayuda a conciliar el sueño. |
+| **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQCchhWgyjUFSp2Bce_l8sHtAXzQMAQ7-EESo5RieiDuUnw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CDbXkN |
 
 ### Análisis de entrevistas
 
