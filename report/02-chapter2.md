@@ -135,10 +135,11 @@ Gimnasio al que asistes regularmente:
 | **Frecuencia** | 3 a 4 veces por semana |
 | **Horario** | Nocturno (Post-clases) |
 | **Contexto** | Entrena de noche debido a su alta carga académica. |
+|**Resumen**| Estefano Quispe Gámez, estudiante universitario, entrena en el gimnasio de forma intermitente, asistiendo generalmente entre 3 y 4 veces por semana en horario nocturno debido a sus clases. Suele encontrarse con un gimnasio muy concurrido en horas punta, lo que lo obliga a esperar por máquinas y a modificar su rutina con frecuencia, ya sea cambiando el orden de ejercicios o sustituyendo equipos (por ejemplo, usando mancuernas en lugar de barras). Su principal frustración es la pérdida de ritmo y tiempo causada por la espera, la búsqueda de implementos o equipos fuera de servicio. A diferencia de otros usuarios, señala que la disponibilidad y el estado de las máquinas sí influyen en su decisión de cambiar de gimnasio. Considera valioso contar con una herramienta que reduzca la incertidumbre, permitiéndole conocer previamente el nivel de ocupación y planificar mejor su entrenamiento. En particular, destaca la utilidad de un mapa en tiempo real con disponibilidad de máquinas y tiempos estimados de espera para optimizar su rutina. 
 | **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQDwUfqEP6J8Sr_AMTcZaW80AVugegqiYVjdOyG2RY3agzs?e=dymEnS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
 #### Entrevistado 5
-![foto-entrevista-5](../assets/foto-entrevista-2.png){width=80%}
+![foto-entrevista-5](../assets/foto-entrevista-2.png)
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -149,8 +150,9 @@ Gimnasio al que asistes regularmente:
 | **Frecuencia** | 3 a 4 días a la semana (interdiario) |
 | **Duración** | Entre 1 a 2 horas |
 | **Contexto** | Adapta sus entrenamientos según su carga laboral y académica. |
+|**Resumen**| Fabián Suárez, estudiante y trabajador, asiste al gimnasio entre 3 y 4 veces por semana en horarios interdiarios que se ajustan a su rutina. Suele entrenar entre 1 y 2 horas, organizando sus sesiones por grupos musculares en días específicos. Generalmente encuentra el gimnasio poco concurrido, lo que le permite seguir su rutina sin interrupciones, aunque en temporadas como verano experimenta mayor congestión, adaptando su entrenamiento hacia más cardio. Su principal frustración es la interrupción de su ritmo cuando las máquinas están ocupadas, especialmente al tener que compartirlas, lo que prolonga su tiempo de entrenamiento. Aunque esto no ha influido en su permanencia en el gimnasio, reconoce que pierde tiempo en estas situaciones. Valora la idea de una herramienta que le permita visualizar en tiempo real la disponibilidad de máquinas por zonas del gimnasio, lo que le ayudaría a reorganizar su rutina de manera más eficiente y aprovechar mejor su tiempo.
 | **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQA_G4YvOVSuSrJJqjakOjOpAQnSD43pUj6g0topSDxpyg8?e=8sTjzL&
-nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+|
 
 #### Entrevistado 6
 ![foto-entrevista-6](../assets/foto-entrevista-6.png){width=80%}
