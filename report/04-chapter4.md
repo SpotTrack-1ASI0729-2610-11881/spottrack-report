@@ -376,13 +376,62 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 
 * **Happy Path:** Al encontrarse con una máquina inhabilitada u ocupada dentro de su rutina programada, el usuario solicita alternativas. El motor de recomendación mapea el grupo muscular y devuelve una lista de ejercicios biomecánicamente equivalentes (ej. sustituir press de banca por flexiones) utilizando el equipo disponible.
 * **Unhappy Path:** Si la base de datos no logra resolver una equivalencia factible para ese ejercicio dadas las restricciones actuales del entorno, la UI presenta un *empty state* comunicando que temporalmente no hay rutinas alternativas disponibles.
+
+## US21 Monitoreo de estado de hardware Edge IoT (Epic_ EP05)
+
+![UF-21](../assets/USERFLOWS/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png){ width=90% }
+![UFM-21](../assets/USERFLOW%20MOBILE/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png){ width=50% }
+* **Happy Path:** El sistema detecta automáticamente la reconexión de un sensor IoT previamente desconectado y notifica al administrador mediante un mensaje de éxito con opción de descarga de reporte.
+* **Unhappy Path:** Si el sensor permanece desconectado tras el intento de sincronización, la interfaz alerta al administrador sobre la falla crítica de conexión, manteniendo el estado de "Desconectado" en el reporte de alertas.
+
+## US22 Alerta predictiva de mantenimiento (Epic_ EP06) CONFIGURAR UMBRAL
+
+![UF-22](../assets/USERFLOWS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png){ width=90% }
+![UFM-22](../assets/USERFLOW%20MOBILE/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png){ width=50% }
+* **Happy Path:** El administrador ajusta los parámetros de los umbrales (batería, tiempos de inactividad, horas críticas) en el panel de configuración, y el sistema guarda los cambios aplicando las nuevas reglas a los modelos predictivos.
+* **Unhappy Path:** Ante valores de configuración fuera de los rangos técnicos permitidos (ej. un intervalo de ping inexistente), el sistema bloquea la acción de guardado y requiere el ajuste de los parámetros.
+
+## US23 Despacho automatizado de tickets técnicos (Epic_ EP06)
+
+![UF-23](../assets/USERFLOWS/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png){ width=90% }
+![UFM-23](../assets/USERFLOW%20MOBILE/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png){ width=50% }
+* **Happy Path:** El usuario técnico crea un ticket completando todos los campos requeridos (ID máquina, descripción, prioridad), y el sistema lo integra en el tablero de mantenimiento en tiempo real.
+* **Unhappy Path (Missing fields):** Si el formulario se envía sin descripción o prioridad, la UI invalida la creación del ticket y solicita completar la información obligatoria.
+* **Unhappy Path (Incorrect data):** Al ingresar datos técnicos inconsistentes o IDs de máquinas inexistentes, el sistema muestra un error de validación impidiendo el despacho del ticket.
+
+## US24 Notificación de restablecimiento a los usuarios (Epic_ EP06)
+
+![UF-24](../assets/USERFLOWS/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png){ width=90% }
+![UFM-24](../assets/USERFLOW%20MOBILE/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png){ width=50% }
+* **Happy Path:** Tras la resolución de una incidencia en el centro de mantenimiento, el sistema actualiza automáticamente el mapa de disponibilidad, habilitando nuevamente la máquina para los usuarios finales.
+* **Unhappy Path:** Si la resolución del ticket es parcial o el problema persiste tras la intervención técnica, la máquina permanece inhabilitada en el mapa de disponibilidad, manteniendo la alerta de estado crítico en el centro de mantenimiento.
+
+## US25 Calendario inteligente de bloqueos de reserva(Epic_ EP04)
+
+![UF-25](../assets/USERFLOWS/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png){ width=90% }
+![UFM-25](../assets/USERFLOW%20MOBILE/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png){ width=50% }
+* **Happy Path:** El usuario selecciona un activo desde el mapa de disponibilidad, completa el formulario de reserva con datos válidos y el sistema confirma la operación exitosamente.
+* **Unhappy Path:** Si el usuario intenta realizar una reserva con campos obligatorios vacíos o ingresa datos inválidos (como horarios conflictivos), la UI presenta validaciones en rojo indicando los errores específicos.
+
+## US26 Gestión de activos físicos y altas (Epic_ EP07)
+
+![UF-26](../assets/USERFLOWS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png){ width=90% }
+![UFM-26](../assets/USERFLOW%20MOBILE/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png){ width=50% }
+* **Happy Path:** El administrador completa el formulario de registro de nueva máquina con datos correctos (nombre, tipo, sede, ID de sensor) y el sistema lo añade al inventario global.
+* **Unhappy Path:** Si existen campos faltantes o datos inválidos (como un ID de sensor ya existente), el flujo se detiene y la interfaz resalta los campos que requieren corrección antes de permitir el guardado.
+
+## US30 Analítica predictiva de compras e inversión (Epic_ EP08)
+
+![UF-30](../assets/USERFLOWS/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png){ width=90% }
+![UFM-30](../assets/USERFLOW%20MOBILE/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png){ width=50% }
+* **Happy Path:** El sistema procesa los datos financieros y de uso para generar proyecciones de ROI y recomendaciones de inversión automáticas basadas en la salud de los activos.
+* **Unhappy Path:** Ante la falta de datos históricos suficientes o la introducción de parámetros de cálculo inconsistentes en el simulador, el motor de análisis muestra un estado de error o campos vacíos informando la imposibilidad de generar la proyección.
+
 ## Web Applications Prototyping
 
 Video del prototipo:
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d317_upc_edu_pe/IQDCANk2iXBXRJw2mH1ZdZXPASTGyLkvsZa1prA9mkQ0dyw?e=ItBRSW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
-    
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d317_upc_edu_pe/IQDCANk2iXBXRJw2mH1ZdZXPASTGyLkvsZa1prA9mkQ0dyw?e=ItBRSW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D    
 
 
 ## Domain-Driven Software Architecture
