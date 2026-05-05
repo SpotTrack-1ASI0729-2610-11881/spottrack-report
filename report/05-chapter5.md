@@ -296,3 +296,15 @@ Para este Sprint 2, el equipo adoptó una estructura dual de trabajo: un subequi
 <p style="padding-left: 30px; text-indent: -30px;">Fitness Store. (2024). *Commercial & professional treadmills*. https://www.topfitness.com/collections/commercial-treadmills</p>
 
 
+## Annexes
+
+### Annex A : Videos de Exposiciones
+
+| Entrega | Título de la Exposición | Hipervínculo al Video (Microsoft Stream) |
+| :--- | :--- | :--- |
+| **AV1** | Sprint Review - Semana 4 | [Enlace al video AV1 - SpotTrack](URL_AQUI) |
+| **TB1** | Stage Review - Semana 7 | (Pendiente) |
+| **AV2** | Sprint Review - Semana 12 | (Pendiente) |
+| **TB2** | Release Review - Semana 15 | (Pendiente) |
+
+
