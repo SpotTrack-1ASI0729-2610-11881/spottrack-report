@@ -218,7 +218,7 @@ Para este Sprint 2, el equipo adoptó una estructura dual de trabajo: un subequi
 
 | Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| - | Setup Web App | SETUP-01 | Crear proyecto Angular con estructura por Bounded Contexts | Inicializar el proyecto Angular (ng new spottrack-app), configurar la estructura de carpetas por bounded context: `auth/`, `heatmap/`, `admin/`, `maintenance/`, `assets-management/`, `routines/`, `shared/`. | 3 hrs | Azama | To-Do |
+| - | Setup Web App | SETUP-01 | Crear proyecto Angular con estructura por Bounded Contexts | Inicializar el proyecto Angular (ng new spottrack-app), configurar la estructura de carpetas por bounded context: `auth/`, `heatmap/`, `admin/`, `maintenance/`, `equipment/`, `routines/`, `shared/`, `analytics/`. | 3 hrs | Azama | Done |
 | - | Setup Web App | SETUP-02 | Configurar JSON Server como Fake API | Instalar y configurar `json-server` con un `db.json` que contenga datos seed para: `users`, `machines`, `branches`, `alerts`, `tickets`, `reservations`, `routines/alternatives`, `telemetry`. Exponer en `localhost:3000`. | 3 hrs | Atoche | To-Do |
 | - | Setup Web App | SETUP-03 | Configurar routing, guards e interceptores HTTP en Angular | Configurar `AppRoutingModule` con rutas protegidas para los módulos admin y client, implementar `AuthGuard`, `RoleGuard` y el `JwtInterceptor` que añade el token al header. Configurar `HttpClientModule` con `baseUrl` apuntando a JSON Server. | 4 hrs | Azama / Atoche | To-Do |
 | - | Setup Web App | SETUP-04 | Documentar Sprint 2 Planning, Backlog y evidencias en el informe | Redactar las secciones de Sprint Planning 2, Aspect Leaders y Sprint Backlog en el Capítulo V. Al finalizar el sprint, completar Development Evidence, Execution Evidence y Team Collaboration Insights. | 3 hrs | Espinoza | To-Do |
@@ -227,30 +227,78 @@ Para este Sprint 2, el equipo adoptó una estructura dual de trabajo: un subequi
 
 **User Stories — Desarrollo Frontend con Fake API**
 
-| Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| US Id | US Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| US-07 | Inicio de sesión con validación JWT | T-S2-01 | Componente LoginComponent | Implementar el formulario de login con campos email y password, validaciones reactivas (Validators.required, Validators.email) y estados de error visual. Maquetar según el mockup US07. | 4 hrs | Azama | To-Do |
-| US-07 | Inicio de sesión con validación JWT | T-S2-02 | AuthService + Fake API /users | Implementar `AuthService` con método `login(email, password)` que consulta `GET /users` en JSON Server, simula validación de credenciales, genera un mock JWT y guarda el token en `localStorage`. | 3 hrs | Atoche | To-Do |
-| US-07 | Inicio de sesión con validación JWT | T-S2-03 | AuthGuard y redirección por rol | Implementar `AuthGuard` que lee el token del `localStorage` y `RoleGuard` que redirige al admin al dashboard (`/admin`) y al cliente al mapa de calor (`/app/heatmap`). | 2 hrs | Azama | To-Do |
-| US-08 | Gestión de preferencias y perfil | T-S2-04 | Componente ProfileComponent | Implementar la vista de perfil con formulario de edición de datos personales (nombre, teléfono, idioma) y sección de plan activo. Maquetar según el mockup US08. | 3 hrs | Fernández | To-Do |
-| US-08 | Gestión de preferencias y perfil | T-S2-05 | ProfileService + Fake API /users/{id} | Implementar `ProfileService` con métodos `getProfile(id)` (`GET /users/:id`) y `updateProfile(id, data)` (`PUT /users/:id`) contra JSON Server. | 2 hrs | Atoche | To-Do |
-| US-09 | Visualización del mapa de calor en vivo | T-S2-06 | Componente HeatMapComponent | Implementar el grid visual de máquinas con indicadores de color semaforizado: verde (libre), rojo (ocupado), amarillo (reservado), gris (mantenimiento). Maquetar según mockup US09. Diseño responsivo con grid CSS. | 6 hrs | Fernández | To-Do |
-| US-09 | Visualización del mapa de calor en vivo | T-S2-07 | MachineService + Fake API /machines?branchId | Implementar `MachineService` con `getMachines(branchId)` (`GET /machines?branchId=1`) y `getMachineById(id)` (`GET /machines/:id`). | 2 hrs | Atoche | To-Do |
-| US-09 | Visualización del mapa de calor en vivo | T-S2-08 | Polling para simulación de tiempo real | Implementar un intervalo de polling con `rxjs/interval` + `switchMap` cada 5 segundos al endpoint de máquinas para simular actualizaciones en tiempo real del estado del mapa. | 2 hrs | Fernández | To-Do |
-| US-10 | Filtrado del inventario por tipo de máquina | T-S2-09 | Componente FilterChipsComponent | Implementar el componente de chips de filtro con opciones: "Todos", "Fuerza", "Cardio", "Funcional". Al seleccionar, emite un evento con la categoría activa. | 2 hrs | Espinoza | To-Do |
-| US-10 | Filtrado del inventario por tipo de máquina | T-S2-10 | Integración de filtros reactivos en HeatMapComponent | Conectar `FilterChipsComponent` con `HeatMapComponent` usando un `BehaviorSubject` para filtrar el array de máquinas reactivamente sin nueva petición al servidor. | 2 hrs | Espinoza | To-Do |
-| US-14 | Motor de sugerencia de rutinas alternativas | T-S2-11 | Componente RoutineSuggestionsComponent | Implementar el modal/panel de sugerencias de rutinas alternativas que recibe el grupo muscular objetivo y lista los ejercicios sugeridos con máquinas disponibles. Maquetar según mockup US14. | 4 hrs | Fernández | To-Do |
-| US-14 | Motor de sugerencia de rutinas alternativas | T-S2-12 | RoutineService + Fake API /routines/alternatives | Implementar `RoutineService` con `getAlternatives(muscleGroup, branchId)` que consulta `GET /routines/alternatives?muscleGroup=chest` en JSON Server con datos seed de ejercicios por grupo muscular. | 3 hrs | Atoche | To-Do |
-| US-16 | Sistema de reserva exprés en horas pico | T-S2-13 | Botón "Separar" y estado visual amarillo | Implementar el botón "Separar" en la tarjeta de máquina del HeatMapComponent que cambia el estado de la máquina a amarillo (reservado) en la UI al ser pulsado. | 2 hrs | Fernández | To-Do |
-| US-16 | Sistema de reserva exprés en horas pico | T-S2-14 | Countdown timer de 10 minutos con liberación automática | Implementar un countdown timer visible (MM:SS) usando `rxjs/timer` que, al expirar, llama al servicio para cancelar la reserva y revierte el estado de la máquina a verde (libre). | 3 hrs | Espinoza | To-Do |
-| US-16 | Sistema de reserva exprés en horas pico | T-S2-15 | ReservationService + Fake API /reservations | Implementar `ReservationService` con `createReservation(machineId)` (`POST /reservations`) y `cancelReservation(id)` (`DELETE /reservations/:id`) contra JSON Server. | 2 hrs | Atoche | To-Do |
-| US-17 | Acumulación automática de horas de uso | T-S2-16 | Componente UsageStatsComponent | Implementar el componente de estadísticas con un gráfico de barras por máquina (ng2-charts / chart.js) que muestra horas de uso acumuladas. Incluye filtro de rango de fechas. Maquetar según mockup US17. | 5 hrs | Espinoza | To-Do |
-| US-17 | Acumulación automática de horas de uso | T-S2-17 | TelemetryService + Fake API /telemetry | Implementar `TelemetryService` con `getUsageHistory(branchId, startDate, endDate)` (`GET /telemetry?branchId=1&_gte=...&_lte=...`) contra JSON Server. | 2 hrs | Atoche | To-Do |
-| US-22 | Alerta predictiva de mantenimiento | T-S2-18 | Componente AlertsPanelComponent | Implementar el panel de alertas de mantenimiento predictivo con lista de alertas (prioridad alta/media/baja), nombre de máquina, horas acumuladas y acción "Asignar a soporte". Maquetar según mockup US22. | 4 hrs | Espinoza | To-Do |
-| US-22 | Alerta predictiva de mantenimiento | T-S2-19 | AlertService + Fake API /alerts | Implementar `AlertService` con `getAlerts(branchId)` (`GET /alerts?branchId=1`) y `acknowledgeAlert(id)` (`PATCH /alerts/:id`) contra JSON Server. Incluir seed de alertas de prueba con distintos niveles de urgencia. | 3 hrs | Atoche | To-Do |
-| US-26 | Gestión de activos físicos y altas | T-S2-20 | Componente AssetManagementComponent | Implementar la tabla de inventario de máquinas con acciones de alta (modal de formulario), edición y baja lógica. Incluir columnas: ID, nombre, tipo, sede, estado IoT, horas totales. Maquetar según mockup US26. | 5 hrs | Cataño | To-Do |
-| US-26 | Gestión de activos físicos y altas | T-S2-21 | AssetService + Fake API /machines CRUD | Implementar `AssetService` con `createMachine(data)` (`POST /machines`), `updateMachine(id, data)` (`PUT /machines/:id`) y `deleteMachine(id)` (`DELETE /machines/:id`) contra JSON Server. | 3 hrs | Atoche | To-Do |
-
+| US26 | Gestión de activos físicos y altas | T01 | Implement equipment registration form | Build the UI form to register new equipment linked to an IoT sensor | 6 | You | To-do |
+| US26 | Gestión de activos físicos y altas | T02 | Implement equipment decommission flow | Add decommission action and confirmation dialog | 4 | You | To-do |
+| US21 | Monitoreo de estado de hardware Edge IoT | T03 | Build IoT node health dashboard view | Display connected/disconnected status per sensor node | 5 | You | To-do |
+| US21 | Monitoreo de estado de hardware Edge IoT | T04 | Implement reconnection status sync | Handle state sync when a node reconnects | 4 | You | To-do |
+| TS12 | Registrar evento de telemetría IoT API | T05 | Implement POST /api/v1/telemetry endpoint | Receive and process IoT sensor state events | 5 | You | To-do |
+| TS12 | Registrar evento de telemetría IoT API | T06 | Validate telemetry payload and auth | Return 400 on malformed or unauthorized payloads | 3 | You | To-do |
+| TS13 | Listar historial de uso general API | T07 | Implement GET /api/v1/telemetry endpoint | Return usage history array filtered by date range | 4 | You | To-do |
+| US08 | Gestión de preferencias y perfil | T08 | Build profile edit view | Allow user to update personal data and language preference | 4 | Jesús | To-do |
+| US08 | Gestión de preferencias y perfil | T09 | Implement language toggle i18n | Wire language selector to i18n service | 3 | Jesús | To-do |
+| US12 | Notificaciones push de disponibilidad | T10 | Build availability bell subscription UI | Allow client to subscribe to machine availability alert | 4 | Jesús | To-do |
+| US12 | Notificaciones push de disponibilidad | T11 | Display push notification on machine release | Show notification when subscribed machine becomes free | 3 | Jesús | To-do |
+| US13 | Sistema de recompensas Crowdsourcing | T12 | Build manual status report UI | Allow client to report machine status manually | 5 | Jesús | To-do |
+| US13 | Sistema de recompensas Crowdsourcing | T13 | Display reward points in profile | Show accumulated points after validated report | 3 | Jesús | To-do |
+| US24 | Notificación de restablecimiento a usuarios | T14 | Show restoration notification to clients | Notify clients when a repaired machine is back online | 3 | Jesús | To-do |
+| US09 | Visualización del mapa de calor en vivo | T15 | Build interactive heatmap component | Render machine availability map with green/red indicators | 8 | Álvaro | To-do |
+| US09 | Visualización del mapa de calor en vivo | T16 | Implement real-time status update via polling | Auto-update machine icons without page reload | 6 | Álvaro | To-do |
+| US10 | Filtrado del inventario por tipo de máquina | T17 | Implement filter tags component | Add Fuerza/Cardio filter tags to heatmap | 4 | Álvaro | To-do |
+| US10 | Filtrado del inventario por tipo de máquina | T18 | Implement clear filters action | Restore full inventory on filter clear | 2 | Álvaro | To-do |
+| US11 | Cambio de sucursal para revisión de aforo | T19 | Implement branch selector component | Allow user to switch branches and reload heatmap | 4 | Álvaro | To-do |
+| US11 | Cambio de sucursal para revisión de aforo | T20 | Block premium branch for basic plan users | Show upgrade suggestion when branch access is denied | 3 | Álvaro | To-do |
+| US14 | Motor de sugerencia de rutinas alternativas | T21 | Build alternative routine suggestion view | Show alternative exercises when selected machine is occupied | 6 | Álvaro | To-do |
+| US14 | Motor de sugerencia de rutinas alternativas | T22 | Handle no-alternatives scenario | Suggest bodyweight exercises when gym is at full capacity | 3 | Álvaro | To-do |
+| US15 | Filtrado de alternativas por grupo muscular | T23 | Filter suggestions by target muscle group | Discard exercises from other muscle groups in suggestions | 4 | Álvaro | To-do |
+| US15 | Filtrado de alternativas por grupo muscular | T24 | Exclude machines with open tickets from suggestions | Filter out equipment in maintenance from suggestions | 3 | Álvaro | To-do |
+| US16 | Sistema de reserva exprés en horas pico | T25 | Build express reservation button and timer UI | Show yellow status and countdown on reservation | 5 | Álvaro | To-do |
+| US16 | Sistema de reserva exprés en horas pico | T26 | Implement reservation expiry release flow | Return machine to free state when timer runs out | 4 | Álvaro | To-do |
+| US25 | Calendario inteligente de bloqueos | T27 | Build smart schedule view with peak-hour warnings | Show warning when client selects high-demand slot | 5 | Álvaro | To-do |
+| US25 | Calendario inteligente de bloqueos | T28 | Implement valley-hour suggestion on conflict | Suggest off-peak alternative when peak slot is selected | 4 | Álvaro | To-do |
+| TS18 | Crear reserva exprés API | T29 | Implement POST /api/v1/reservations endpoint | Execute logical machine block during high demand | 5 | Nicolas | To-do |
+| TS19 | Cancelar reserva exprés API | T30 | Implement PUT /api/v1/reservations/{id}/cancel endpoint | Release machine block on timer expiry or user abort | 3 | Nicolas | To-do |
+| TS20 | Obtener sugerencias de rutinas API | T31 | Implement GET /api/v1/routines/alternatives endpoint | Run replacement algorithm by muscle group and availability | 5 | Nicolas | To-do |
+| TS20 | Obtener sugerencias de rutinas API | T32 | Handle bodyweight fallback in suggestions | Return bodyweight alternatives when no machines are free | 3 | Nicolas | To-do |
+| TS14 | Obtener picos de afluencia por día API | T33 | Implement GET /api/v1/analytics/peak-hours endpoint | Identify hourly blocks exceeding 90% capacity | 5 | Nicolas | To-do |
+| TS15 | Exportar reporte gerencial API | T34 | Implement GET /api/v1/analytics/export/pdf endpoint | Generate binary PDF stream of monthly usage report | 5 | Nicolas | To-do |
+| TS16 | Registrar estado manual de máquina API | T35 | Implement POST /api/v1/machines/{id}/manual-reports endpoint | Save crowdsourcing report to validation queue | 3 | Nicolas | To-do |
+| TS17 | Sumar puntos de recompensa API | T36 | Implement PUT /api/v1/users/{id}/points endpoint | Increment points when manual report matches IoT reading | 3 | Nicolas | To-do |
+| TS21 | Crear ticket de mantenimiento API | T37 | Implement POST /api/v1/tickets endpoint | Register incident and set machine to In Maintenance | 3 | Nicolas | To-do |
+| TS22 | Listar tickets activos/históricos API | T38 | Implement GET /api/v1/tickets endpoint | Return filtered ticket backlog by branch or status | 3 | Nicolas | To-do |
+| TS23 | Resolver ticket técnico API | T39 | Implement PUT /api/v1/tickets/{id}/resolve endpoint | Close ticket and return machine to free status | 3 | Nicolas | To-do |
+| TS24 | Generar alerta predictiva API | T40 | Implement POST /api/v1/alerts endpoint | Auto-generate alert when usage exceeds safe threshold | 5 | Nicolas | To-do |
+| TS25 | Programar bloqueo de mantenimiento API | T41 | Implement POST /api/v1/maintenance-blocks endpoint | Validate maintenance schedule against peak-hour conflicts | 5 | Nicolas | To-do |
+| TS26 | Calcular impacto financiero API | T42 | Implement GET /api/v1/analytics/financial-impact endpoint | Convert downtime hours to monetary loss estimate | 5 | Nicolas | To-do |
+| TS27 | Simular ROI API | T43 | Implement POST /api/v1/analytics/roi-projection endpoint | Run ROI simulation based on stress telemetry | 5 | Nicolas | To-do |
+| TS05 | Crear nueva máquina API | T44 | Implement POST /api/v1/machines endpoint | Register new equipment linked to IoT sensor | 3 | Nicolas | To-do |
+| TS06 | Listar máquinas por sede API | T45 | Implement GET /api/v1/machines endpoint | Return full inventory filtered by branchId | 3 | Nicolas | To-do |
+| TS07 | Mostrar máquina por Id API | T46 | Implement GET /api/v1/machines/{id} endpoint | Return detailed physical and logical machine data | 2 | Nicolas | To-do |
+| TS08 | Actualizar/Reubicar máquina API | T47 | Implement PUT /api/v1/machines/{id} endpoint | Allow branch reassignment or attribute update | 3 | Nicolas | To-do |
+| TS09 | Dar de baja máquina API | T48 | Implement DELETE /api/v1/machines/{id} endpoint | Apply soft-delete and unlink IoT sensor | 2 | Nicolas | To-do |
+| TS10 | Registrar repuesto en inventario API | T49 | Implement POST /api/v1/inventory endpoint | Add new spare part to maintenance stock | 3 | Nicolas | To-do |
+| TS11 | Actualizar stock de repuesto API | T50 | Implement PUT /api/v1/inventory/{id}/stock endpoint | Discount materials when a ticket is resolved | 3 | Nicolas | To-do |
+| US17 | Acumulación automática de horas de uso | T51 | Build equipment usage hours chart | Display cumulative usage minutes per machine | 5 | Valentino | To-do |
+| US17 | Acumulación automática de horas de uso | T52 | Implement date range filter on usage chart | Recalculate totals based on selected period | 4 | Valentino | To-do |
+| US18 | Identificación de equipos subutilizados | T53 | Build underutilized equipment table | Highlight machines below usage threshold | 4 | Valentino | To-do |
+| US18 | Identificación de equipos subutilizados | T54 | Implement CSV export for underutilized list | Download underutilized equipment data as CSV | 3 | Valentino | To-do |
+| US19 | Visualización de picos de estrés del local | T55 | Build peak stress hours chart | Mark red hourly blocks exceeding 90% capacity | 5 | Valentino | To-do |
+| US19 | Visualización de picos de estrés del local | T56 | Implement intersemanal comparison overlay | Superimpose two trend lines for weekly comparison | 4 | Valentino | To-do |
+| US20 | Exportación de analíticas de uso | T57 | Build PDF export button on dashboard | Trigger formatted PDF download from analytics view | 4 | Valentino | To-do |
+| US20 | Exportación de analíticas de uso | T58 | Handle export delay with email fallback notice | Show deferred notice when server is under load | 2 | Valentino | To-do |
+| US22 | Alerta predictiva de mantenimiento | T59 | Build maintenance alert banner component | Display predictive alert when threshold is exceeded | 5 | Valentino | To-do |
+| US22 | Alerta predictiva de mantenimiento | T60 | Implement manual threshold configuration UI | Allow manager to set safe hours limit per machine | 4 | Valentino | To-do |
+| US23 | Despacho automatizado de tickets técnicos | T61 | Build assign-to-support action on alert | Convert alert to ticket and notify technician | 4 | Valentino | To-do |
+| US23 | Despacho automatizado de tickets técnicos | T62 | Update machine status to In Maintenance on ticket creation | Reflect maintenance state on public heatmap | 3 | Valentino | To-do |
+| US27 | Estadísticas de reubicación multisede | T63 | Build cross-branch utilization stats view | Show demand comparison between branches | 6 | Valentino | To-do |
+| US27 | Estadísticas de reubicación multisede | T64 | Display relocation recommendation card | Show transfer suggestion when demand imbalance is detected | 4 | Valentino | To-do |
+| US28 | Gestión automatizada de stock de repuestos | T65 | Build spare parts inventory table | Show current stock per part with restock alert indicator | 4 | Valentino | To-do |
+| US28 | Gestión automatizada de stock de repuestos | T66 | Implement restock alert notification display | Show alert when part reaches minimum stock level | 3 | Valentino | To-do |
+| US29 | Calculadora de impacto financiero | T67 | Build financial impact module view | Display estimated monetary loss per machine downtime | 5 | Valentino | To-do |
+| US29 | Calculadora de impacto financiero | T68 | Show monthly inefficiency cost chart | Render total hidden cost from equipment inactivity | 4 | Valentino | To-do |
+| US30 | Analítica predictiva de compras e inversión | T69 | Build ROI projection simulation view | Allow manager to input acquisition cost and see ROI estimate | 5 | Valentino | To-do |
+| US30 | Analítica predictiva de compras e inversión | T70 | Display purchase recommendation on saturation | Show buy suggestion when machine consistently exceeds max capacity | 4 | Valentino | To-do |
 #### Development Evidence for Sprint Review
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
