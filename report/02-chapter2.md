@@ -267,10 +267,9 @@ Basado en esta evidencia estadística, el arquetipo de este segmento debe ser mo
 
 ## Big Picture Event Storming
 
-[Modelado colaborativo de los eventos del dominio a alto nivel, identificando actores, comandos, políticas y sistemas externos.]
+![Event storming Big Picture.png](../assets/Event%20storming%20Big%20Picture.png)
 
 ## Ubiquitous Language
-
 
 Para mejorar la cohesión del equipo, adoptaremos el Ubiquitous Language. Esta herramienta facilitará la comprensión de los objetivos y agilizará la resolución de dudas en el proyecto.
 
