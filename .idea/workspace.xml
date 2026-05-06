@@ -10,9 +10,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc836ea5-3c32-47ac-8f0b-7a6047ffa225" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fc836ea5-3c32-47ac-8f0b-7a6047ffa225" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +23,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="3CobWh2hZ0rNgLcs8sl18FaVX95" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,7 +41,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "feature/corrections",
     "last_opened_file_path": "C:/Users/DELL/Desktop/Mierda2/Estudio/UPC/CICLO 2026 - 1/OPEN SOURCE/docs-repo-new/Project-Report-New/Project-Report-New",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -68,6 +69,7 @@
       <workItem from="1777054904192" duration="105000" />
       <workItem from="1777055024236" duration="13348000" />
       <workItem from="1778021741553" duration="1848000" />
+      <workItem from="1778033638203" duration="5461000" />
     </task>
     <servers />
   </component>
