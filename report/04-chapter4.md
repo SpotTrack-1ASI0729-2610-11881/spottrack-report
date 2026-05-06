@@ -446,30 +446,39 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d317_upc_edu_pe/IQDCANk2
 ## Domain-Driven Software Architecture
 
 ### Design-Level Event Storming
-![Design-Level Event Storming](../assets/event%20storming.png){width=500px}
+![Design-Level Event Storming](../assets/event%20storming.png)
 
 ### Software Architecture Context Diagram
-![Software Architecture Context Diagram](../assets/c41.png){width=500px}
+![Context D.png](../docs/c4-banckend/Context%20D.png)
 
 ### Software Architecture Container Diagrams
-![Software Architecture Container Diagrams](../assets/c42.png){width=500px}
+![Container D.png](../docs/c4-banckend/Container%20D.png)
 
 ### Software Architecture Components Diagrams
 
+#### IoT Sensor Ingestion
+![Components1 D.png](../docs/c4-banckend/Components1%20D.png)
+
 #### Monitoring
-![Monitoring](../assets/c431.png){width=500px}
-
-#### User And Subcription
-![User And Subcription](../assets/c432.png){width=500px}
-
-#### Equipment
-![Equipment](../assets/c433.png){width=500px}
+![Components2 D.png](../docs/c4-banckend/Components2%20D.png)
 
 #### Maintenance
-![Maintenance](../assets/c434.png){width=500px}
+![Components3 D.png](../docs/c4-banckend/Components3%20D.png)
+
+#### Equipment
+![Components4 D.png](../docs/c4-banckend/Components4%20D.png)
 
 #### Analytics
-![Analytics](../assets/c435.png){width=500px}
+![Components5 D.png](../docs/c4-banckend/Components5%20D.png)
+
+#### Reservation
+![Components6 D.png](../docs/c4-banckend/Components6%20D.png)
+
+#### Authentication
+![Components7 D.png](../docs/c4-banckend/Components7%20D.png)
+
+#### Membership
+![Components8 D.png](../docs/c4-banckend/Components8%20D.png)
 
 ## Software Object-Oriented Design
 

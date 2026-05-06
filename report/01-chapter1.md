@@ -28,7 +28,7 @@ Soy **Valentino Andre Espinoza Orrego** (código: u202410344), "Estudiante de In
 
 ![foto-nicolas](../assets/foto-nicolas.png)
 
-Soy **Nicolas Fernando Atoche Gonzales**, actualmente estoy en el tercer ciclo de la carrera de ingeniería de software. Poseo un conocimiento básico/intermedio en programación con C++, java y Lua. Además, cuento con conocimientos en el desarrollo de videojuegos. Dentro del equipo, estoy encargado en el desarrollo del backend  del proyecto utilizando el entorno Angular. A su vez suelo orientarme por el conocimiento y el pensamiento lógico, con lo cual suelo buscar la solución más óptima y ágil dentro de un problema a través de pasos sencillos y definidos que construyan una base sólida donde pueda desarrollar respuestas claras y efectivas.
+Soy **Nicolas Fernando Atoche Gonzales** (código: u20241d317), actualmente estoy en el quinto ciclo de la carrera de ingeniería de software. Poseo un conocimiento básico/intermedio en programación con C++, java y Lua. Además, cuento con conocimientos en el desarrollo de videojuegos. Dentro del equipo, estoy encargado en el desarrollo del backend  del proyecto. A su vez suelo orientarme por el conocimiento y el pensamiento lógico, con lo cual suelo buscar la solución más óptima y ágil dentro de un problema a través de pasos sencillos y definidos que construyan una base sólida donde pueda desarrollar respuestas claras y efectivas.
 
 ![foto-jesus](../assets/foto-jesus-c.png)
 
