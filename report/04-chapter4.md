@@ -450,29 +450,49 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d317_upc_edu_pe/IQDCANk2
 
 ### Software Architecture Context Diagram
 ![Context D.png](../docs/c4-banckend/Context%20D.png)
+Frontend context diagram: 
+![](../docs/c4-frontend/01_SystemContext-dark.png)
+
 
 ### Software Architecture Container Diagrams
 ![Container D.png](../docs/c4-banckend/Container%20D.png)
+Frontend container diagram: 
+![](../docs/c4-frontend/02_Containers-dark.png)
+
 
 ### Software Architecture Components Diagrams
 
+
 #### IoT Sensor Ingestion
 ![Components1 D.png](../docs/c4-banckend/Components1%20D.png)
+Frontend:
+![](../docs/c4-frontend/03c_IoT-dark.png)
 
 #### Monitoring
 ![Components2 D.png](../docs/c4-banckend/Components2%20D.png)
+Frontend:
+![](../docs/c4-frontend/03c_IoT-dark.png)
 
 #### Maintenance
 ![Components3 D.png](../docs/c4-banckend/Components3%20D.png)
+Frontend:
+![](../docs/c4-frontend/03g_Maintenance-dark.png)
 
 #### Equipment
 ![Components4 D.png](../docs/c4-banckend/Components4%20D.png)
+Frontend:
+![](../docs/c4-frontend/03b_Equipment-dark.png)
 
 #### Analytics
 ![Components5 D.png](../docs/c4-banckend/Components5%20D.png)
+Frontend:
+![](../docs/c4-frontend/03e_Analytics-dark.png)
 
 #### Reservation
 ![Components6 D.png](../docs/c4-banckend/Components6%20D.png)
+Frontend:
+![](../docs/c4-frontend/03i_Reservation-dark.png)
+
 
 #### Authentication
 ![Components7 D.png](../docs/c4-banckend/Components7%20D.png)
