@@ -69,7 +69,6 @@ El proyecto utiliza **GitHub** como sistema de control de versiones mediante un 
 
 La integración de cambios se realiza mediante **Pull Requests** hacia la rama `develop`, asegurando un control previo antes de incorporar modificaciones. Se emplea una convención de commits semánticos (`feat`, `fix`).
 
-### Source Code Style Guide & Conventions
 
 ### Source Code Style Guide & Conventions
 
@@ -80,9 +79,19 @@ En relación al **frontend**, la estructura semántica y los estilos se rigen po
 Por otro lado, en la **arquitectura del lado del servidor**, el código se alinea con la *Google Java Style Guide* y las directrices de *Spring Boot Features* (Google, s.f.), estableciendo el uso innegociable de **UpperCamelCase (PascalCase)** para la definición de entidades y controladores (ej., `MaintenanceTicketController`), además de seguir patrones arquitectónicos definidos por el framework para la inyección de dependencias. 
 
 Finalmente, para asegurar una trazabilidad transparente entre los requerimientos del gimnasio y las pruebas automatizadas, el equipo utiliza las *Gherkin Conventions for Readable Specifications*, modelando historias de usuario bajo la sintaxis declarativa de comportamiento (**Given, When, Then**), lo que unifica el entendimiento funcional entre desarrolladores y stakeholders (Cucumber, s.f.).
+
 ### Software Deployment Configuration
 
-[Descripción de la configuración de despliegue: entornos, pipelines CI/CD y servicios en la nube utilizados.]
+Para el despliegue de la **Landing Page** de SpotTrack, se seleccionó **GitHub Pages** como servicio de hosting estático, aprovechando su integración nativa con el repositorio del equipo. La automatización del proceso se realizó mediante **GitHub Actions**, definiendo un pipeline CI/CD en el archivo `.github/workflows/deploy.yml`. Este workflow se activa automáticamente ante cada `push` a la rama `main`, ejecuta el proceso de build y publica el sitio en la URL pública del repositorio, garantizando que cada cambio integrado quede inmediatamente reflejado en producción sin intervención manual.
+
+La siguiente figura muestra la configuración del archivo de workflow de GitHub Actions utilizado para el despliegue continuo de la Landing Page:
+
+![Configuración del workflow de GitHub Actions (`.github/workflows/deploy.yml`) para el despliegue en GitHub Pages](../assets/landing-page-deployment-evidence/jekyll-gh-pages-yml_config_evidence.png)
+
+Deployed landing page:
+![Landing page screenshot](../assets/landing-page-deployment-evidence/lading-page-screenshot.png)
+
+https://spottrack-1asi0729-2610-11881.github.io/SpotTrack-Landing-Page/
 
 ## Landing Page, Services & Applications Implementation
 
@@ -327,7 +336,15 @@ Trello board: https://trello.com/invite/b/69fc21c2d05be44be499c75d/ATTI944e7a75f
 
 #### Software Deployment Evidence for Sprint Review
 
-[Documentar el enlace de producción de la Landing Page desplegada (Vercel/GitHub Pages) y el repositorio del Web App Angular con instrucciones para levantar el entorno local (`json-server` + `ng serve`).]
+Como parte de la tarea **CORR-05**, la Landing Page de SpotTrack fue desplegada exitosamente en **GitHub Pages** durante este Sprint 2. El proceso se automatizó mediante el workflow de GitHub Actions definido en `.github/workflows/deploy.yml`, el cual se activa con cada `push` a la rama `main` del repositorio `SpotTrack-Landing-Page`, asegurando despliegues continuos sin fricción.
+
+| Producto | Entorno | URL de Producción |
+| :--- | :--- | :--- |
+| SpotTrack Landing Page | GitHub Pages (producción) | https://spottrack-1asi0729-2610-11881.github.io/SpotTrack-Landing-Page/ |
+
+La siguiente figura muestra la Landing Page de SpotTrack correctamente desplegada y funcional en el entorno de producción de GitHub Pages:
+
+![Vista de la Landing Page de SpotTrack desplegada y funcional en GitHub Pages](../assets/landing-page-deployment-evidence/lading-page-screenshot.png)
 
 #### Team Collaboration Insights during Sprint
 
