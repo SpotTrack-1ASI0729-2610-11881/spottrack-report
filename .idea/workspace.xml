@@ -10,7 +10,9 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc836ea5-3c32-47ac-8f0b-7a6047ffa225" name="Changes" comment="" />
+    <list default="true" id="fc836ea5-3c32-47ac-8f0b-7a6047ffa225" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/report/04-chapter4.md" beforeDir="false" afterPath="$PROJECT_DIR$/report/04-chapter4.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +43,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feature/corrections",
+    "git-widget-placeholder": "fix/class-diagrams",
     "last_opened_file_path": "C:/Users/DELL/Desktop/Mierda2/Estudio/UPC/CICLO 2026 - 1/OPEN SOURCE/docs-repo-new/Project-Report-New/Project-Report-New",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -70,6 +72,7 @@
       <workItem from="1777055024236" duration="13348000" />
       <workItem from="1778021741553" duration="1848000" />
       <workItem from="1778033638203" duration="5461000" />
+      <workItem from="1778276972134" duration="332000" />
     </task>
     <servers />
   </component>
@@ -79,23 +82,5 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
-          <option name="timeStamp" value="3" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
