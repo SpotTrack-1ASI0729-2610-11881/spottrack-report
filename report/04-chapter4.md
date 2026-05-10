@@ -438,6 +438,8 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 √≠conos de acceso r√
 
 ## Web Applications Prototyping
 
+![Proto-Capture.png](../assets/Proto-Capture.png)
+
 Video del prototipo:
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d317_upc_edu_pe/IQDCANk2iXBXRJw2mH1ZdZXPASTGyLkvsZa1prA9mkQ0dyw?e=ItBRSW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D    
