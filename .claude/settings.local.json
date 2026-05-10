@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git ls-tree *)"
+      "Bash(git ls-tree *)",
+      "mcp__claude_ai_Figma__get_design_context",
+      "Bash(python3 *)"
     ]
   }
 }
