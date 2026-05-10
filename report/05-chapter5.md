@@ -391,6 +391,40 @@ La siguiente figura muestra la Landing Page de SpotTrack correctamente desplegad
 
 
 
+## Conclusiones y Recomendaciones
+
+### Conclusiones
+
+La investigación de campo realizada durante el Sprint 1 confirmó que la gestión reactiva de equipos en gimnasios genera costos de reparación entre 3 y 5 veces superiores a los de un modelo preventivo, y que la inoperatividad de máquinas figura consistentemente en el "Top 3" de motivos de cancelación de membresías, con tasas de abandono (Churn Rate) anuales del 30-40% en la industria. Los competidores directos (Fitco, GYMMaster, Virtuagym) presentan una "ceguera intramuros" estructural: ninguno ofrece telemetría pasiva de hardware en tiempo real. SpotTrack identifica y ocupa este espacio de forma diferenciada mediante IoT Edge.
+
+La definición de Bounded Contexts bien delimitados (Telemetría, Mantenimiento Predictivo, Gestión de Activos, Reservas, Rutinas y Analíticas) estableció límites explícitos de responsabilidad que facilitaron tanto la distribución del trabajo entre los integrantes del equipo como la escalabilidad futura del sistema. El modelado mediante Big Picture y Design-Level EventStorming permitió descubrir invariantes de negocio críticos —como el bloqueo lógico de una máquina durante una reserva exprés— antes de escribir una sola línea de código, reduciendo el riesgo de regresiones tardías.
+
+El uso de JSON Server desplegado en Azure App Service durante el Sprint 2 permitió avanzar en paralelo con el desarrollo de la Angular SPA sin generar bloqueos entre equipos. Las 70 tareas de desarrollo frontend distribuidas entre los cinco integrantes —cubriendo autenticación, mapa de calor, gestión de activos, alertas predictivas, motor de rutinas, reservas y analíticas— pudieron ejecutarse sobre datos semilla consistentes y endpoints REST estables. Esto valida el patrón de API-first development como práctica recomendable para proyectos con equipos reducidos y desarrollo paralelo de capas.
+
+La automatización del despliegue de la Landing Page en GitHub Pages, activada en cada push a main, garantizó que cada cambio integrado quedara inmediatamente visible en producción sin intervención manual. Esta práctica DevOps, implementada desde el Sprint 1, estableció una cultura de integración continua que debería extenderse al despliegue del backend real (Spring Boot en Azure App Service) durante los sprints siguientes.
+
+La incorporación explícita de tareas storyless con prefijos CORR- y SETUP- en el backlog del Sprint 2 —separadas de las User Stories con Story Points— proporcionó visibilidad real del trabajo de corrección sin contaminar la métrica de velocidad del equipo. Este mecanismo permitió sanear 15 deficiencias documentales y técnicas identificadas al cierre del Sprint 1 sin sacrificar el avance en las funcionalidades del producto.
+
+La estructura de precios definida ($69 USD/mes Basic, $109 USD/mes Mid, $189 USD/mes Platinum) se posiciona competitivamente frente al mercado: por debajo del plan Professional de GYMMaster ($209 USD/mes) y por encima del plan base de Virtuagym ($29 USD/mes), con una propuesta de valor tecnológicamente superior en telemetría pasiva. El piloto gratuito de 30 días como táctica de entrada reduce la barrera de adopción para gimnasios medianos en Lima, que representan el segmento objetivo principal.
+
+---
+
+### Recomendaciones
+
+La transición del JSON Server al backend real debe respetar estrictamente los límites de dominio definidos. Se recomienda estructurar cada Bounded Context como un módulo independiente dentro del monorepo Spring Boot, exponer únicamente los endpoints definidos en la documentación del Mock API, y reemplazar progresivamente las llamadas del frontend usando el mismo contrato de API para minimizar cambios en los componentes Angular.
+
+Los dispositivos Edge que capturan el estado de ocupación (cámaras con visión computacional o sensores de vibración) operan en entornos con recursos limitados y conectividad variable. MQTT, al ser un protocolo ligero con mecanismo de Quality of Service (QoS) y soporte de sesiones persistentes, es significativamente más eficiente que HTTP/REST para este patrón de publicación continua de eventos de telemetría. Se recomienda integrar un broker MQTT (como Eclipse Mosquitto o AWS IoT Core) como capa de mensajería entre el hardware Edge y el backend de Spring Boot.
+
+El sistema gestiona datos de comportamiento de usuarios en espacios físicos, lo que implica responsabilidades de privacidad. Se recomienda implementar autenticación JWT con refresh tokens de corta duración, autorización basada en roles (ADMIN, TECHNICIAN, CLIENT) a nivel de endpoint, y encriptación en tránsito (HTTPS/TLS) en todos los servicios. Adicionalmente, dado que el sistema registra patrones de asistencia individuales, se debe establecer una política de retención de datos y anonimización para cumplimiento con regulaciones de protección de datos personales aplicables en Perú.
+
+Dado que la investigación de usuarios confirmó que la mayoría de clientes finales accede desde dispositivos móviles, se recomienda habilitar las capacidades PWA del Angular CLI (service workers, manifest.json, modo offline) como evolución natural del proyecto. Esto permitiría ofrecer una experiencia similar a una aplicación nativa —incluyendo notificaciones push de disponibilidad de máquinas (US-12)— sin incurrir en el costo y complejidad de desarrollar aplicaciones iOS y Android separadas.
+
+El caso de uso crítico de SpotTrack ocurre precisamente cuando múltiples usuarios consultan simultáneamente el mapa de calor durante horas pico (6:00 PM–8:00 PM). Se recomienda ejecutar pruebas de carga con herramientas como Apache JMeter o k6, simulando al menos 200 usuarios concurrentes por sede, para validar que la arquitectura del backend y la base de datos Microsoft SQL Server sostienen la latencia requerida sin degradar la experiencia del usuario.
+
+Las User Stories de alto valor como US-22 (Alerta predictiva de mantenimiento), US-29 (Calculadora de impacto financiero) y US-30 (Analítica predictiva de compras) son los diferenciadores más poderosos del plan Platinum y los argumentos más tangibles para el cierre de ventas B2B. Se recomienda priorizarlas en Sprint 3 o 4, ya que permiten cuantificar el retorno de inversión directamente en el dashboard del administrador, convirtiendo cada alerta generada en una evidencia del valor del producto.
+
+La validación más importante que SpotTrack puede obtener en esta etapa no es tecnológica sino de negocio. Se recomienda negociar un acuerdo de piloto gratuito de 30 días con un gimnasio mediano en Lima —instalando hardware IoT en la zona de cardio como prueba de concepto— para medir el impacto real en la reducción de tickets de mantenimiento y en la satisfacción del cliente. Los datos obtenidos de este piloto constituirán el caso de estudio más valioso para la estrategia de ventas B2B del equipo.
+
 ## Bibliography
 
 <p style="padding-left: 30px; text-indent: -30px;">DINGG Team. (2025, 26 de noviembre). *Your 5-step operational plan to handle equipment failures*. DINGG. https://dingg.app/blogs/your-5-step-operational-plan-to-handle-equipment-failures</p>
