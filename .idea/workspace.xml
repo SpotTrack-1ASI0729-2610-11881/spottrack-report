@@ -3,15 +3,12 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakeProjectFlavorService">
-    <option name="flavorId" value="CMakePlainProjectFlavor" />
-  </component>
   <component name="CMakeSettings">
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc836ea5-3c32-47ac-8f0b-7a6047ffa225" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/report/04-chapter4.md" beforeDir="false" afterPath="$PROJECT_DIR$/report/04-chapter4.md" afterDir="false" />
+    <list default="true" id="b9921f49-d073-4a72-adb3-5f0a5a1d1bcc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +18,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="3CobWh2hZ0rNgLcs8sl18FaVX95" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3DYPZ8kd71eDURGdfbXkE5bkzh8" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -34,7 +31,6 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -43,36 +39,23 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "fix/class-diagrams",
-    "last_opened_file_path": "C:/Users/DELL/Desktop/Mierda2/Estudio/UPC/CICLO 2026 - 1/OPEN SOURCE/docs-repo-new/Project-Report-New/Project-Report-New",
+    "git-widget-placeholder": "develop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
-      </set>
-    </attachedChunks>
-  </component>
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fc836ea5-3c32-47ac-8f0b-7a6047ffa225" name="Changes" comment="" />
-      <created>1777054902968</created>
+      <changelist id="b9921f49-d073-4a72-adb3-5f0a5a1d1bcc" name="Changes" comment="" />
+      <created>1778456082952</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1777054902968</updated>
-      <workItem from="1777054904192" duration="105000" />
-      <workItem from="1777055024236" duration="13348000" />
-      <workItem from="1778021741553" duration="1848000" />
-      <workItem from="1778033638203" duration="5461000" />
-      <workItem from="1778276972134" duration="332000" />
+      <updated>1778456082952</updated>
+      <workItem from="1778456086101" duration="3269000" />
     </task>
     <servers />
   </component>
@@ -80,7 +63,4 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
-  <component name="VcsManagerConfiguration">
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
 </project>
