@@ -48,7 +48,8 @@ u202410344 - Valentino Andre Espinoza Orrego
 
 | Versión | Fecha | Autor | Descripción de modificación |
 |--------|------|------|-----------------------------|
-|1.0.0 | 25/04/26 | | Se realizaron todos los incisos realizados a Lean UX, Needfidining, UI/UX Design y DDD| 
+|1.0.0 | 25/04/26 | Azama, Atoche, Cataño, Espinoza, Fernández | Se realizaron todos los incisos realizados a Lean UX, Needfidining, UI/UX Design y DDD|
+|2.0.0 | 10/05/26 | Azama, Atoche, Cataño, Espinoza, Fernández | Se completó el despliegue de la Landing Page en GitHub Pages con todas sus secciones (Hero, Features, Pricing, Contact, Footer). Se implementó el desarrollo frontend de la Web Application en Angular con Fake RESTful API (JSON Server desplegado en Azure), cubriendo los bounded contexts de Equipment, IoT Monitoring, Heatmap, Authentication, Maintenance, Analytics, Routines y Booking. Se documentó el Sprint 2 Planning, Aspect Leaders, Sprint Backlog, Development Evidence, Services Documentation y Software Deployment Evidence. Se aplicó la corrección de artefactos pendientes del Sprint 1, incluyendo diagrama ERD, diagrama de clases, Big Picture EventStorming, evidencias de colaboración y estandarización de entrevistas. Se incorporaron las secciones de Conclusiones y Recomendaciones para ambos sprints. |
 
 ---
 
