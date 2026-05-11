@@ -126,17 +126,17 @@ Web Application (Portal de Acceso Administrativo)
 
 
 ### Searching Systems
-Dada la alta densidad de datos (cientos de máquinas, múltiples sedes, histórico de tickets), el sistema de búsqueda es fundamental para la operatividad.
+SpotTrack ofrece mecanismos de búsqueda y filtrado integrados en las secciones donde el volumen de información puede dificultar la navegación del usuario.
 
-Opciones de Búsqueda y Filtros (Dashboard Administrativo):
+Gestión de Equipos: El usuario dispone de una barra de búsqueda de texto libre que filtra por nombre, marca o modelo del equipo en tiempo real, sin necesidad de confirmar la consulta. Adicionalmente, cuenta con un filtro desplegable de estado (Operativo, En Mantenimiento, Fuera de Servicio). Los resultados se presentan en una tabla paginada que muestra ID, nombre, zona, estado y precio de compra; las filas se actualizan de forma reactiva conforme el usuario ajusta los criterios.
 
-Búsqueda Global (Barra de texto): Ubicada en el encabezado (Header). Permite búsquedas difusas ingresando el ID del equipo, nombre de la máquina o descripción de un ticket.
+Gestión de Mantenimiento: La búsqueda combina texto libre (nombre del equipo, descripción del ticket o ID) con dos filtros independientes de estado (Abierto, En Progreso, Resuelto) y prioridad (Alta, Media, Baja). Los tickets que coincidan se listan en tarjetas ordenadas cronológicamente, mostrando el equipo asociado, la prioridad destacada por color y las marcas de tiempo de creación y actualización.
 
-Filtros de Contexto (Faceted Search): * Por Sede: Dropdown global para cambiar la vista de datos entre diferentes sucursales.
+Analítica: El sistema permite segmentar los datos mediante un selector de período (mes, trimestre, año) y un selector de rango de fechas personalizado, combinables con el filtro de sede. Tras aplicar los filtros, los resultados se presentan como gráficos de uso, tasas de ocupación y proyecciones de ROI actualizados dinámicamente.
 
-Por Estado: Checkboxes rápidos para aislar máquinas (ej. Solo mostrar equipos 'En Mantenimiento' o 'Desconectados').
+Sección Cliente – Reservas: El cliente puede localizar máquinas disponibles filtrando por tipo de equipo y franja horaria. Los resultados indican disponibilidad en tiempo real y permiten confirmar la reserva directamente desde la vista de búsqueda.
 
-Por Categoría: Filtros por tipo de equipamiento (Cardio, Fuerza, Funcional).
+En todos los casos, el filtrado opera en el lado del cliente mediante computed properties reactivas, garantizando respuesta inmediata sin peticiones adicionales al servidor para conjuntos de datos de tamaño moderado.
 
 ### Navigation Systems
 El sistema de navegación está diseñado para ser predecible y jerárquico, minimizando la cantidad de clics necesarios para alcanzar cualquier objetivo.
