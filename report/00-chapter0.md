@@ -57,7 +57,7 @@ u202410344 - Valentino Andre Espinoza Orrego
 
 ## Project Report Collaboration Insights
 
-(https://github.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New.git)
+URL del Repositorio: (https://github.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New.git)
 
 ---
 

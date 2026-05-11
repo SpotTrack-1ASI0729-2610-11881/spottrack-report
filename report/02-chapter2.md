@@ -166,7 +166,9 @@ Gimnasio al que asistes regularmente:
 | **Frecuencia** | 4 días a la semana (rutina de dos días seguidos y un día de descanso) |
 | **Duración** | Variable (afectada por la alta afluencia) |
 | **Contexto** | Entrena por las noches por falta de tiempo diurno; el cansancio le ayuda a conciliar el sueño. |
+|**Resumen**| Diego Quispe, estudiante y trabajador de 19 años, entrena cuatro noches a la semana enfocándose en grupos musculares específicos dentro de un gimnasio que suele estar sumamente saturado en ese horario. Su principal frustración es el exceso de tiempo de espera y la necesidad de compartir máquinas con múltiples usuarios, lo que provoca que su cuerpo se enfríe al superar los tres minutos de descanso, perdiendo la intensidad y el ritmo de su entrenamiento. Aunque esta aglomeración no lo ha motivado a cancelar su membresía, ya que adapta sus horarios durante los fines de semana, señala que su solución ideal sería una aplicación que no solo muestre la disponibilidad del lugar, sino que le envíe notificaciones en tiempo real indicándole qué máquina de su lista de ejercicios se acaba de desocupar para optimizar al máximo su tiempo.|
 | **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQCchhWgyjUFSp2Bce_l8sHtAXzQMAQ7-EESo5RieiDuUnw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CDbXkN |
+
 
 ### Análisis de entrevistas
 ### 1st Segmento (Administradores y Gerentes de Operaciones de Gimnasios)
