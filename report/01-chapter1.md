@@ -155,7 +155,7 @@ Hipótesis 1:
 
 **Sabremos que** tendremos exito
 
-**Cuando veamos** que el flujo de usuarios se distribuye mejor, reduciendo la saturación en horas pico en un 15%.
+**Cuando veamos** que la desviación estándar de la asistencia por hora se reduce en un 15%, indicando una distribución de usuarios más uniforme durante el día.
 
 Hipótesis 2: 
 
@@ -163,7 +163,7 @@ Hipótesis 2:
 
 **Sabremos que** esto se cumplió 
 
-**Cuando veamos** que los administradores puedan migrar de mantenimientos correctivos (caros) a mantenimientos preventivos (económicos).
+**Cuando veamos** que el gasto mensual en reparaciones de emergencia (correctivas) disminuye en un 20% en un periodo de 3 meses tras la instalación de los sensores.
 
 Hipótesis 3: 
 
@@ -171,7 +171,7 @@ Hipótesis 3:
 
 **Sabremos que** nuestra solución funcionará 
 
-**Cuando veamos** que el administrador logre identificar y trasladar máquinas de locales con baja demanda a locales con alta demanda.
+**Cuando veamos** que el tiempo de uso diario promedio de las máquinas reubicadas aumenta al menos un 25% en su nueva ubicación durante el primer mes.
 
 Hipótesis 4: 
 
@@ -179,7 +179,7 @@ Hipótesis 4:
 
 **Sabremos que** funcionó 
 
-**Cuando veamos** nuestro backend en Spring Boot reciba payloads ligeros (JSON de estados) en lugar de streaming de video, manteniendo la latencia del API por debajo de 2 segundos.
+**Cuando veamos** que el consumo de ancho de banda de salida por dispositivo no supera los 50 KBps (enviando solo estados) y el tiempo de respuesta del endpoint en Spring Boot se mantiene bajo los 500ms en el 95% de las peticiones (P95).
 
 #### Lean UX Canvas
 
