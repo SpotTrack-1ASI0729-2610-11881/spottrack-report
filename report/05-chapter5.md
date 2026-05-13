@@ -96,7 +96,7 @@ https://spottrack-1asi0729-2610-11881.github.io/SpotTrack-Landing-Page/
 ## Landing Page, Services & Applications Implementation
 
 ### Sprint 1
-#### Sprint Planning 1
+#### Sprint Planning 1  
 
 El presente apartado detalla los acuerdos y objetivos definidos durante el Sprint Planning Meeting de nuestra primera iteración. Para este Sprint inicial de SpotTrack, nuestro esfuerzo se centró en sentar las bases estratégicas y técnicas del proyecto. Esto abarcó desde la elaboración de los artefactos fundacionales de Lean UX y la especificación de requerimientos, hasta el modelado de la arquitectura usando Domain-Driven Design (DDD) y el diseño lógico de la base de datos. Asimismo, priorizamos el prototipado de interfaces en Figma y el despliegue de nuestra Landing Page comercial para asegurar una presencia web temprana orientada a gimnasios y centros deportivos.
 
