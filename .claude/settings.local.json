@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git ls-tree *)",
+      "mcp__claude_ai_Figma__get_design_context",
+      "Bash(python3 *)",
+      "Bash(Get-ChildItem -Recurse -Force)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(xelatex --version)",
+      "Bash(lualatex --version)",
+      "Bash(pandoc report/00-chapter0.md report/01-chapter1.md report/02-chapter2.md report/03-chapter3.md report/04-chapter4.md report/05-chapter5.md --pdf-engine=xelatex -V mainfont=\"Arial\" -V fontsize=11pt -V \"geometry=top=2.5cm, left=2.5cm, right=2.5cm, bottom=2.5cm\" -V colorlinks=true -V urlcolor=NavyBlue -V toccolor=black --from=markdown+raw_tex+raw_html -o \"C:\\\\Users\\\\DELL\\\\Desktop\\\\Mierda2\\\\Estudio\\\\UPC\\\\CICLO 2026 - 1\\\\OPEN SOURCE\\\\SpotTrack_Report.pdf\")"
+    ]
+  }
+}

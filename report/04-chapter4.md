@@ -2,74 +2,657 @@
 
 ## Style Guidelines
 
+Para garantizar la consistencia visual, la accesibilidad y una experiencia de usuario (UX) coherente en todas las plataformas de SpotTrack (Landing Page, Dashboard B2B y Web App B2C), se ha definido la siguiente guía de estilos. Esta guía no solo estandariza los componentes de la interfaz, sino que también alinea la identidad visual con los objetivos del negocio.
+
 ### General Style Guidelines
-[Definición de tipografías, paleta de colores, iconografía y tono de comunicación visual del producto.]
+
+La legibilidad es fundamental para una plataforma que muestra datos analíticos complejos y mapas de calor en tiempo real. Se ha establecido una jerarquía tipográfica limpia y moderna:
+
+Tipografía Primaria: Utilizada para títulos (H1, H2, H3) y elementos de gran énfasis visual. Posee un carácter geométrico y dinámico que transmite modernidad tecnológica y agilidad deportiva. (Pesos utilizados: SemiBold, Bold).
+
+Tipografía Secundaria: Utilizada para párrafos, etiquetas de la interfaz, tablas de datos y botones. Se caracteriza por su alta legibilidad en tamaños pequeños y pantallas móviles, garantizando que el usuario pueda escanear la información rápidamente. (Pesos utilizados: Regular, Medium, SemiBold).
+
+![Typography](../assets/STYLEGUIDELINES/Typography.png)
+
+Paleta de Colores
+La selección cromática de SpotTrack está construida sobre un contraste de alto impacto que refleja innovación tecnológica y energía deportiva, utilizando los siguientes colores base:
+
+Primary Dark / Neutral (#000000 - Negro Absoluto): Usado para fondos estructurados, modo oscuro del dashboard, textos principales y contenedores de gráficos.
+
+Transmite autoridad, elegancia, fuerza y alta tecnología. En interfaces analíticas y de monitoreo constante (como el dashboard gerencial), el negro reduce drásticamente la fatiga visual y permite que los datos y los mapas de calor resalten de manera inmediata.
+
+Primary Accent / Brand (#00ccb2 - Verde Azulado / Teal): Usado para los Call to Action (CTAs) principales, enlaces, indicadores de progreso y elementos interactivos primarios.
+
+Es un color que fusiona la tranquilidad y fiabilidad tecnológica del azul con el crecimiento, salud y balance del verde. Transmite claridad, eficiencia e innovación. En el contexto del gimnasio, da una sensación de frescura y fluidez (ideal para indicar máquinas disponibles o acciones confirmadas).
+
+Secondary Accent / Highlight (#f5bc36 - Amarillo Anaranjado / Dorado): Usado para destacar alertas preventivas, notificaciones importantes, botones secundarios de alta prioridad y estados de "Reserva" en el mapa de calor.
+
+Representa vitalidad, energía, movimiento y el dinamismo puro del sector fitness. Capta la atención del ojo humano de inmediato, por lo que es perfecto para advertencias de mantenimiento predictivo o cuellos de botella en el aforo, comunicando precaución sin llegar a la agresividad de un rojo puro.
+
+![Colors](../assets/STYLEGUIDELINES/Colors.png)
+
+Logo
+El logotipo de SpotTrack Analytics se compone de un isotipo acompañado de un logotipo tipográfico.
+
+Isotipo: Representa un "nodo" estilizado que simula el flujo de datos e interconexión (Edge IoT), utilizando contrastes entre el #00ccb2 y el #f5bc36 sobre fondos oscuros (#000000) para proyectar dinamismo.
+
+Tipografía del Logo: De trazos gruesos, limpios y modernos, estableciendo una presencia sólida en el mercado B2B, denotando confianza y robustez tecnológica.
+
+![Branding](../assets/STYLEGUIDELINES/Branding.png)
 
 ### Web Style Guidelines
-[Especificaciones de diseño web: grillas, espaciado, componentes reutilizables y estándares de accesibilidad.]
+Para la construcción de las interfaces en código (Angular / CSS), se ha definido un sistema de diseño atómico estricto que rige la estructura y disposición de los elementos.
+
+Grid System
+El diseño se basa en un layout estructurado para mantener la alineación perfecta en resoluciones de escritorio y su correcta adaptabilidad a dispositivos móviles.
+
+Columnas: Sistema de 12 columnas.
+
+Ancho de Gutter: 24px.
+
+Spacing System
+Se utiliza una escala de espaciado predecible basada en múltiplos de 4 y 8 píxeles para mantener el ritmo vertical y horizontal
+
+![Launguage and Spacing](../assets/STYLEGUIDELINES/Launguage%20and%20Spacing.png)
 
 ## Information Architecture
 
 ### Organization Systems
-[Estructura de organización del contenido: jerárquica, secuencial o matricial, según el contexto de uso.]
+### 4.2.1. Organization Systems
+
+Para estructurar el ecosistema de SpotTrack de forma práctica, utilizamos una categorización principal basada en la audiencia. Al final del día, toda la arquitectura de la información se rige por un modelo de **jerarquía visual (visual hierarchy)**, priorizando el contenido de mayor a menor importancia según lo que cada tipo de usuario necesita ver primero al entrar.
+
+![INFO-ADMIN](../assets/INFO/INFO-ADMIN.jpg)
+**Plataforma Administrativa (Dashboard B2B)**
+Su estructura jerárquica se divide de frente por módulos operativos (Inventario, Tickets, Estadísticas). Dentro de estos, los datos se categorizan por tópicos (para agrupar las máquinas según la sucursal) y de forma cronológica (para ordenar las alertas predictivas y el historial de horas de uso de más reciente a más antiguo).
+
+![INFO-CLIENT](../assets/INFO/INFO-CLIENT.jpg)
+**Aplicación Móvil (Web App B2C)**
+Diseñada para la inmediatez. La jerarquía visual coloca el mapa de calor en tiempo real como el componente absoluto y principal de la pantalla, subordinando opciones secundarias (como el perfil o recompensas) a menús de navegación. El catálogo de máquinas aplica una categorización directa por tópicos (ej. "Fuerza", "Cardio") para que el cliente filtre y encuentre lo que busca sin dar tantas vueltas.
+
+![INFO-LANDING-PAGE](../assets/INFO/INFO-LANDING-PAGE.jpg)
+**Landing Page Comercial**
+Sigue una jerarquía visual descendente (top-down) para guiar la lectura. El flujo arranca con lo más importante arriba (Hero Section con la propuesta de valor) y decanta hacia los detalles específicos más abajo (features, tabla de precios y formulario de contacto). El texto y las tarjetas están categorizados explícitamente según la audiencia, separando qué gana el dueño del gimnasio y qué gana el usuario final.
+https://miro.com/app/board/uXjVHcq90QA=/?share_link_id=360970048482
 
 ### Labeling Systems
-[Definición de etiquetas, nomenclaturas y taxonomías utilizadas en la interfaz.]
+Para garantizar la simplicidad y reducir la carga cognitiva de los usuarios, se utilizará un vocabulario directo, estandarizado y libre de jerga técnica compleja. Las etiquetas representan acciones claras o agrupaciones lógicas de información.
+
+Para el Dashboard Administrativo (B2B):
+
+    "Resumen": En lugar de "Dashboard Principal" o "Métricas Generales". Agrupa los KPIs de alto nivel.
+
+    "Activos": En lugar de "Inventario de Máquinas Físicas".
+
+    "Monitoreo IoT": Agrupa el estado de la red y conexión de sensores.
+
+    "Mantenimiento": En lugar de "Gestión de Tickets y Reparaciones". Agrupa las alertas y órdenes de trabajo.
+
+    "Reportes": Agrupa la analítica histórica y mapas de calor estáticos.
+
+    "Finanzas": En lugar de "Calculadora de Impacto Financiero y ROI".
+
+Para la Aplicación Móvil (Cliente B2C):
+
+    "Mapa en Vivo": Representa la vista de disponibilidad en tiempo real.
+
+    "Rutinas": Agrupa las sugerencias de ejercicios alternativos.
+
+    "Reservar": Acción directa para bloquear temporalmente un equipo.
+
 
 ### SEO Tags and Meta Tags
-[Especificación de metaetiquetas, títulos, descripciones y palabras clave para posicionamiento en buscadores.]
+Para asegurar un posicionamiento orgánico adecuado y una correcta indexación, se definen las siguientes etiquetas principales.
+
+Landing Page (Sitio Público)
+
+    Title: SpotTrack | Gestión Inteligente y Telemetría para Gimnasios
+
+    Description: Optimiza la gestión de tu gimnasio con telemetría IoT. Reduce costos de mantenimiento, evita aglomeraciones y mejora la retención de tus clientes con mapas de calor en tiempo     real.
+
+    Keywords: software para gimnasios, telemetría deportiva, mantenimiento predictivo gimnasios, sensores IoT fitness, gestión de activos deportivos, mapa de calor gimnasio, SpotTrack.
+
+    Author: SpotTrack
+
+Web Application (Portal de Acceso Administrativo)
+
+    Title: SpotTrack Dashboard | Acceso Administrativo
+    
+    Description: Panel de control gerencial para la gestión de activos, monitoreo de hardware IoT y resolución de tickets de mantenimiento en tiempo real.
+    
+    Keywords: spottrack admin, login spottrack, gestión interna, dashboard gimnasios.
+    
+    Author: SpotTrack
+
 
 ### Searching Systems
-[Descripción del sistema de búsqueda: filtros, criterios y mecanismos de recuperación de información.]
+SpotTrack ofrece mecanismos de búsqueda y filtrado integrados en las secciones donde el volumen de información puede dificultar la navegación del usuario.
+
+Gestión de Equipos: El usuario dispone de una barra de búsqueda de texto libre que filtra por nombre, marca o modelo del equipo en tiempo real, sin necesidad de confirmar la consulta. Adicionalmente, cuenta con un filtro desplegable de estado (Operativo, En Mantenimiento, Fuera de Servicio). Los resultados se presentan en una tabla paginada que muestra ID, nombre, zona, estado y precio de compra; las filas se actualizan de forma reactiva conforme el usuario ajusta los criterios.
+
+Gestión de Mantenimiento: La búsqueda combina texto libre (nombre del equipo, descripción del ticket o ID) con dos filtros independientes de estado (Abierto, En Progreso, Resuelto) y prioridad (Alta, Media, Baja). Los tickets que coincidan se listan en tarjetas ordenadas cronológicamente, mostrando el equipo asociado, la prioridad destacada por color y las marcas de tiempo de creación y actualización.
+
+Analítica: El sistema permite segmentar los datos mediante un selector de período (mes, trimestre, año) y un selector de rango de fechas personalizado, combinables con el filtro de sede. Tras aplicar los filtros, los resultados se presentan como gráficos de uso, tasas de ocupación y proyecciones de ROI actualizados dinámicamente.
+
+Sección Cliente – Reservas: El cliente puede localizar máquinas disponibles filtrando por tipo de equipo y franja horaria. Los resultados indican disponibilidad en tiempo real y permiten confirmar la reserva directamente desde la vista de búsqueda.
+
+En todos los casos, el filtrado opera en el lado del cliente mediante computed properties reactivas, garantizando respuesta inmediata sin peticiones adicionales al servidor para conjuntos de datos de tamaño moderado.
 
 ### Navigation Systems
-[Esquema de navegación: menús, breadcrumbs, flujos de navegación y patrones de interacción.]
+El sistema de navegación está diseñado para ser predecible y jerárquico, minimizando la cantidad de clics necesarios para alcanzar cualquier objetivo.
+
+Landing Page (One-Page Scroll Navigation):
+
+Navegación global superior fija (Sticky Top Navbar) que permite saltos rápidos (Anchor links) a las secciones clave: Inicio, Soluciones, Precios, Contacto. Incluye un Call to Action persistente ("Login") que redirige a la Web App.
+
+Dashboard Administrativo (Desktop Web):
+
+Navegación Estructural Permanente: Se utilizará un Sidebar (menú lateral izquierdo) persistente que contiene las etiquetas de los módulos principales (Activos, IoT, Mantenimiento, etc.). Esto permite al administrador saltar entre contextos sin perder su ubicación.
+
+Navegación Local: Pestañas (Tabs) dentro de cada módulo para separar vistas internas (ej. dentro de "Mantenimiento", pestañas para Pendientes, En Progreso, Completados).
+
+Aplicación Móvil (Clientes):
+
+Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso rápido a las funciones críticas para el usuario en movimiento (ej. Mapa, Rutinas, Perfil). Facilita el uso con una sola mano.
+
 
 ## Landing Page UI Design
 
+
 ### Landing Page Wireframe
-[Wireframes de baja fidelidad de la landing page, mostrando la disposición de secciones y elementos.]
+![Landing Wireframe](../assets/WIREFRAMES/landing_wireframe.png){width=100%}
 
 ### Landing Page Mock-up
-[Mock-ups de alta fidelidad de la landing page con diseño visual aplicado.]
+![Landing Mockup](../assets/MOCKUPS/landing_mockup.png){width=100%}
 
 ## Web Applications UX/UI Design
 
 ### Web Applications Wireframes
-[Wireframes de las pantallas principales de la aplicación web.]
+
+
+![US07 Inicio de sesión con validación JWT](../assets/WIREFRAMES/US07%20Inicio%20de%20sesión%20con%20validación%20JWT%20(Epic_%20EP02).png){width=600px}
+
+![US08 Gestión de preferencias y perfil](../assets/WIREFRAMES/US08%20Gestión%20de%20preferencias%20y%20perfil%20(Epic_%20EP02).png){width=600px}
+
+![US09 Y US10 MAPA DE CALOR Y FILTROS](../assets/WIREFRAMES/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png){width=600px}
+
+![US11 Cambio de sucursal para revisión de aforo](../assets/WIREFRAMES/US11%20Cambio%20de%20sucursal%20para%20revisión%20de%20aforo%20(Epic_%20EP03).png){width=600px}
+
+![US12 Notificaciones push de resolución de disponibilidad](../assets/WIREFRAMES/US12%20Notificaciones%20push%20de%20resolución%20de%20disponibilidad%20(Epic_%20EP03).png){width=600px}
+
+![US13 Reporte de máquina](../assets/WIREFRAMES/US13_%20Reporte%20de%20máquina.png){width=600px}
+
+![US14 Motor de sugerencia de rutinas alternativas](../assets/WIREFRAMES/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png){width=600px}
+
+![US17 Acumulación automática de horas de uso](../assets/WIREFRAMES/US17_Wireframe.png){width=600px}
+
+![US18 Clasificación de ineficiencia operativa](../assets/WIREFRAMES/US18_Wireframe.png){width=600px}
+
+![US19 Comparativa de demanda intersemanal](../assets/WIREFRAMES/US19_Wireframe.png){width=600px}
+
+
+![US20 Exportación de analíticas de uso](../assets/WIREFRAMES/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png){width=600px}
+
+![US21 Monitoreo de estado de hardware Edge IoT](../assets/WIREFRAMES/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png){width=600px}
+
+![US22 Alerta predictiva de mantenimiento](../assets/WIREFRAMES/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png){width=600px}
+
+![US23 Despacho automatizado de tickets técnicos](../assets/WIREFRAMES/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png){width=600px}
+
+![US24 Notificación de restablecimiento a los usuarios](../assets/WIREFRAMES/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png){width=600px}
+
+![US25 Calendario inteligente de bloqueos de reserva](../assets/WIREFRAMES/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png){width=600px}
+
+![US26 Gestión de activos físicos y altas](../assets/WIREFRAMES/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png){width=600px}
+
+![US27 Estadísticas de reubicación multisede](../assets/WIREFRAMES/US27%20Estadísticas%20de%20reubicación%20multisede%20(Epic_%20EP07).png){width=600px}
+
+![US29 Calculadora de impacto financiero por inactividad](../assets/WIREFRAMES/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png){width=600px}
+
+![US30 Analítica predictiva de compras e inversión](../assets/WIREFRAMES/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png){width=600px}
+
 
 ### Web Applications Wireflow Diagrams
-[Diagramas que combinan wireframes con flujos de navegación entre pantallas.]
+![TASKFLOW-07](../assets/TASKFLOWS/TASKFLOW-07.jpg)
+![WFM-07](../assets/WIREFLOWS%20MOBILE/US07%20Inicio%20de%20sesión%20con%20validación%20JWT%20(Epic_%20EP02).png) 
+![WF-07](../assets/WIREFLOWS/US07%20Inicio%20de%20sesión%20con%20validación%20JWT%20(Epic_%20EP02).png)
+![TASKFLOW-08](../assets/TASKFLOWS/TASKFLOW-08.jpg)
+
+![WFM-08](../assets/WIREFLOWS%20MOBILE/US08%20Gestión%20de%20preferencias%20y%20perfil%20(Epic_%20EP02).png)
+![WF-08](../assets/WIREFLOWS/US08%20Gestión%20de%20preferencias%20y%20perfil%20(Epic_%20EP02).png)
+![TASKFLOW-09](../assets/TASKFLOWS/TASKFLOW-09.jpg)
+![WFM-09](../assets/WIREFLOWS%20MOBILE/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
+![WF-O9](../assets/WIREFLOWS/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
+![TASKFLOW-10](../assets/TASKFLOWS/TASKFLOW-10.jpg)
+![WFM-10](../assets/WIREFLOWS%20MOBILE/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
+![WF-10](../assets/WIREFLOWS/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
+![TASKFLOW-11](../assets/TASKFLOWS/TASKFLOW-11.jpg)
+![WFM-11](../assets/WIREFLOWS%20MOBILE/US11%20Cambio%20de%20sucursal%20para%20revisión%20de%20aforo%20(Epic_%20EP03).png)
+![WF-11](../assets/WIREFLOWS/US11%20Cambio%20de%20sucursal%20para%20revisión%20de%20aforo%20(Epic_%20EP03).png)
+![TASKFLOW-12](../assets/TASKFLOWS/TASKFLOW-12.jpg)
+![WFM-12](../assets/WIREFLOWS%20MOBILE/US12%20Notificaciones%20push%20de%20resolución%20de%20disponibilidad%20(Epic_%20EP03).png)
+![WF-12](../assets/WIREFLOWS/US12%20Notificaciones%20push%20de%20resolución%20de%20disponibilidad%20(Epic_%20EP03).png)
+![TASKFLOW-13](../assets/TASKFLOWS/TASKFLOW-13.jpg)
+![WFM-13](../assets/WIREFLOWS%20MOBILE/US13_%20Reporte%20de%20máquina.png)
+![WF-13](../assets/WIREFLOWS/US13_%20Reporte%20de%20máquina.png)
+![TASKFLOW-14](../assets/TASKFLOWS/TASKFLOW-14.jpg)
+![WFM-14](../assets/WIREFLOWS%20MOBILE/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png)
+![WF-14](../assets/WIREFLOWS/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png)
+![task16.png](../assets/TASKFLOWS/TASKFLOW-16.png)
+![WF-16](../assets/WIREFLOWS/Frame%2017.png)
+![task17.png](../assets/TASKFLOWS/TASKFLOW-17.png)
+![WF-17](../assets/WIREFLOWS/S16%20-%20reserva%20express.png)
+![task18.png](../assets/TASKFLOWS/TASKFLOW-18.png)
+![WF-18](../assets/WIREFLOWS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
+![task19.png](../assets/TASKFLOWS/TASKFLOW-19.png)
+
+
+![task20.png](../assets/TASKFLOWS/TASKFLOW-20.png)
+![WF-20](../assets/WIREFLOWS/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
+![WFM-20](../assets/WIREFLOWS%20MOBILE/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
+
+![TASKFLOW-21](../assets/TASKFLOWS/TASKFLOW-21.png)
+![WF-21](../assets/WIREFLOWS/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
+![WFM-21](../assets/WIREFLOWS%20MOBILE/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
+
+![TASKFLOW-22](../assets/TASKFLOWS/TASKFLOW-22.png)
+![WF-22-UMBRAL](../assets/WIREFLOWS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
+![WF-22](../assets/WIREFLOWS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06).png)
+![WFM-22-UMBRAL](../assets/WIREFLOWS%20MOBILE/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
+![WFM-22](../assets/WIREFLOWS%20MOBILE/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06).png)
+
+![TASKFLOW-23](../assets/TASKFLOWS/TASKFLOW-23.png)
+![WF-23](../assets/WIREFLOWS/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png)
+![WFM-23](../assets/WIREFLOWS%20MOBILE/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png)
+
+![TASKFLOW-24](../assets/TASKFLOWS/TASKFLOW-24.png)
+![WF-24](../assets/WIREFLOWS/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png)
+![WFM-24](../assets/WIREFLOWS%20MOBILE/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png)
+
+![TASKFLOW-25](../assets/TASKFLOWS/TASKFLOW-25.png)
+![WF-25](../assets/WIREFLOWS/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png)
+![WFM-25](../assets/WIREFLOWS%20MOBILE/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png)
+
+![TASKFLOW-26](../assets/TASKFLOWS/TASKFLOW-26.png)
+![WF-26](../assets/WIREFLOWS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
+![WFM-26](../assets/WIREFLOWS%20MOBILE/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
+
+![TASKFLOW-29](../assets/TASKFLOWS/TASKFLOW-29.png)
+![WF-29](../assets/WIREFLOWS/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
+![WFM-29](../assets/WIREFLOWS%20MOBILE/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
+
+![TASKFLOW-30](../assets/TASKFLOWS/TASKFLOW-30.png)
+![WF-30](../assets/WIREFLOWS/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
+![WFM-30](../assets/WIREFLOWS%20MOBILE/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
 
 ### Web Applications Mock-ups
-[Mock-ups de alta fidelidad de las pantallas de la aplicación web.]
 
-### Web Applications User Flow Diagrams
-[Diagramas de flujo de usuario que representan los caminos posibles dentro de la aplicación.]
+![MOCKUP-FRAME-17](../assets/MOCKUPS/Frame%2017.png)
+![MOCKUP-LANDING](../assets/MOCKUPS/landing_mockup.png)
+![MOCKUP-S16](../assets/MOCKUPS/S16%20-%20reserva%20express.png)
+![MOCKUP-US07](../assets/MOCKUPS/US07%20Inicio%20de%20sesión%20con%20validación%20JWT%20(Epic_%20EP02).png)
+![MOCKUP-US08](../assets/MOCKUPS/US08%20Gestión%20de%20preferencias%20y%20perfil%20(Epic_%20EP02).png)
+![MOCKUP-US09-US10](../assets/MOCKUPS/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png)
+![MOCKUP-US11](../assets/MOCKUPS/US11%20Cambio%20de%20sucursal%20para%20revisión%20de%20aforo%20(Epic_%20EP03).png)
+![MOCKUP-US12](../assets/MOCKUPS/US12%20Notificaciones%20push%20de%20resolución%20de%20disponibilidad%20(Epic_%20EP03).png)
+![MOCKUP-US13](../assets/MOCKUPS/US13_%20Reporte%20de%20máquina.png)
+![MOCKUP-US14](../assets/MOCKUPS/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png)
+![MOCKUP-US20](../assets/MOCKUPS/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
+![MOCKUP-US21](../assets/MOCKUPS/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
+![MOCKUP-US22-UMBRAL](../assets/MOCKUPS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
+![MOCKUP-US22](../assets/MOCKUPS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06).png)
+![MOCKUP-US23](../assets/MOCKUPS/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png)
+![MOCKUP-US24](../assets/MOCKUPS/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png)
+![MOCKUP-US25](../assets/MOCKUPS/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png)
+![MOCKUP-US26](../assets/MOCKUPS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
+![MOCKUP-US27](../assets/MOCKUPS/US27%20Estadísticas%20de%20reubicación%20multisede%20(Epic_%20EP07).png)
+![MOCKUP-US29](../assets/MOCKUPS/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png)
+![MOCKUP-US30](../assets/MOCKUPS/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png)
+
+
+
+
+### Web Applications User Flow Diagrams 
+---
+
+## US04: Selección de planes de suscripción SaaS
+
+* **Happy Path:** El visitante hace clic en Pricing en la barra de navegación. El sistema despliega correctamente la grilla comparativa con los tres niveles de suscripción (Basic $69, Mid $109, Platinum $189), mostrando características y costos mensuales claramente diferenciados para cada plan.
+* **Unhappy Path:** El visitante desea acceder al pago de la pagina, pero al no rellenar los campos necesarios, el programa muestra un error de campos vacios.
+  
+
+## US05: Envío de formulario de Contacto
+
+* **Happy Path:** El visitante completa todos los campos obligatorios incluyendo un email con formato válido y presiona Enviar. El sistema pasa la validación sin bloqueos y completa el flujo exitosamente.
+* **Unhappy Path:** Si el visitante intenta presionar Enviar dejando el campo Email vacío, el sistema impide el envío, resalta el campo con un indicador de error y exige completar la información requerida antes de continuar. No se realiza ninguna llamada al servidor.
+
+## US06: Acceso al portal desde la navegación
+
+* **Happy Path:** El cliente hace clic en el enlace Iniciar Sesión ubicado en la esquina superior derecha del menú. El sistema redirige al usuario al módulo de autenticación de SpotTrack, donde puede ingresar sus credenciales para acceder al dashboard o al mapa de disponibilidad según su rol.
+
+* **Unhappy Path:** Si el visitante intenta presionar Enviar dejando el campo Email vacío, el sistema muestra el mensaje de campos vacios, resalta el campo con un indicador de error y exige completar la información requerida antes de continuar. 
+
+
+## US07: Inicio de sesión con validación JWT
+
+![UF-07](../assets/USERFLOWS/US07%20Inicio%20de%20sesión%20con%20validación%20JWT%20(Epic_%20EP02).png){ width=90% }
+![UFM-07](../assets/USERFLOW%20MOBILE/US07%20Inicio%20de%20sesión%20con%20validación%20JWT%20(Epic_%20EP02).png){ width=50% }
+
+* **User Goal:** Como usuario (administrador o cliente), quiero iniciar sesión de forma segura generando un token, para acceder a mi panel de control o aplicación móvil correspondiente.
+* **Happy Path:** El usuario se autentica ingresando credenciales válidas. El sistema verifica el token JWT y evalúa el rol de la cuenta. Los administradores son redirigidos directamente al dashboard analítico, mientras que los clientes acceden al mapa de disponibilidad en tiempo real.
+* **Unhappy Path:** Si las credenciales son incorrectas, la interfaz despliega una alerta visual de error. Si se intenta procesar el formulario con campos vacíos, el frontend bloquea la petición y exige completar la información requerida.
+
+---
+
+## US08: Gestión de preferencias y perfil
+
+![UF-08](../assets/USERFLOWS/US08%20Gestión%20de%20preferencias%20y%20perfil%20(Epic_%20EP02).png){ width=90% }
+![UFM-08](../assets/USERFLOW%20MOBILE/US08%20Gestión%20de%20preferencias%20y%20perfil%20(Epic_%20EP02).png){ width=50% }
+
+* **User Goal:** Como cliente, quiero actualizar mi información personal y cambiar el idioma del sistema, para mantener mis datos al día y usar la plataforma cómodamente.
+* **Happy Path:** Mediante el menú lateral, el usuario accede a "Mi Perfil" para consultar su plan actual, métricas y puntos acumulados. Puede actualizar configuraciones como el idioma de la interfaz. Al guardar, la plataforma registra y aplica los cambios instantáneamente.
+* **Unhappy Path:** Ante un fallo de red o un error de validación en el backend durante el guardado, los cambios se descartan de forma segura. La UI mantiene el estado previo de la configuración y notifica al usuario sobre el fallo.
+
+---
+
+## US09 y US10: Mapa de calor y filtros de equipamiento
+
+![UF-09-10](../assets/USERFLOWS/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png){ width=90% }
+![UFM-09-10](../assets/USERFLOW%20MOBILE/US09%20Y%20US10_%20MAPA%20DE%20CALOR%20Y%20FILTROS.png){ width=50% }
+
+* **User Goal:** 
+  - Como cliente frecuente, quiero ver la disponibilidad de las máquinas en tiempo real (verde/rojo), para esquivar aglomeraciones y no perder tiempo en filas.
+  - Como cliente frecuente, quiero seleccionar etiquetas (ej. Fuerza o Cardio) en el mapa, para visualizar únicamente las máquinas relevantes para mi rutina.
+* **Happy Path:** Dentro del mapa de disponibilidad, el usuario interactúa con los chips de filtrado. Al seleccionar "Fuerza", el renderizado aísla y muestra únicamente ese tipo de equipamiento. Alternar a "Cardio" refresca la vista instantáneamente con la nueva categoría.
+* **Unhappy Path:** Si la combinación de filtros aplicada no arroja resultados (ej. todas las máquinas de la categoría están en mantenimiento o no existen en la sede actual), la interfaz maneja la excepción mostrando un *empty state* limpio.
+
+---
+
+## US11: Cambio de sucursal para revisión de aforo
+
+![UF-11](../assets/USERFLOWS/US11%20Cambio%20de%20sucursal%20para%20revisión%20de%20aforo%20(Epic_%20EP03).png){ width=90% }
+![UFM-11](../assets/USERFLOW%20MOBILE/US11%20Cambio%20de%20sucursal%20para%20revisión%20de%20aforo%20(Epic_%20EP03).png){ width=50% }
+
+* **User Goal:** Como cliente frecuente, quiero seleccionar otras sedes en la app, para revisar el croquis y aforo de sucursales alternas antes de salir de casa.
+* **Happy Path:** El usuario despliega el selector de sucursales y elige una ubicación distinta (ej. "Gimnasio Norte"). El sistema valida la jerarquía de su membresía y, al confirmar acceso multisede, carga el mapa de disponibilidad de la nueva ubicación.
+* **Unhappy Path:** Si un usuario con plan "Basic" intenta acceder a la telemetría de una sede no incluida en su paquete, el sistema interrumpe la navegación y levanta un modal de "Sede Premium", funcionando como un punto de upsell para mejorar la membresía.
+
+---
+
+## US12: Notificaciones push de resolución de disponibilidad
+
+![UF-12](../assets/USERFLOWS/US12%20Notificaciones%20push%20de%20resolución%20de%20disponibilidad%20(Epic_%20EP03).png){ width=90% }
+![UFM-12](../assets/USERFLOW%20MOBILE/US12%20Notificaciones%20push%20de%20resolución%20de%20disponibilidad%20(Epic_%20EP03).png){ width=50% }
+
+* **User Goal:** Como cliente frecuente, quiero activar una campana de aviso, para recibir una alerta en mi celular cuando la máquina que esperaba se libere.
+* **Happy Path:** El usuario visualiza una máquina en estado ocupado (rojo) y suscribe una alerta de disponibilidad. Cuando el hardware IoT detecta que el equipo ha sido liberado, el sistema despacha una notificación push al dispositivo y el nodo en el mapa pasa a verde.
+* **Unhappy Path:** Si la máquina continúa ocupada prolongadamente o es reclamada de inmediato por un usuario con mayor prioridad en la cola, el estado visual se mantiene en rojo y la notificación queda en espera o se informa de un cambio de estado a mantenimiento.
+
+---
+
+## US13: Reporte de máquina
+
+![UF-13](../assets/USERFLOWS/US13_%20Reporte%20de%20máquina.png){ width=90% }
+![UFM-13](../assets/USERFLOW%20MOBILE/US13_%20Reporte%20de%20máquina.png){ width=50% }
+
+* **User Goal:** Como cliente frecuente, quiero ganar puntos canjeables en mi perfil, para motivarme a actualizar manualmente el estado de disponibilidad de los equipos.
+* **Happy Path:** El usuario levanta un ticket reportando un fallo en un equipo específico. El sistema procesa el reporte, valida su legitimidad cruzando la telemetría, confirma la recepción y recompensa al usuario sumando +25 puntos a su perfil.
+* **Unhappy Path:** Si el algoritmo de seguridad detecta un comportamiento anómalo (spam de reportes o falsos positivos recurrentes), la solicitud es rechazada. El sistema aplica una penalización automática, bloqueando la capacidad del usuario para emitir nuevos reportes durante 48 horas.
+
+---
+
+## US14: Motor de sugerencia de rutinas alternativas
+
+![UF-14](../assets/USERFLOWS/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png){ width=90% }
+![UFM-14](../assets/USERFLOW%20MOBILE/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png){ width=50% }
+
+* **User Goal:** Como cliente del gimnasio, quiero recibir recomendaciones de ejercicios alternativos cuando mi máquina esté ocupada, para no perder mi ritmo de entrenamiento.
+* **Happy Path:** Al encontrarse con una máquina inhabilitada u ocupada dentro de su rutina programada, el usuario solicita alternativas. El motor de recomendación mapea el grupo muscular y devuelve una lista de ejercicios biomecánicamente equivalentes (ej. sustituir press de banca por flexiones) utilizando el equipo disponible.
+* **Unhappy Path:** Si la base de datos no logra resolver una equivalencia factible para ese ejercicio dadas las restricciones actuales del entorno, la UI presenta un *empty state* comunicando que temporalmente no hay rutinas alternativas disponibles.
+
+## US15: Filtrado de alternativas por grupo muscular 
+
+## US16: Sistema de reserva exprés en horas pico
+
+## US17: Acumulación automática de horas de uso (EP08)
+![UF-17](../assets/USERFLOWS/US17_%20Acumulacio%CC%81n%20automa%CC%81tica%20de%20horas%20de%20uso%20(EP08).png){ width=90% }
+
+* **User Goal:** Como administrador, quiero ver gráficos con la sumatoria de horas reales de uso de las máquinas, para comprender la demanda real sin tener que vigilar el local.
+* **Happy Path:** El administrador ingresa a Reportes y visualiza los gráficos de uso generados por los sensores IoT. Al revisar el tiempo inactivo, el sistema calcula y detalla automáticamente la pérdida monetaria por cada máquina. Finalmente, al aplicar un filtro de fechas, la plataforma recalcula y actualiza toda la información al instante.
+* **Unhappy Path:** El administrador ingresa a Reportes, pero el backend no logra comunicarse con los sensores IoT. El sistema no se cae, sino que muestra un estado de alerta ("Sin conexión con los equipos") y los gráficos aparecen en cero o con el último dato en caché.
+
+
+## US18: Identificación de equipos subutilizados (EP05)
+
+![UF-18](../assets/USERFLOWS/US18_%20Identificacio%CC%81n%20de%20equipos%20subutilizados%20(EP05).png){ width=90% }
+
+
+* **User Goal:** Como administrador, quiero que el sistema resalte en una tabla qué máquinas tienen una tasa de uso excepcionalmente baja, para evaluar su reubicación o descarte.
+* **Happy Path:** El administrador ingresa a la sección de Reportes para evaluar la ineficiencia operativa de la sede. El sistema procesa las estadísticas de ocupación recopiladas por los sensores y resalta automáticamente en una tabla aquellas máquinas cuya tasa de uso es inferior al parámetro base. Finalmente, el administrador hace clic en "Exportar CSV" y la plataforma descarga exitosamente un archivo con la data detallada para su análisis externo.
+* **Unhappy Path:** El administrador visualiza correctamente la tabla consolidada de equipos subutilizados y procede a hacer clic en "Exportar CSV". Debido a un error de conexión con el servidor, la generación del documento falla y el sistema despliega una notificación de error advirtiendo que no es posible descargar el archivo.
+
+
+## US19: Visualización de picos de estrés del local (EP05) 
+
+![UF-19](../assets/USERFLOWS/US19_%20Visualizacio%CC%81n%20de%20picos%20de%20estre%CC%81s%20del%20local%20(EP05)%20(1).png){ width=90% }
+* **User Goal:** Como administrador, quiero que el sistema resalte en una tabla qué máquinas tienen una tasa de uso excepcionalmente baja, para evaluar su reubicación o descarte.
+* **Happy Path:** El administrador accede al módulo de Reportes en SpotTrack, donde el sistema genera automáticamente un gráfico de picos de estrés resaltando en rojo las horas con aforo superior al 90%. Al activar la comparativa intersemanal, la interfaz superpone dos líneas de tendencia, permitiendo al dueño del negocio identificar cuellos de botella diarios y comparar el comportamiento de la demanda entre distintos periodos de forma inmediata.
+* **Unhappy Path:** Debido a un error de red, el sistema no puede procesar el porcentaje de uso. En lugar del gráfico de estrés, se muestra un estado de carga infinito o un aviso de "Error al cargar analíticas de aforo", sugiriendo reintentar la consulta.
+
+
+## US20 Exportación de analíticas de uso (Epic: EP05)
+
+![UF-20](../assets/USERFLOWS/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png){ width=90% }
+![UFM-20](../assets/USERFLOW%20MOBILE/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png){ width=50% }
+
+* **User Goal**: Como gerente de operaciones, quiero generar documentos formateados en PDF de los gráficos de uso, para presentar reportes formales de rendimiento.
+  
+
+* **Happy Path:** El usuario accede a la sección de Reportes y Analíticas, selecciona el período y las sedes deseadas, y genera el reporte en formato CSV o PDF. El sistema procesa la solicitud y muestra una confirmación de "PDF generado correctamente" junto con la opción de descarga inmediata del archivo.
+* **Unhappy Path:** Si no existen datos registrados para el período o la sede seleccionada, o si ocurre un fallo durante la generación del archivo, el sistema no puede completar la exportación y muestra un mensaje de error indicando la imposibilidad de generar el reporte, sin ofrecer archivo de descarga.
+
+
+## US21 Monitoreo de estado de hardware Edge IoT (Epic_ EP05)
+
+![UF-21](../assets/USERFLOWS/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png){ width=90% }
+![UFM-21](../assets/USERFLOW%20MOBILE/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png){ width=50% }
+
+* **User Goal:** Como administrador, quiero revisar la salud de la red y el estado de los nodos IoT, para detectar si un sensor se ha desconectado.
+* **Happy Path:** El sistema detecta automáticamente la reconexión de un sensor IoT previamente desconectado y notifica al administrador mediante un mensaje de éxito con opción de descarga de reporte.
+* **Unhappy Path:** Si el sensor permanece desconectado tras el intento de sincronización, la interfaz alerta al administrador sobre la falla crítica de conexión, manteniendo el estado de "Desconectado" en el reporte de alertas.
+
+## US22 Alerta predictiva de mantenimiento (Epic_ EP06) CONFIGURAR UMBRAL
+
+
+![UF-22](../assets/USERFLOWS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png){ width=90% }
+![UFM-22](../assets/USERFLOW%20MOBILE/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png){ width=50% }
+
+* **User Goal:**
+* **Happy Path:** El administrador ajusta los parámetros de los umbrales (batería, tiempos de inactividad, horas críticas) en el panel de configuración, y el sistema guarda los cambios aplicando las nuevas reglas a los modelos predictivos.
+* **Unhappy Path:** Ante valores de configuración fuera de los rangos técnicos permitidos (ej. un intervalo de ping inexistente), el sistema bloquea la acción de guardado y requiere el ajuste de los parámetros.
+
+## US23 Despacho automatizado de tickets técnicos (Epic_ EP06)
+
+![UF-23](../assets/USERFLOWS/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png){ width=90% }
+![UFM-23](../assets/USERFLOW%20MOBILE/US23%20Despacho%20automatizado%20de%20tickets%20técnicos%20(Epic_%20EP06).png){ width=50% }
+
+* **User Goal:**
+* **Happy Path:** El usuario técnico crea un ticket completando todos los campos requeridos (ID máquina, descripción, prioridad), y el sistema lo integra en el tablero de mantenimiento en tiempo real.
+* **Unhappy Path (Missing fields):** Si el formulario se envía sin descripción o prioridad, la UI invalida la creación del ticket y solicita completar la información obligatoria.
+* **Unhappy Path (Incorrect data):** Al ingresar datos técnicos inconsistentes o IDs de máquinas inexistentes, el sistema muestra un error de validación impidiendo el despacho del ticket.
+
+## US24 Notificación de restablecimiento a los usuarios (Epic_ EP06)
+
+![UF-24](../assets/USERFLOWS/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png){ width=90% }
+![UFM-24](../assets/USERFLOW%20MOBILE/US24%20Notificación%20de%20restablecimiento%20a%20los%20usuarios%20(Epic_%20EP06).png){ width=50% }
+* **User Goal:** Como administrador, quiero que el sistema notifique a los clientes cuando un equipo reportado es reparado, para mejorar su percepción del servicio.
+* **Happy Path:** Tras la resolución de una incidencia en el centro de mantenimiento, el sistema actualiza automáticamente el mapa de disponibilidad, habilitando nuevamente la máquina para los usuarios finales.
+* **Unhappy Path:** Si la resolución del ticket es parcial o el problema persiste tras la intervención técnica, la máquina permanece inhabilitada en el mapa de disponibilidad, manteniendo la alerta de estado crítico en el centro de mantenimiento.
+
+## US25 Calendario inteligente de bloqueos de reserva(Epic_ EP04)
+
+![UF-25](../assets/USERFLOWS/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png){ width=90% }
+![UFM-25](../assets/USERFLOW%20MOBILE/US25%20Calendario%20inteligente%20de%20bloqueos%20de%20reserva(Epic_%20EP04).png){ width=50% } 
+
+* **User Goal:** Como gerente de operaciones, quiero que el sistema agende los mantenimientos preventivos exclusivamente en horarios valle, para no afectar la disponibilidad en horas de alta demanda.
+* **Happy Path:** El usuario selecciona un activo desde el mapa de disponibilidad, completa el formulario de reserva con datos válidos y el sistema confirma la operación exitosamente.
+* **Unhappy Path:** Si el usuario intenta realizar una reserva con campos obligatorios vacíos o ingresa datos inválidos (como horarios conflictivos), la UI presenta validaciones en rojo indicando los errores específicos.
+
+## US26 Gestión de activos físicos y altas (Epic_ EP07)
+
+![UF-26](../assets/USERFLOWS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png){ width=90% }
+![UFM-26](../assets/USERFLOW%20MOBILE/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png){ width=50% }
+* **User Goal:**Como administrador, quiero registrar o dar de baja equipos vinculándolos a un sensor IoT, para actualizar el inventario digital y el mapa de calor. 
+* **Happy Path:** El administrador completa el formulario de registro de nueva máquina con datos correctos (nombre, tipo, sede, ID de sensor) y el sistema lo añade al inventario global.
+* **Unhappy Path:** Si existen campos faltantes o datos inválidos (como un ID de sensor ya existente), el flujo se detiene y la interfaz resalta los campos que requieren corrección antes de permitir el guardado.
+
+## US29 Calculadora de impacto financiero por inactividad (Epic: EP08)
+
+![UF-29](../assets/USERFLOWS/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png){ width=90% }
+![UFM-29](../assets/USERFLOW%20MOBILE/US29%20Calculadora%20de%20impacto%20financiero%20por%20inactividad%20(Epic_%20EP08).png){ width=50% }
+* **User Goal:**
+* **Happy Path:** El sistema calcula y presenta automáticamente el impacto financiero de la inactividad de activos, mostrando métricas clave como la pérdida por inactividad ($1,872), el costo de mantenimiento ($5,150), el ahorro potencial con mantenimiento predictivo ($1,840) y el ROI promedio de recuperación de inversión (7.2 meses).
+* **Unhappy Path:** Si los activos no cuentan con datos de operación o historial de inactividad registrado, o si los parámetros financieros ingresados son incompletos o inválidos, la calculadora no puede generar los indicadores y muestra los campos vacíos o un mensaje de error indicando la imposibilidad de calcular el impacto financiero.
+
+## US30 Analítica predictiva de compras e inversión (Epic_ EP08)
+
+![UF-30](../assets/USERFLOWS/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png){ width=90% }
+![UFM-30](../assets/USERFLOW%20MOBILE/US30%20Analítica%20predictiva%20de%20compras%20e%20inversión%20(Epic_%20EP08).png){ width=50% }
+* **User Goal:**
+* **Happy Path:** El sistema procesa los datos financieros y de uso para generar proyecciones de ROI y recomendaciones de inversión automáticas basadas en la salud de los activos.
+* **Unhappy Path:** Ante la falta de datos históricos suficientes o la introducción de parámetros de cálculo inconsistentes en el simulador, el motor de análisis muestra un estado de error o campos vacíos informando la imposibilidad de generar la proyección.
 
 ## Web Applications Prototyping
-[Descripción y enlace al prototipo interactivo de la aplicación web, con escenarios de prueba definidos.]
+
+![Proto-Capture.png](../assets/Proto-Capture.png)
+
+Video del prototipo:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d317_upc_edu_pe/IQDCANk2iXBXRJw2mH1ZdZXPASTGyLkvsZa1prA9mkQ0dyw?e=ItBRSW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D    
+
 
 ## Domain-Driven Software Architecture
 
 ### Design-Level Event Storming
-[Event Storming a nivel de diseño: agregados, bounded contexts, comandos y eventos del dominio.]
+![Design-Level Event Storming](../assets/event%20storming.png)
+
+### Aggregates
+![aggregates.png](../assets/aggregates.png)
 
 ### Software Architecture Context Diagram
-[Diagrama de contexto C4 que muestra el sistema y sus interacciones con usuarios y sistemas externos.]
+![Context D.png](../docs/c4-banckend/Context%20D.png)
+Frontend context diagram: 
+![](../docs/c4-frontend/01_SystemContext-dark.png)
+
 
 ### Software Architecture Container Diagrams
-[Diagrama de contenedores C4 que detalla los componentes de alto nivel y sus responsabilidades.]
+![Container D.png](../docs/c4-banckend/Container%20D.png)
+Frontend container diagram: 
+![](../docs/c4-frontend/02_Containers-dark.png)
+
 
 ### Software Architecture Components Diagrams
-[Diagramas de componentes C4 por contenedor, mostrando módulos internos y sus relaciones.]
+
+
+#### IoT Sensor Ingestion
+![Components1 D.png](../docs/c4-banckend/Components1%20D.png)
+Frontend:
+![](../docs/c4-frontend/03c_IoT-dark.png)
+
+#### Monitoring
+![Components2 D.png](../docs/c4-banckend/Components2%20D.png)
+Frontend:
+![](../docs/c4-frontend/03c_IoT-dark.png)
+
+#### Maintenance
+![Components3 D.png](../docs/c4-banckend/Components3%20D.png)
+Frontend:
+![](../docs/c4-frontend/03g_Maintenance-dark.png)
+
+#### Equipment
+![Components4 D.png](../docs/c4-banckend/Components4%20D.png)
+Frontend:
+![](../docs/c4-frontend/03b_Equipment-dark.png)
+
+#### Analytics
+![Components5 D.png](../docs/c4-banckend/Components5%20D.png)
+Frontend:
+![](../docs/c4-frontend/03e_Analytics-dark.png)
+
+#### Reservation
+![Components6 D.png](../docs/c4-banckend/Components6%20D.png)
+Frontend:
+![](../docs/c4-frontend/03i_Reservation-dark.png)
+
+
+#### Authentication
+![Components7 D.png](../docs/c4-banckend/Components7%20D.png)
+
+#### Membership
+![Components8 D.png](../docs/c4-banckend/Components8%20D.png)
 
 ## Software Object-Oriented Design
 
 ### Class Diagrams
-[Diagramas de clases UML con atributos, métodos y relaciones entre entidades del dominio.]
+
+#### Frontend
+
+![class-diagram-auth](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-frontend/class-diagram-auth.puml)
+
+![class-diagram-asset](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-frontend/class-diagram-asset-management.puml)
+
+
+![class-diagram-availability](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-frontend/class-diagram-availability.puml)
+
+
+
+![class-diagram-financial-impact](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-frontend/class-diagram-finantial-impact.puml)
+
+![class-diagram-maintenance](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-frontend/class-diagram-matainance.puml)
+
+![class-diagram-monitoring](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-frontend/class-diagram-monitoring.puml)
+
+
+![class-diagram-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-frontend/class-diagram-notifications.puml)
+
+
+![class-diagram-profiles](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-frontend/class-diagram-profiles.puml)
+
+
+
+![class-diagram-reports](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-frontend/class-diagram-reports.puml)
+
+
+
+![class-diagram-routines](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-frontend/class-diagram-routines.puml)
+
+
+
+![class-diagram-settings](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-frontend/class-diagram-settings.puml)
+
+#### Backend
+
+![00_shared_kernel](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-backend/00_shared_kernel.puml)
+
+![01_authentication_bc](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-backend/01_authentication_bc.puml)
+
+![02_iot_sensor_ingestion_bc](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-backend/02_iot_sensor_ingestion_bc.puml)
+
+![03_monitoring_bc](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-backend/03_monitoring_bc.puml)
+
+![04_equipment_bc](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-backend/04_equipment_bc.puml)
+
+![05_reservation_bc](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-backend/05_reservation_bc.puml)
+
+![06_membership_bc](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-backend/06_membership_bc.puml)
+
+![07_maintenance_bc](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-backend/07_maintenance_bc.puml)
+
+![08_analytics_bc](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-backend/08_analytics_bc.puml)
+
+![09_inter_context_event_flows](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SpotTrack-1ASI0729-2610-11881/Project-Report-New/refs/heads/develop/docs/class-diagrams-backend/09_inter_context_event_flows.puml)
 
 ## Database Design
 
 ### Database Diagrams
-[Diagramas entidad-relación o de esquema de base de datos, incluyendo tablas, claves y relaciones.]
+![db_opensource.png](../docs/database/db_opensource.png)

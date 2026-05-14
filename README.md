@@ -33,6 +33,7 @@
 
 u20241d317 - Atoche Gonzales, Nicolas Fernando  
 u202411310 - Azama Fukuda, Juan Pablo  
+u202410344 - Espinoza Orrego, Valentino Andre 
 
 ---
 
