@@ -452,7 +452,9 @@ Landing Page Commits
 
 #### Execution Evidence for Sprint Review
 
-[Añadir capturas de pantalla de la Landing Page desplegada con todas sus secciones, y del Web App Angular mostrando: vista de Login, Mapa de Calor con indicadores semaforizados, panel de Alertas de Mantenimiento y tabla de Gestión de Activos.]
+Se logró desplegar una primera versión de la aplicación web, se reailzaron correcciones en los diagramas C4, diagramas de clase, diagramas de base de datos, calidad de imágenes de figma. Finalmente, se desplegó el landing page completamente funcional con call-to-action.
+
+Execution evidence video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411310_upc_edu_pe/IQAyZJfDltN7RJ8xrkWcS9TAAd0yi2YQX-Dd3K_c-9unRaM?e=LvnaDZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 #### Services Documentation Evidence for Sprint Review
 
@@ -518,7 +520,7 @@ Por parte de la aplicación web, se utilizó un static web app de Azure para rea
 ![](../assets/azure-evidence.png)
 ![](../assets/github-actions-webapp.png)
 
-Webapp URL: https://blue-beach-0a5eb2e10.7.azurestaticapps.net/login
+Webapp URL: https://purple-tree-092d40a10.7.azurestaticapps.net/
 
 #### Team Collaboration Insights during Sprint
 
@@ -589,5 +591,9 @@ Para que el paso de JSON Server a Spring Boot no implique cambios en los compone
 | **TB1** | Stage Review - Semana 7 | (Pendiente) |
 | **AV2** | Sprint Review - Semana 12 | (Pendiente) |
 | **TB2** | Release Review - Semana 15 | (Pendiente) |
+
+### Annex B : Video unificado entrevistas
+[Enlace al video unificado de entrevistas - SpotTrack](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413214_upc_edu_pe/IQDpYTdDwbM1QZOtdJPZIbsQASLFAmK8moRkLLD7ZudoVtM?e=unt1Xd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 
 
