@@ -295,6 +295,11 @@ Trello board: https://trello.com/invite/b/69fc21c2d05be44be499c75d/ATTI944e7a75f
 
 ![](../assets/trello-evidence.png)
 
+Si bien es cierto se solicitó el desarrollo de un Trello board, nuestro equipo principalmente decidió utilizar la plataforma de Jira para la asignación de tareas.
+![](../assets/jira-evidence.png)
+
+
+
 #### Development Evidence for Sprint Review
 
 Frontend Web Applications Commits:
