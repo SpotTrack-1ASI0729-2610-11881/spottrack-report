@@ -123,7 +123,7 @@ Gimnasio al que asistes regularmente:
 | **Link** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQDGKFaUoKynQpegiyG2er45AdJBJk-rS0T14PDLCLwFWIE?e=lFdlbs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410344_upc_edu_pe/IQDGKFaUoKynQpegiyG2er45AdJBJk-rS0T14PDLCLwFWIE?e=lFdlbs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **Resumen** | Percy, administrador de Smartfit Miraflores con 5 años de experiencia, destaca que en gimnasios de alto volumen el mantenimiento correctivo es mucho más costoso y crítico para la percepción del cliente que el preventivo. Señala que las fallas en máquinas de alta demanda generan cuellos de botella y riesgos de no renovación. Para gestionar la congestión en horas pico, aplica la "gestión de piso", pero reconoce que falta una herramienta visual para que el socio entienda la capacidad del local. Valora enormemente un mapa de calor para redistribuir al staff y optimizar el mix de máquinas basado en datos reales de uso, no en percepciones subjetivas. Considera que las alertas de mantenimiento predictivo cambiarían las reglas del juego al evitar que los equipos queden fuera de servicio. En su panel de control ideal, prioriza el tiempo de inactividad (downtime), la saturación por zona y el ranking de desgaste de equipos. Finalmente, apoya el uso de cámaras con procesamiento Edge si se garantiza la transparencia sobre la privacidad, viendo un gran beneficio en que los socios consulten la disponibilidad desde una app. Un piloto de Fitnote Analytics lo convencería si logra una reducción mínima del 20% en las quejas por disponibilidad y demuestra una alta precisión en la data para mantener la credibilidad ante el usuario. |
 
-#### Entrevistado 4
+#### Entrevistado 4: Joan Steffano Quispe Gamez
 ![foto-entrevista-4](../assets/foto-entrevista-1.png){width=80%}
 
 | Campo | Detalle |
@@ -138,7 +138,7 @@ Gimnasio al que asistes regularmente:
 |**Resumen**| Estefano Quispe Gámez, estudiante universitario, entrena en el gimnasio de forma intermitente, asistiendo generalmente entre 3 y 4 veces por semana en horario nocturno debido a sus clases. Suele encontrarse con un gimnasio muy concurrido en horas punta, lo que lo obliga a esperar por máquinas y a modificar su rutina con frecuencia, ya sea cambiando el orden de ejercicios o sustituyendo equipos (por ejemplo, usando mancuernas en lugar de barras). Su principal frustración es la pérdida de ritmo y tiempo causada por la espera, la búsqueda de implementos o equipos fuera de servicio. A diferencia de otros usuarios, señala que la disponibilidad y el estado de las máquinas sí influyen en su decisión de cambiar de gimnasio. Considera valioso contar con una herramienta que reduzca la incertidumbre, permitiéndole conocer previamente el nivel de ocupación y planificar mejor su entrenamiento. En particular, destaca la utilidad de un mapa en tiempo real con disponibilidad de máquinas y tiempos estimados de espera para optimizar su rutina. 
 | **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQDwUfqEP6J8Sr_AMTcZaW80AVugegqiYVjdOyG2RY3agzs?e=dymEnS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
-#### Entrevistado 5
+#### Entrevistado 5: Fabián Suárez
 ![foto-entrevista-5](../assets/foto-entrevista-2.png)
 
 | Campo | Detalle |
@@ -169,6 +169,17 @@ Gimnasio al que asistes regularmente:
 |**Resumen**| Diego Quispe, estudiante y trabajador de 19 años, entrena cuatro noches a la semana enfocándose en grupos musculares específicos dentro de un gimnasio que suele estar sumamente saturado en ese horario. Su principal frustración es el exceso de tiempo de espera y la necesidad de compartir máquinas con múltiples usuarios, lo que provoca que su cuerpo se enfríe al superar los tres minutos de descanso, perdiendo la intensidad y el ritmo de su entrenamiento. Aunque esta aglomeración no lo ha motivado a cancelar su membresía, ya que adapta sus horarios durante los fines de semana, señala que su solución ideal sería una aplicación que no solo muestre la disponibilidad del lugar, sino que le envíe notificaciones en tiempo real indicándole qué máquina de su lista de ejercicios se acaba de desocupar para optimizar al máximo su tiempo.|
 | **Link** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414928_upc_edu_pe/IQCchhWgyjUFSp2Bce_l8sHtAXzQMAQ7-EESo5RieiDuUnw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CDbXkN |
 
+#### Video unificado
+| Entrevista | Marca de tiempo | Entrevistado |
+| :--- | :--- | :--- |
+| 1 | 00:00:00 | Alexander Gutierrez |
+| 2 | 13:49:09 | Luis Romero |
+| 3 | 26:43:21 | Percy Baraybar | 
+| 4 | 36:57:01 | Joan Steffano Quispe Gamez |
+| 5 | 41:31:08 | Fabián Suárez |
+| 6 | 46:26:11 | Diego Quispe |
+
+| **Link** | [Enlace al video unificado de entrevistas - SpotTrack] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413214_upc_edu_pe/IQDpYTdDwbM1QZOtdJPZIbsQASLFAmK8moRkLLD7ZudoVtM?e=oDOyRi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)|
 
 ### Análisis de entrevistas
 ### 1st Segmento (Administradores y Gerentes de Operaciones de Gimnasios)
