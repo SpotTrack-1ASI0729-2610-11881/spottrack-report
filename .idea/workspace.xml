@@ -7,10 +7,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9921f49-d073-4a72-adb3-5f0a5a1d1bcc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/database/ERD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/04-chapter4.md" beforeDir="false" afterPath="$PROJECT_DIR$/report/04-chapter4.md" afterDir="false" />
-    </list>
+    <list default="true" id="b9921f49-d073-4a72-adb3-5f0a5a1d1bcc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +37,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "fix/db-diagram",
+    "git-widget-placeholder": "fix/c4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,6 +46,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b9921f49-d073-4a72-adb3-5f0a5a1d1bcc" name="Changes" comment="" />
