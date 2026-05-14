@@ -524,8 +524,8 @@ Webapp URL: https://purple-tree-092d40a10.7.azurestaticapps.net/
 
 #### Team Collaboration Insights during Sprint
 
-[Añadir capturas del gráfico de contribuciones de GitHub (Insights > Contributors) para los repositorios SpotTrack-Landing-Page y SpotTrack-Web-App durante el periodo del Sprint 2.]
-
+![](../assets/Insights/website.png)
+![](../assets/Insights/webapp.png)
 
 
 ## Conclusiones y Recomendaciones
