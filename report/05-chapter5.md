@@ -518,7 +518,7 @@ Por parte de la aplicación web, se utilizó un static web app de Azure para rea
 ![](../assets/azure-evidence.png)
 ![](../assets/github-actions-webapp.png)
 
-Webapp URL: https://blue-beach-0a5eb2e10.7.azurestaticapps.net/login
+Webapp URL: https://purple-tree-092d40a10.7.azurestaticapps.net/
 
 #### Team Collaboration Insights during Sprint
 
