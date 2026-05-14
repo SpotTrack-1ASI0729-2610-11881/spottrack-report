@@ -240,11 +240,19 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 ![WF-14](../assets/WIREFLOWS/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png)
 ![task16.png](../assets/TASKFLOWS/TASKFLOW-16.png)
 ![WF-16](../assets/WIREFLOWS/Frame%2017.png)
-![task17.png](../assets/TASKFLOWS/TASKFLOW-17.png)
-![WF-17](../assets/WIREFLOWS/S16%20-%20reserva%20express.png)
-![task18.png](../assets/TASKFLOWS/TASKFLOW-18.png)
-![WF-18](../assets/WIREFLOWS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
-![task19.png](../assets/TASKFLOWS/TASKFLOW-19.png)
+
+![TASKFLOW-17](../assets/TASKFLOWS/TASKFLOW-17.png)
+![WFM-17 (1)](../assets/WIREFLOWS%20MOBILE/WFM-17%20(1).png)
+![US17_Wireframe](../assets/WIREFRAMES//US17_Wireframe.png)
+
+![TASKFLOW-18](../assets/TASKFLOWS/TASKFLOW-18.png)
+![WFM-018 (1)](../assets/WIREFLOWS%20MOBILE/WFM-018%20(1).png)
+![US18_Wireframe](../assets/WIREFRAMES/US18_Wireframe.png)
+
+![TASKFLOW-19](../assets/TASKFLOWS/TASKFLOW-19.png)
+![US19_Wireframe](../assets/WIREFRAMES/US19_Wireframe.png)
+![WFM-019 (1)](../assets/WIREFLOWS%20MOBILE/WFM-019%20(1).png)
+
 
 
 ![task20.png](../assets/TASKFLOWS/TASKFLOW-20.png)
