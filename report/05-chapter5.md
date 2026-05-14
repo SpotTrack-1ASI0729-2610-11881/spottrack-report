@@ -507,6 +507,14 @@ La siguiente figura muestra la Landing Page de SpotTrack correctamente desplegad
 
 ![Vista de la Landing Page de SpotTrack desplegada y funcional en GitHub Pages](../assets/landing-page-deployment-evidence/lading-page-screenshot.png)
 
+
+Por parte de la aplicación web, se utilizó un static web app de Azure para realizar el despliegue. Para ello, simplemente se configura la organización, repositorio y rama deseada en donde se va desplegar la aplicación, esto se vincula a un Github Actions. La activación de este último sucede en cada push a develop.
+
+![](../assets/azure-evidence.png)
+![](../assets/github-actions-webapp.png)
+
+Webapp URL: https://blue-beach-0a5eb2e10.7.azurestaticapps.net/login
+
 #### Team Collaboration Insights during Sprint
 
 [Añadir capturas del gráfico de contribuciones de GitHub (Insights > Contributors) para los repositorios SpotTrack-Landing-Page y SpotTrack-Web-App durante el periodo del Sprint 2.]
