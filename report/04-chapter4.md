@@ -579,4 +579,4 @@ Frontend:
 ## Database Design
 
 ### Database Diagrams
-![DATABASE](../docs/database/ERD.png)
+![db_opensource.png](../docs/database/db_opensource.png)
