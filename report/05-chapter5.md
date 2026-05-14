@@ -592,4 +592,8 @@ Para que el paso de JSON Server a Spring Boot no implique cambios en los compone
 | **AV2** | Sprint Review - Semana 12 | (Pendiente) |
 | **TB2** | Release Review - Semana 15 | (Pendiente) |
 
+### Annex B : Video unificado entrevistas
+[Enlace al video unificado de entrevistas - SpotTrack](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413214_upc_edu_pe/IQDpYTdDwbM1QZOtdJPZIbsQASLFAmK8moRkLLD7ZudoVtM?e=unt1Xd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
 
