@@ -7,6 +7,9 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="b9921f49-d073-4a72-adb3-5f0a5a1d1bcc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list default="true" id="b9921f49-d073-4a72-adb3-5f0a5a1d1bcc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "develop",
     "git-widget-placeholder": "fix/c4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
