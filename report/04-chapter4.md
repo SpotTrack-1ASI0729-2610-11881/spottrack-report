@@ -463,6 +463,9 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d317_upc_edu_pe/IQDCANk2
 ### Design-Level Event Storming
 ![Design-Level Event Storming](../assets/event%20storming.png)
 
+### Aggregates
+![aggregates.png](../assets/aggregates.png)
+
 ### Software Architecture Context Diagram
 ![Context D.png](../docs/c4-banckend/Context%20D.png)
 Frontend context diagram: 
