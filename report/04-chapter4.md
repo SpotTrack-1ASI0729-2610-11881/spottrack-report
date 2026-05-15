@@ -186,9 +186,9 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 
 ![US17 Acumulación automática de horas de uso](../assets/WIREFRAMES/US17_Wireframe.png){width=600px}
 
-![US18 Clasificación de ineficiencia operativa](../assets/WIREFRAMES/US18_Wireframe.png){width=600px}
+![US18 Identificación de equipos subutilizados](../assets/WIREFRAMES/US18_Wireframe.png){width=600px}
 
-![US19 Comparativa de demanda intersemanal](../assets/WIREFRAMES/US19_Wireframe.png){width=600px}
+![US19 Visualización de picos de estrés del local ](../assets/WIREFRAMES/US19_Wireframe.png){width=600px}
 
 
 ![US20 Exportación de analíticas de uso](../assets/WIREFRAMES/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png){width=600px}
@@ -240,11 +240,19 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 ![WF-14](../assets/WIREFLOWS/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png)
 ![task16.png](../assets/TASKFLOWS/TASKFLOW-16.png)
 ![WF-16](../assets/WIREFLOWS/Frame%2017.png)
+
 ![task17.png](../assets/TASKFLOWS/TASKFLOW-17.png)
-![WF-17](../assets/WIREFLOWS/S16%20-%20reserva%20express.png)
-![task18.png](../assets/TASKFLOWS/TASKFLOW-18.png)
-![WF-18](../assets/WIREFLOWS/US26%20Gestión%20de%20activos%20físicos%20y%20altas%20(Epic_%20EP07).png)
+![WFM-17](../assets/WIREFLOWS%20MOBILE/US17%20Acumulación%20automática%20de%20horas%20de%20uso.png)
+![WF-17](../assets/WIREFLOWS/US17%20Acumulación%20automática%20de%20horas%20de%20uso.png)
+
+![task18.png](../assets/TASKFLOWS/TASKFLOW-17.png)
+![WFM-018](../assets/WIREFLOWS%20MOBILE/US18%20Identificación%20de%20equipos%20subutilizados%20.png)
+![WF-18](../assets/WIREFLOWS/US18%20Identificación%20de%20equipos%20subutilizados%20.png)
+
 ![task19.png](../assets/TASKFLOWS/TASKFLOW-19.png)
+![WFM-019](../assets/WIREFLOWS%20MOBILE/US19%20Visualización%20de%20picos%20de%20estrés%20del%20local.png)
+![WF-19](../assets/WIREFLOWS/US19%20Visualización%20de%20picos%20de%20estrés%20del%20local.png)
+
 
 
 ![task20.png](../assets/TASKFLOWS/TASKFLOW-20.png)
@@ -297,6 +305,9 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 ![MOCKUP-US12](../assets/MOCKUPS/US12%20Notificaciones%20push%20de%20resolución%20de%20disponibilidad%20(Epic_%20EP03).png)
 ![MOCKUP-US13](../assets/MOCKUPS/US13_%20Reporte%20de%20máquina.png)
 ![MOCKUP-US14](../assets/MOCKUPS/US14%20Motor%20de%20sugerencia%20de%20rutinas%20alternativas%20(Epic_%20EP04).png)
+![MOCKUP-US17](../assets/MOCKUPS/US17%20Acumulación%20automática%20de%20horas%20de%20uso.pngg)
+![MOCKUP-US18](../assets/MOCKUPS/US18%20Identificación%20de%20equipos%20subutilizados%20.png)
+![MOCKUP-US19](../assets/MOCKUPS/US19%20Visualización%20de%20picos%20de%20estrés%20del%20local.png)
 ![MOCKUP-US20](../assets/MOCKUPS/US20%20Exportación%20de%20analíticas%20de%20uso%20(Epic_%20EP05).png)
 ![MOCKUP-US21](../assets/MOCKUPS/US21%20Monitoreo%20de%20estado%20de%20hardware%20Edge%20IoT%20(Epic_%20EP05).png)
 ![MOCKUP-US22-UMBRAL](../assets/MOCKUPS/US22%20Alerta%20predictiva%20de%20mantenimiento%20(Epic_%20EP06)%20CONFIGURAR%20UMBRAL.png)
@@ -415,8 +426,8 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 ## US16: Sistema de reserva exprés en horas pico
 
 ## US17: Acumulación automática de horas de uso (EP08)
-![UF-17](../assets/USERFLOWS/US17_%20Acumulacio%CC%81n%20automa%CC%81tica%20de%20horas%20de%20uso%20(EP08).png){ width=90% }
-
+![UF-17](../assets/USERFLOWS/US17_%20Acumulación%20automática%20de%20horas%20de%20uso%20(EP08).png){ width=90% }
+![UFM-17](../assets/USERFLOW%20MOBILE/US17%20Acumulación%20automática%20de%20horas%20de%20uso.png){ width=50% }
 * **User Goal:** Como administrador, quiero ver gráficos con la sumatoria de horas reales de uso de las máquinas, para comprender la demanda real sin tener que vigilar el local.
 * **Happy Path:** El administrador ingresa a Reportes y visualiza los gráficos de uso generados por los sensores IoT. Al revisar el tiempo inactivo, el sistema calcula y detalla automáticamente la pérdida monetaria por cada máquina. Finalmente, al aplicar un filtro de fechas, la plataforma recalcula y actualiza toda la información al instante.
 * **Unhappy Path:** El administrador ingresa a Reportes, pero el backend no logra comunicarse con los sensores IoT. El sistema no se cae, sino que muestra un estado de alerta ("Sin conexión con los equipos") y los gráficos aparecen en cero o con el último dato en caché.
@@ -424,8 +435,8 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 
 ## US18: Identificación de equipos subutilizados (EP05)
 
-![UF-18](../assets/USERFLOWS/US18_%20Identificacio%CC%81n%20de%20equipos%20subutilizados%20(EP05).png){ width=90% }
-
+![UF-18](../assets/USERFLOWS/US18_%20Identificación%20de%20equipos%20subutilizados%20(EP05).png){ width=90% }
+![UFM-18](../assets/USERFLOW%20MOBILE/US18%20Identificación%20de%20equipos%20subutilizados%20.png){ width=50% }
 
 * **User Goal:** Como administrador, quiero que el sistema resalte en una tabla qué máquinas tienen una tasa de uso excepcionalmente baja, para evaluar su reubicación o descarte.
 * **Happy Path:** El administrador ingresa a la sección de Reportes para evaluar la ineficiencia operativa de la sede. El sistema procesa las estadísticas de ocupación recopiladas por los sensores y resalta automáticamente en una tabla aquellas máquinas cuya tasa de uso es inferior al parámetro base. Finalmente, el administrador hace clic en "Exportar CSV" y la plataforma descarga exitosamente un archivo con la data detallada para su análisis externo.
@@ -434,7 +445,8 @@ Bottom Navigation Bar: Barra inferior persistente con 3 o 4 íconos de acceso r�
 
 ## US19: Visualización de picos de estrés del local (EP05) 
 
-![UF-19](../assets/USERFLOWS/US19_%20Visualizacio%CC%81n%20de%20picos%20de%20estre%CC%81s%20del%20local%20(EP05)%20(1).png){ width=90% }
+![UF-19](../assets/USERFLOWS/US19_%20Visualización%20de%20picos%20de%20estrés%20del%20local%20(EP05)%20(1).png){ width=90% }
+![UFM-19](../assets/USERFLOW%20MOBILE/US19%20Visualización%20de%20picos%20de%20estrés%20del%20local.png){ width=50% }
 * **User Goal:** Como administrador, quiero que el sistema resalte en una tabla qué máquinas tienen una tasa de uso excepcionalmente baja, para evaluar su reubicación o descarte.
 * **Happy Path:** El administrador accede al módulo de Reportes en SpotTrack, donde el sistema genera automáticamente un gráfico de picos de estrés resaltando en rojo las horas con aforo superior al 90%. Al activar la comparativa intersemanal, la interfaz superpone dos líneas de tendencia, permitiendo al dueño del negocio identificar cuellos de botella diarios y comparar el comportamiento de la demanda entre distintos periodos de forma inmediata.
 * **Unhappy Path:** Debido a un error de red, el sistema no puede procesar el porcentaje de uso. En lugar del gráfico de estrés, se muestra un estado de carga infinito o un aviso de "Error al cargar analíticas de aforo", sugiriendo reintentar la consulta.
