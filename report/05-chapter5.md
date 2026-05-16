@@ -111,7 +111,7 @@ El presente apartado detalla los acuerdos y objetivos definidos durante el Sprin
 | **Sprint 1 Review Summary** | No aplica (Primer Sprint del proyecto). |
 | **Sprint 1 Retrospective Summary** | No aplica (Primer Sprint del proyecto). |
 | **Sprint Goal** | Nuestro enfoque principal es establecer el diseño fundamental de UX/UI, la arquitectura de dominio bajo DDD y el despliegue de la Landing Page de SpotTrack. Consideramos que esto nos entrega una estructura de proyecto clara, los artefactos IoT correctamente modelados y un primer punto de contacto digital para gimnasios y administradores de centros deportivos. Esto se confirmará cuando los artefactos de Lean UX, base de datos, DDD y Figma estén completados, y la Landing Page se encuentre desplegada y funcional en producción. |
-| **Sprint n Velocity** | 45 Story Points |
+| **Sprint 1 Velocity** | 45 Story Points |
 | **Sum of Story Points** | 45 |
 
 #### Aspect Leaders and Collaborators
@@ -180,7 +180,7 @@ El presente apartado detalla los acuerdos y objetivos definidos durante el Sprin
 | **Sprint 1 Review Summary** | Sprint 1 entregó los artefactos fundacionales de Lean UX, DDD, diseño UX/UI en Figma y el inicio de la Landing Page (Hero Section y Header). Sin embargo, quedaron pendientes el despliegue, las secciones de módulos, precios y contacto de la Landing Page, así como diversas secciones de documentación del informe. |
 | **Sprint 1 Retrospective Summary** | El equipo identificó que la carga de trabajo de documentación y diseño subestimó el tiempo necesario. Para este Sprint 2 se priorizará paralelizar la corrección de Sprint 1 con el inicio del desarrollo de la Web App, asignando responsables claros por cada frente. |
 | **Sprint Goal** | Nuestro enfoque es completar todos los artefactos pendientes del Sprint 1 (correcciones de documentación y Landing Page completa) e iniciar el desarrollo frontend de la Web Application de SpotTrack consumiendo una Fake API, implementando las vistas de autenticación, mapa de calor, gestión de activos, alertas de mantenimiento y sugerencias de rutinas. Esto se confirmará cuando la Landing Page esté desplegada y funcional con todas sus secciones, y las vistas frontend de las User Stories priorizadas estén implementadas y navegables en el entorno de desarrollo local. |
-| **Sprint n Velocity** | 58 Story Points |
+| **Sprint 2 Velocity** | 58 Story Points |
 | **Sum of Story Points** | 58 |
 
 #### Aspect Leaders and Collaborators
