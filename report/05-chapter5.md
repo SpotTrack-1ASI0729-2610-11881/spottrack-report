@@ -108,8 +108,6 @@ El presente apartado detalla los acuerdos y objetivos definidos durante el Sprin
 | **Location** | Reunión Virtual (Discord / Microsoft Teams) |
 | **Prepared By** | Azama Fukuda, Juan Pablo |
 | **Attendees (to planning meeting)** | Atoche Gonzales, Nicolas Fernando / Azama Fukuda, Juan Pablo / Cataño Zarate, Jesus Miguel / Espinoza Orrego, Valentino Andre / Fernández Linares, Alvaro Sebastian |
-| **Sprint 1 Review Summary** | No aplica (Primer Sprint del proyecto). |
-| **Sprint 1 Retrospective Summary** | No aplica (Primer Sprint del proyecto). |
 | **Sprint Goal** | Nuestro enfoque principal es establecer el diseño fundamental de UX/UI, la arquitectura de dominio bajo DDD y el despliegue de la Landing Page de SpotTrack. Consideramos que esto nos entrega una estructura de proyecto clara, los artefactos IoT correctamente modelados y un primer punto de contacto digital para gimnasios y administradores de centros deportivos. Esto se confirmará cuando los artefactos de Lean UX, base de datos, DDD y Figma estén completados, y la Landing Page se encuentre desplegada y funcional en producción. |
 | **Sprint 1 Velocity** | 45 Story Points |
 | **Sum of Story Points** | 45 |
@@ -527,6 +525,26 @@ Webapp URL: https://purple-tree-092d40a10.7.azurestaticapps.net/
 ![](../assets/Insights/website.png)
 ![](../assets/Insights/webapp.png)
 
+
+### Sprint 3
+
+#### Sprint Planning 3
+
+El presente apartado detalla los acuerdos y objetivos definidos durante el Sprint Planning Meeting de nuestra tercera iteración. Para este Sprint, el equipo se enfocó en dos frentes de trabajo simultáneos: (1) la corrección y completitud de todos los artefactos pendientes del Sprint 2, incluyendo el despliegue completo de la Web Application frontend; y (2) el inicio del desarrollo backend de la aplicación principal, conectando los servicios reales a las vistas ya implementadas en el Sprint anterior, con el objetivo de lograr una plataforma web completamente integrada para administradores y clientes de gimnasio.
+
+| Aspect | Details |
+| :--- | :--- |
+| **Sprint #** | Sprint 3 |
+| **Date** | 2026-05-18 |
+| **Time** | 22:18 PM |
+| **Location** | Reunión Virtual (Discord) |
+| **Prepared By** | Azama Fukuda, Juan Pablo |
+| **Attendees (to planning meeting)** | Atoche Gonzales, Nicolas Fernando / Azama Fukuda, Juan Pablo / Cataño Zarate, Jesus Miguel / Espinoza Orrego, Valentino Andre / Fernández Linares, Alvaro Sebastian |
+| **Sprint 2 Review Summary** | Sprint 2 entregó una primera versión del frontend de la aplicación web desplegada correctamente. Asimismo, se desplegó una versión de la Landing Page culminada en un 90%. Sin embargo, solo se aplicó el 60% de las correcciones indicadas en el Sprint 1, quedando pendiente completar las correcciones restantes. |
+| **Sprint 2 Retrospective Summary** | El equipo identificó la ausencia de un proceso de QA formal como principal área de mejora, originada porque no todo estuvo terminado a tiempo. Se resaltó la necesidad de establecer deadlines claros, rastrear el progreso por capítulo y realizar releases oportunos. Se reconoció una mejora en el equilibrio de la carga de trabajo respecto al Sprint 1, aunque persistieron errores arrastrados del sprint anterior. También se señaló la falta de comunicación en la delegación de tareas y la importancia de que todos los integrantes se mantengan al tanto del avance general del equipo para facilitar un mejor QA colectivo. Como aciertos, se destacaron el cumplimiento de entregas por miembro en su mayoría, la mejora en el uso de GitFlow y el despliegue correcto del frontend con progreso decente. |
+| **Sprint Goal** | Our focus is on enabling gym administrators to manage their gym operations and gym clients to track their fitness activity through a fully connected web platform. We believe it delivers a seamless end-to-end experience (from account management to session tracking) to both gym administrators and gym clients. This will be confirmed when validation interview participants from both segments can successfully complete their core tasks in the deployed application without critical blockers. |
+| **Sprint 3 Velocity** | 45 Story Points |
+| **Sum of Story Points** | 45 |
 
 ## Conclusiones y Recomendaciones
 
