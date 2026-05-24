@@ -38,7 +38,7 @@ u202414928 - Alvaro Sebastian Fernanadez Linares
 u202410344 - Valentino Andre Espinoza Orrego 
 ---
 
-*Abril, 2026*
+*Junio, 2026*
 
 </div>
 
