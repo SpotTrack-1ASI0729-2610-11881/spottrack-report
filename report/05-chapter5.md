@@ -108,8 +108,6 @@ El presente apartado detalla los acuerdos y objetivos definidos durante el Sprin
 | **Location** | Reunión Virtual (Discord / Microsoft Teams) |
 | **Prepared By** | Azama Fukuda, Juan Pablo |
 | **Attendees (to planning meeting)** | Atoche Gonzales, Nicolas Fernando / Azama Fukuda, Juan Pablo / Cataño Zarate, Jesus Miguel / Espinoza Orrego, Valentino Andre / Fernández Linares, Alvaro Sebastian |
-| **Sprint 1 Review Summary** | No aplica (Primer Sprint del proyecto). |
-| **Sprint 1 Retrospective Summary** | No aplica (Primer Sprint del proyecto). |
 | **Sprint Goal** | Nuestro enfoque principal es establecer el diseño fundamental de UX/UI, la arquitectura de dominio bajo DDD y el despliegue de la Landing Page de SpotTrack. Consideramos que esto nos entrega una estructura de proyecto clara, los artefactos IoT correctamente modelados y un primer punto de contacto digital para gimnasios y administradores de centros deportivos. Esto se confirmará cuando los artefactos de Lean UX, base de datos, DDD y Figma estén completados, y la Landing Page se encuentre desplegada y funcional en producción. |
 | **Sprint 1 Velocity** | 45 Story Points |
 | **Sum of Story Points** | 45 |
