@@ -532,6 +532,8 @@ Webapp URL: https://purple-tree-092d40a10.7.azurestaticapps.net/
 
 El presente apartado detalla los acuerdos y objetivos definidos durante el Sprint Planning Meeting de nuestra tercera iteración. Para este Sprint, el equipo se enfocó en dos frentes de trabajo simultáneos: (1) la corrección y completitud de todos los artefactos pendientes del Sprint 2, incluyendo el despliegue completo de la Web Application frontend; y (2) el inicio del desarrollo backend de la aplicación principal, conectando los servicios reales a las vistas ya implementadas en el Sprint anterior, con el objetivo de lograr una plataforma web completamente integrada para administradores y clientes de gimnasio.
 
+#### Sprint Backlog 3
+
 | Aspect | Details |
 | :--- | :--- |
 | **Sprint #** | Sprint 3 |
