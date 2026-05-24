@@ -546,6 +546,22 @@ El presente apartado detalla los acuerdos y objetivos definidos durante el Sprin
 | **Sprint 3 Velocity** | 45 Story Points |
 | **Sum of Story Points** | 45 |
 
+
+| Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| TAS-167 | Eventstorming review | TAS-168 | EVENT STORMING GROUP MEETING (MANDATORY ATTENDANCE) (NO SEQUENTIAL EVENTS) | - | - | Sin asignar | To Do |
+| TAS-166 | Validation Interviews | TAS-180 | Create interview questions segment 2 | - | - | Fernández | To Do |
+| TAS-166 | Validation Interviews | TAS-179 | Create interview questions segment 1 | - | - | Espinoza | To Do |
+| TAS-166 | Validation Interviews | TAS-170 | Segment 2 | - | - | Fernández | To Do |
+| TAS-166 | Validation Interviews | TAS-169 | Segment 1 | - | - | Espinoza | To Do |
+| TAS-165 | Web Services Programming | TAS-177 | Create Data Base | - | - | Cataño | To Do |
+| TAS-165 | Web Services Programming | TAS-176 | Solidify Data Base Design (meeting) | - | - | Cataño | To Do |
+| TAS-164 | Sprint 2 corrections | TAS-175 | Ubiquitous language update | - | - | Atoche | To Do |
+| TAS-164 | Sprint 2 corrections | TAS-174 | Remove hardcoded part in the main flow of the app | - | - | Fernández | To Do |
+| TAS-164 | Sprint 2 corrections | TAS-173 | Support in C4 diagram revision | - | - | Azama | To Do |
+| TAS-164 | Sprint 2 corrections | TAS-172 | Diagrams Revision C4 Backend | - | - | Atoche | To Do |
+| TAS-164 | Sprint 2 corrections | TAS-171 | Figma documentation correction and completition | - | - | Espinoza | To Do |
+
 ## Conclusiones y Recomendaciones
 
 ### Conclusiones
